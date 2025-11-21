@@ -76,6 +76,7 @@ let score = 0;
 let totalAnswered = 0;
 let currentQuestion = null;
 let answered = false;
+let isReversed = false; // true = Russian->English, false = English->Russian
 
 const questionEl = document.getElementById('question');
 const choicesEl = document.getElementById('choices');
@@ -93,6 +94,22 @@ function shuffleArray(array) {
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     return shuffled;
+}
+
+function generateWrongEnglishChoices(currentIdx) {
+    // Get 3 random different English questions as wrong answers
+    const wrongChoices = [];
+    const usedIndices = new Set([currentIdx]);
+
+    while (wrongChoices.length < 3 && wrongChoices.length < questions.length - 1) {
+        const randomIdx = Math.floor(Math.random() * questions.length);
+        if (!usedIndices.has(randomIdx)) {
+            wrongChoices.push(questions[randomIdx].question);
+            usedIndices.add(randomIdx);
+        }
+    }
+
+    return wrongChoices;
 }
 
 let shuffledQuestions = shuffleArray(questions);
@@ -123,11 +140,21 @@ function showNextQuestion() {
 
     currentQuestion = shuffledQuestions[currentIndex];
 
-    // Show question
-    questionEl.textContent = currentQuestion.question;
+    // Randomly decide direction for this question
+    isReversed = Math.random() < 0.5;
+
+    // Show question (either English or Russian)
+    questionEl.textContent = isReversed ? currentQuestion.correct : currentQuestion.question;
 
     // Create choice buttons
-    const allChoices = [currentQuestion.correct, ...currentQuestion.wrong];
+    let allChoices;
+    if (isReversed) {
+        // Russian->English: show English choices
+        allChoices = [currentQuestion.question, ...generateWrongEnglishChoices(currentIndex)];
+    } else {
+        // English->Russian: show Russian choices
+        allChoices = [currentQuestion.correct, ...currentQuestion.wrong];
+    }
     const shuffledChoices = shuffleArray(allChoices);
 
     choicesEl.innerHTML = '';
@@ -148,21 +175,24 @@ function checkAnswer(selected, buttonEl) {
     answered = true;
     totalAnswered++;
 
+    // Determine correct answer based on direction
+    const correctAnswer = isReversed ? currentQuestion.question : currentQuestion.correct;
+
     const buttons = choicesEl.querySelectorAll('.choice-btn');
     buttons.forEach(btn => {
         btn.disabled = true;
-        if (btn.textContent === currentQuestion.correct) {
+        if (btn.textContent === correctAnswer) {
             btn.classList.add('correct');
         }
     });
 
-    if (selected === currentQuestion.correct) {
+    if (selected === correctAnswer) {
         score++;
         feedbackEl.textContent = '✓ Correct!';
         feedbackEl.className = 'feedback correct';
     } else {
         buttonEl.classList.add('wrong');
-        feedbackEl.textContent = `✗ Wrong. Correct answer: ${currentQuestion.correct}`;
+        feedbackEl.textContent = `✗ Wrong. Correct answer: ${correctAnswer}`;
         feedbackEl.className = 'feedback wrong';
     }
 
