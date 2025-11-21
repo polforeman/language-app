@@ -15,19 +15,25 @@
         </header>
 
         <main>
-            <div class="card">
-                <div class="word-display" id="wordDisplay">
-                    Click "Next" to start
+            <div class="question-card">
+                <div class="question" id="question">
+                    Click "Start" to begin
                 </div>
             </div>
 
+            <div class="choices" id="choices">
+                <!-- Choice buttons will be inserted here -->
+            </div>
+
+            <div class="feedback" id="feedback"></div>
+
             <div class="controls">
-                <button id="showAnswer" class="btn btn-secondary">Show Answer</button>
-                <button id="nextWord" class="btn btn-primary">Next</button>
+                <button id="nextBtn" class="btn btn-primary">Start</button>
             </div>
 
             <div class="stats">
-                <span>Card <span id="currentCard">0</span> of <span id="totalCards">0</span></span>
+                <span>Question <span id="currentQuestion">0</span> of <span id="totalQuestions">0</span></span>
+                <span class="score">Score: <span id="score">0</span>/<span id="total">0</span></span>
             </div>
         </main>
     </div>
