@@ -10,6 +10,23 @@ const questions = [
     { question: "Excuse me", correct: "Извините", wrong: ["Спасибо", "Пожалуйста", "Простите"] },
     { question: "I don't understand", correct: "Я не понимаю", wrong: ["Я понимаю", "Я знаю", "Я не знаю"] },
 
+    // Useful everyday phrases
+    { question: "I don't know", correct: "Я не знаю", wrong: ["Я знаю", "Я не понимаю", "Я не помню"] },
+    { question: "I think so", correct: "Я так думаю", wrong: ["Я не думаю", "Я знаю это", "Я так считаю"] },
+    { question: "Maybe", correct: "Может быть", wrong: ["Конечно", "Наверное", "Точно"] },
+    { question: "Probably", correct: "Наверное", wrong: ["Может быть", "Точно", "Конечно"] },
+    { question: "Of course", correct: "Конечно", wrong: ["Наверное", "Может быть", "Возможно"] },
+    { question: "A little bit", correct: "Немного", wrong: ["Много", "Чуть-чуть", "Мало"] },
+    { question: "Very much", correct: "Очень", wrong: ["Немного", "Мало", "Много"] },
+    { question: "I remember", correct: "Я помню", wrong: ["Я не помню", "Я знаю", "Я забыл"] },
+    { question: "I forgot", correct: "Я забыл", wrong: ["Я помню", "Я не знаю", "Я вспомнил"] },
+    { question: "In my opinion", correct: "По-моему", wrong: ["Я думаю", "Мне кажется", "Я считаю"] },
+    { question: "It seems to me", correct: "Мне кажется", wrong: ["По-моему", "Я думаю", "Я уверен"] },
+    { question: "I agree", correct: "Я согласен", wrong: ["Я не согласен", "Я думаю так", "Это правда"] },
+    { question: "I don't agree", correct: "Я не согласен", wrong: ["Я согласен", "Это неправда", "Я сомневаюсь"] },
+    { question: "That's right", correct: "Это правда", wrong: ["Это неправда", "Это верно", "Конечно"] },
+    { question: "That's wrong", correct: "Это неправда", wrong: ["Это правда", "Это ошибка", "Это не так"] },
+
     // Common words
     { question: "Water", correct: "Вода", wrong: ["Еда", "Молоко", "Чай"] },
     { question: "Food", correct: "Еда", wrong: ["Вода", "Хлеб", "Мясо"] },
@@ -68,7 +85,33 @@ const questions = [
     // Modal verb: стоит (worth, should)
     { question: "It's worth trying", correct: "Стоит попробовать", wrong: ["Можно попробовать", "Нужно попробовать", "Хочется попробовать"] },
     { question: "You should see this film", correct: "Стоит посмотреть этот фильм", wrong: ["Можно посмотреть этот фильм", "Нужно посмотреть этот фильм", "Надо посмотреть этот фильм"] },
-    { question: "Is it worth waiting?", correct: "Стоит ждать?", wrong: ["Можно ждать?", "Нужно ждать?", "Надо ждать?"] }
+    { question: "Is it worth waiting?", correct: "Стоит ждать?", wrong: ["Можно ждать?", "Нужно ждать?", "Надо ждать?"] },
+
+    // Subordinate clauses with что (that)
+    { question: "I know that you are right", correct: "Я знаю, что ты прав", wrong: ["Я думаю, что ты прав", "Я вижу, что ты прав", "Я слышал, что ты прав"] },
+    { question: "I think that it's important", correct: "Я думаю, что это важно", wrong: ["Я знаю, что это важно", "Я считаю, что это важно", "Я чувствую, что это важно"] },
+    { question: "She said that she's busy", correct: "Она сказала, что она занята", wrong: ["Она думает, что она занята", "Она знает, что она занята", "Она чувствует, что она занята"] },
+    { question: "I heard that he left", correct: "Я слышал, что он ушёл", wrong: ["Я знаю, что он ушёл", "Я видел, что он ушёл", "Я думаю, что он ушёл"] },
+
+    // Subordinate clauses with когда (when)
+    { question: "When I come home, I'll call", correct: "Когда я приду домой, я позвоню", wrong: ["Если я приду домой, я позвоню", "Пока я приду домой, я позвоню", "После того как я приду домой, я позвоню"] },
+    { question: "When you see him, tell him", correct: "Когда ты увидишь его, скажи ему", wrong: ["Если ты увидишь его, скажи ему", "Пока ты увидишь его, скажи ему", "После того как ты увидишь его, скажи ему"] },
+    { question: "I was happy when she arrived", correct: "Я был рад, когда она приехала", wrong: ["Я был рад, если она приехала", "Я был рад, пока она приехала", "Я был рад, что она приехала"] },
+
+    // Subordinate clauses with если (if)
+    { question: "If you want, we can go", correct: "Если хочешь, мы можем пойти", wrong: ["Когда хочешь, мы можем пойти", "Пока хочешь, мы можем пойти", "Что хочешь, мы можем пойти"] },
+    { question: "If it rains, I'll stay home", correct: "Если будет дождь, я останусь дома", wrong: ["Когда будет дождь, я останусь дома", "Пока будет дождь, я останусь дома", "Что будет дождь, я останусь дома"] },
+    { question: "Call me if you need help", correct: "Позвони мне, если нужна помощь", wrong: ["Позвони мне, когда нужна помощь", "Позвони мне, пока нужна помощь", "Позвони мне, что нужна помощь"] },
+
+    // Subordinate clauses with потому что (because)
+    { question: "I'm late because traffic was bad", correct: "Я опоздал, потому что были пробки", wrong: ["Я опоздал, когда были пробки", "Я опоздал, если были пробки", "Я опоздал, пока были пробки"] },
+    { question: "She's tired because she worked a lot", correct: "Она устала, потому что много работала", wrong: ["Она устала, когда много работала", "Она устала, если много работала", "Она устала, пока много работала"] },
+    { question: "I'm learning Russian because I like it", correct: "Я учу русский, потому что мне нравится", wrong: ["Я учу русский, когда мне нравится", "Я учу русский, если мне нравится", "Я учу русский, что мне нравится"] },
+
+    // Subordinate clauses with чтобы (in order to)
+    { question: "I came to talk", correct: "Я пришёл, чтобы поговорить", wrong: ["Я пришёл, когда поговорить", "Я пришёл, что поговорить", "Я пришёл, потому что поговорить"] },
+    { question: "She's studying to pass the exam", correct: "Она учится, чтобы сдать экзамен", wrong: ["Она учится, когда сдать экзамен", "Она учится, потому что сдать экзамен", "Она учится, если сдать экзамен"] },
+    { question: "We need to hurry to catch the train", correct: "Нам надо спешить, чтобы успеть на поезд", wrong: ["Нам надо спешить, когда успеть на поезд", "Нам надо спешить, если успеть на поезд", "Нам надо спешить, потому что успеть на поезд"] }
 ];
 
 let currentIndex = -1;
