@@ -2,7 +2,7 @@
   "name": "Learn Russian",
   "short_name": "Russian",
   "description": "Simple Russian vocabulary practice app",
-  "start_url": "/",
+  "start_url": "/language-app/",
   "display": "standalone",
   "background_color": "#667eea",
   "theme_color": "#4CAF50",
