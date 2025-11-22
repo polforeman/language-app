@@ -1,14 +1,15 @@
 // Service worker with cache versioning
 // UPDATE THIS VERSION NUMBER whenever you make changes to the app
-const VERSION = '0.0.5';
-const CACHE_NAME = `russian-app-v${VERSION}`;
+const VERSION = '1.0.0';
+const CACHE_NAME = `language-app-v${VERSION}`;
 
 const urlsToCache = [
   '/language-app/',
   '/language-app/index.html',
   '/language-app/styles.css',
   '/language-app/app.js',
-  '/language-app/manifest.json'
+  '/language-app/manifest.json',
+  '/language-app/questions.json'
 ];
 
 // Install event - cache files

@@ -1,7 +1,7 @@
 {
-  "name": "Learn Russian",
-  "short_name": "Russian",
-  "description": "Simple Russian vocabulary practice app",
+  "name": "Language Learning App",
+  "short_name": "Languages",
+  "description": "Multi-language vocabulary practice app (Russian, Ukrainian, Portuguese)",
   "start_url": "/language-app/",
   "display": "standalone",
   "background_color": "#667eea",
