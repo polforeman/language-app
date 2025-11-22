@@ -1,0 +1,7 @@
+# Project Rules
+
+## Versioning
+- ALWAYS stay at version 0.0.X (patch versions only)
+- Only increment patch number for changes
+- Do NOT use 1.0.0 or any major/minor versions until user explicitly approves
+- Current version should be in sw.js line 3

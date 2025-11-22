@@ -17,10 +17,12 @@ const appTitle = document.getElementById('appTitle');
 const languageSelect = document.getElementById('languageSelect');
 const filterList = document.getElementById('filterList');
 const toggleFiltersBtn = document.getElementById('toggleFilters');
+const questionCard = document.getElementById('questionCard');
 const questionEl = document.getElementById('question');
 const choicesEl = document.getElementById('choices');
 const feedbackEl = document.getElementById('feedback');
 const nextBtn = document.getElementById('nextBtn');
+const exitBtn = document.getElementById('exitBtn');
 const currentQuestionSpan = document.getElementById('currentQuestion');
 const totalQuestionsSpan = document.getElementById('totalQuestions');
 const scoreSpan = document.getElementById('score');
@@ -254,6 +256,11 @@ function showNextQuestion() {
     }
 
     if (answered || currentIndex === -1) {
+        // Enter lesson mode on first question
+        if (currentIndex === -1) {
+            enterLessonMode();
+        }
+
         // Move to next question
         currentIndex++;
 
@@ -334,6 +341,32 @@ function checkAnswer(selected, buttonEl) {
 }
 
 nextBtn.addEventListener('click', showNextQuestion);
+
+// Enter lesson mode - hide selectors, show exit button, change background
+function enterLessonMode() {
+    document.body.classList.add('lesson-mode');
+    exitBtn.style.display = 'flex';
+    questionCard.style.display = 'flex';
+}
+
+// Exit lesson mode - show selectors, hide exit button, reset
+function exitLessonMode() {
+    document.body.classList.remove('lesson-mode');
+    exitBtn.style.display = 'none';
+    questionCard.style.display = 'none';
+
+    // Reset lesson state
+    currentIndex = -1;
+    answered = false;
+    feedbackEl.textContent = '';
+    feedbackEl.className = 'feedback';
+    choicesEl.innerHTML = '';
+    nextBtn.textContent = 'Start';
+
+    updateStats();
+}
+
+exitBtn.addEventListener('click', exitLessonMode);
 
 // Register service worker for PWA
 if ('serviceWorker' in navigator) {
