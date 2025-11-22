@@ -1,0 +1,279 @@
+{
+  "basic-phrases": {
+    "russian": {
+      "title": "Basic Phrases",
+      "content": [
+        "**Greetings:**",
+        "• Привет - Hello (informal)",
+        "• Пока - Bye (informal)",
+        "• Спасибо - Thank you",
+        "• Пожалуйста - Please / You're welcome",
+        "",
+        "**Common responses:**",
+        "• Да - Yes",
+        "• Нет - No",
+        "• Извините - Excuse me / Sorry"
+      ]
+    },
+    "ukrainian": {
+      "title": "Basic Phrases",
+      "content": [
+        "**Greetings:**",
+        "• Привіт - Hello (informal)",
+        "• Бувай - Bye (informal)",
+        "• Дякую - Thank you",
+        "• Будь ласка - Please / You're welcome",
+        "",
+        "**Common responses:**",
+        "• Так - Yes",
+        "• Ні - No",
+        "• Вибачте - Excuse me / Sorry"
+      ]
+    },
+    "portuguese": {
+      "title": "Basic Phrases",
+      "content": [
+        "**Greetings:**",
+        "• Olá - Hello",
+        "• Adeus - Goodbye",
+        "• Obrigado/a - Thank you",
+        "• Por favor - Please",
+        "",
+        "**Common responses:**",
+        "• Sim - Yes",
+        "• Não - No",
+        "• Desculpe - Excuse me / Sorry"
+      ]
+    }
+  },
+  "everyday-expressions": {
+    "russian": {
+      "title": "Everyday Expressions",
+      "content": [
+        "**Certainty & doubt:**",
+        "• Конечно - Of course",
+        "• Может быть - Maybe",
+        "• Наверное - Probably",
+        "",
+        "**Knowledge:**",
+        "• Я знаю - I know",
+        "• Я не знаю - I don't know",
+        "• Я помню - I remember",
+        "• Я забыл - I forgot",
+        "",
+        "**Opinion:**",
+        "• По-моему - In my opinion",
+        "• Мне кажется - It seems to me",
+        "• Я согласен - I agree"
+      ]
+    },
+    "ukrainian": {
+      "title": "Everyday Expressions",
+      "content": [
+        "**Certainty & doubt:**",
+        "• Звичайно - Of course",
+        "• Можливо - Maybe",
+        "• Мабуть - Probably",
+        "",
+        "**Knowledge:**",
+        "• Я знаю - I know",
+        "• Я не знаю - I don't know",
+        "• Я пам'ятаю - I remember",
+        "• Я забув - I forgot",
+        "",
+        "**Opinion:**",
+        "• На мою думку - In my opinion",
+        "• Мені здається - It seems to me",
+        "• Я згоден - I agree"
+      ]
+    },
+    "portuguese": {
+      "title": "Everyday Expressions",
+      "content": [
+        "**Certainty & doubt:**",
+        "• Claro - Of course",
+        "• Talvez - Maybe",
+        "• Provavelmente - Probably",
+        "",
+        "**Knowledge:**",
+        "• Sei - I know",
+        "• Não sei - I don't know",
+        "• Lembro-me - I remember",
+        "• Esqueci - I forgot",
+        "",
+        "**Opinion:**",
+        "• Na minha opinião - In my opinion",
+        "• Parece-me - It seems to me",
+        "• Concordo - I agree"
+      ]
+    }
+  },
+  "numbers": {
+    "russian": {
+      "title": "Numbers",
+      "content": [
+        "**1-10:**",
+        "• Один (1), Два (2), Три (3)",
+        "• Четыре (4), Пять (5), Шесть (6)",
+        "• Семь (7), Восемь (8), Девять (9), Десять (10)"
+      ]
+    },
+    "ukrainian": {
+      "title": "Numbers",
+      "content": [
+        "**1-10:**",
+        "• Один (1), Два (2), Три (3)",
+        "• Чотири (4), П'ять (5), Шість (6)",
+        "• Сім (7), Вісім (8), Дев'ять (9), Десять (10)"
+      ]
+    },
+    "portuguese": {
+      "title": "Numbers",
+      "content": [
+        "**1-10:**",
+        "• Um (1), Dois (2), Três (3)",
+        "• Quatro (4), Cinco (5), Seis (6)",
+        "• Sete (7), Oito (8), Nove (9), Dez (10)"
+      ]
+    }
+  },
+  "modal-verbs": {
+    "russian": {
+      "title": "Modal Verbs",
+      "content": [
+        "**Мочь (can, be able to):**",
+        "• Я могу - I can",
+        "• Ты можешь - You can",
+        "• Он/она может - He/she can",
+        "",
+        "**Должен (must, should):**",
+        "• Takes gender: должен (m), должна (f), должны (pl)",
+        "",
+        "**Хотеть (want):**",
+        "• Я хочу, ты хочешь, он хочет",
+        "",
+        "**Нужно (need - impersonal):**",
+        "• Мне нужно - I need to",
+        "• Takes dative case",
+        "",
+        "**Уметь (know how to):**",
+        "• Focuses on learned skills",
+        "• Я умею плавать - I know how to swim"
+      ]
+    },
+    "ukrainian": {
+      "title": "Modal Verbs",
+      "content": [
+        "**Могти (can, be able to):**",
+        "• Я можу - I can",
+        "• Ти можеш - You can",
+        "• Він/вона може - He/she can",
+        "",
+        "**Повинен (must, should):**",
+        "• Takes gender: повинен (m), повинна (f), повинні (pl)",
+        "",
+        "**Хотіти (want):**",
+        "• Я хочу, ти хочеш, він хоче",
+        "",
+        "**Потрібно (need - impersonal):**",
+        "• Мені потрібно - I need to",
+        "• Takes dative case",
+        "",
+        "**Вміти (know how to):**",
+        "• Focuses on learned skills",
+        "• Я вмію плавати - I know how to swim"
+      ]
+    },
+    "portuguese": {
+      "title": "Modal Verbs",
+      "content": [
+        "**Poder (can, be able to):**",
+        "• Posso - I can",
+        "• Podes - You can",
+        "• Pode - He/she can",
+        "",
+        "**Dever (must, should):**",
+        "• Devo - I must",
+        "• Deves - You must",
+        "",
+        "**Querer (want):**",
+        "• Quero, queres, quer",
+        "",
+        "**Precisar (need):**",
+        "• Preciso de - I need to",
+        "• Takes 'de' + infinitive",
+        "",
+        "**Saber (know how to):**",
+        "• Sei nadar - I know how to swim"
+      ]
+    }
+  },
+  "subordinate-clauses": {
+    "russian": {
+      "title": "Subordinate Clauses",
+      "content": [
+        "**Что (that):**",
+        "• Я думаю, что... - I think that...",
+        "• Used after verbs of thinking/saying",
+        "",
+        "**Когда (when):**",
+        "• Когда я приду - When I come",
+        "• Future tense used after когда",
+        "",
+        "**Если (if):**",
+        "• Если хочешь - If you want",
+        "",
+        "**Потому что (because):**",
+        "• ..., потому что... - ...because...",
+        "",
+        "**Чтобы (in order to):**",
+        "• Я пришёл, чтобы... - I came in order to...",
+        "• Requires past tense verb before чтобы"
+      ]
+    },
+    "ukrainian": {
+      "title": "Subordinate Clauses",
+      "content": [
+        "**Що (that):**",
+        "• Я думаю, що... - I think that...",
+        "• Used after verbs of thinking/saying",
+        "",
+        "**Коли (when):**",
+        "• Коли я прийду - When I come",
+        "• Future tense used after коли",
+        "",
+        "**Якщо (if):**",
+        "• Якщо хочеш - If you want",
+        "",
+        "**Тому що (because):**",
+        "• ..., тому що... - ...because...",
+        "",
+        "**Щоб (in order to):**",
+        "• Я прийшов, щоб... - I came in order to...",
+        "• Requires past tense verb before щоб"
+      ]
+    },
+    "portuguese": {
+      "title": "Subordinate Clauses",
+      "content": [
+        "**Que (that):**",
+        "• Acho que... - I think that...",
+        "• Used after verbs of thinking/saying",
+        "",
+        "**Quando (when):**",
+        "• Quando chegar - When I arrive",
+        "• Uses subjunctive for future",
+        "",
+        "**Se (if):**",
+        "• Se quiseres - If you want",
+        "",
+        "**Porque (because):**",
+        "• ...porque... - ...because...",
+        "",
+        "**Para (in order to):**",
+        "• Vim para falar - I came to talk",
+        "• Para + infinitive"
+      ]
+    }
+  }
+}

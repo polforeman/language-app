@@ -1,6 +1,6 @@
 // Service worker with cache versioning
 // UPDATE THIS VERSION NUMBER whenever you make changes to the app
-const VERSION = '0.0.8';
+const VERSION = '0.0.9';
 const CACHE_NAME = `language-app-v${VERSION}`;
 
 const urlsToCache = [
@@ -9,7 +9,8 @@ const urlsToCache = [
   '/language-app/styles.css',
   '/language-app/app.js',
   '/language-app/manifest.json',
-  '/language-app/questions.json'
+  '/language-app/questions.json',
+  '/language-app/cheatsheets.json'
 ];
 
 // Install event - cache files

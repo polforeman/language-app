@@ -1,5 +1,6 @@
 // Multi-language vocabulary quiz app
 let questions = [];
+let cheatsheets = {};
 let currentIndex = -1;
 let score = 0;
 let totalAnswered = 0;
@@ -24,6 +25,12 @@ const feedbackEl = document.getElementById('feedback');
 const nextBtn = document.getElementById('nextBtn');
 const exitBtn = document.getElementById('exitBtn');
 const statsHeader = document.getElementById('statsHeader');
+const cheatsheetBtn = document.getElementById('cheatsheetBtn');
+const cheatsheetPanel = document.getElementById('cheatsheetPanel');
+const cheatsheetOverlay = document.getElementById('cheatsheetOverlay');
+const closeCheatsheet = document.getElementById('closeCheatsheet');
+const cheatsheetTitle = document.getElementById('cheatsheetTitle');
+const cheatsheetContent = document.getElementById('cheatsheetContent');
 const currentQuestionSpan = document.getElementById('currentQuestion');
 const totalQuestionsSpan = document.getElementById('totalQuestions');
 const scoreSpan = document.getElementById('score');
@@ -54,6 +61,20 @@ async function loadQuestions() {
         questionEl.textContent = 'Error loading questions. Please use a local server (e.g., python -m http.server) or deploy to GitHub Pages.';
         // Show error in topic area too
         filterList.innerHTML = '<div style="color: #f44336; padding: 10px;">Failed to load questions. See console for details.</div>';
+    }
+}
+
+// Load cheatsheets from JSON
+async function loadCheatsheets() {
+    try {
+        const response = await fetch('cheatsheets.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        cheatsheets = await response.json();
+        console.log('Loaded cheatsheets');
+    } catch (error) {
+        console.error('Failed to load cheatsheets:', error);
     }
 }
 
@@ -343,12 +364,57 @@ function checkAnswer(selected, buttonEl) {
 
 nextBtn.addEventListener('click', showNextQuestion);
 
+// Show cheatsheet for current topics
+function showCheatsheet() {
+    if (selectedTopics.length === 0) return;
+
+    // Use the first selected topic for cheatsheet
+    const topic = selectedTopics[0];
+    const sheet = cheatsheets[topic]?.[currentLanguage];
+
+    if (!sheet) {
+        cheatsheetTitle.textContent = 'No cheatsheet available';
+        cheatsheetContent.innerHTML = '<p>Cheatsheet not found for this topic.</p>';
+    } else {
+        cheatsheetTitle.textContent = sheet.title;
+
+        // Convert content array to HTML
+        const html = sheet.content.map(line => {
+            if (line === '') return '<br>';
+            if (line.startsWith('**') && line.endsWith(':**')) {
+                // Bold headers
+                return `<p><strong>${line.replace(/\*\*/g, '')}</strong></p>`;
+            }
+            if (line.startsWith('•')) {
+                // List items
+                return `<p>${line}</p>`;
+            }
+            return `<p>${line}</p>`;
+        }).join('');
+
+        cheatsheetContent.innerHTML = html;
+    }
+
+    cheatsheetPanel.classList.add('active');
+    cheatsheetOverlay.classList.add('active');
+}
+
+function hideCheatsheet() {
+    cheatsheetPanel.classList.remove('active');
+    cheatsheetOverlay.classList.remove('active');
+}
+
+cheatsheetBtn.addEventListener('click', showCheatsheet);
+closeCheatsheet.addEventListener('click', hideCheatsheet);
+cheatsheetOverlay.addEventListener('click', hideCheatsheet);
+
 // Enter lesson mode - hide selectors, show exit button, change background
 function enterLessonMode() {
     document.body.classList.add('lesson-mode');
     exitBtn.style.display = 'flex';
     questionCard.style.display = 'flex';
     statsHeader.style.display = 'flex';
+    cheatsheetBtn.style.display = 'inline-block';
 }
 
 // Exit lesson mode - show selectors, hide exit button, reset
@@ -357,6 +423,8 @@ function exitLessonMode() {
     exitBtn.style.display = 'none';
     questionCard.style.display = 'none';
     statsHeader.style.display = 'none';
+    cheatsheetBtn.style.display = 'none';
+    hideCheatsheet();
 
     // Reset lesson state
     currentIndex = -1;
@@ -380,3 +448,4 @@ if ('serviceWorker' in navigator) {
 
 // Initialize app
 loadQuestions();
+loadCheatsheets();

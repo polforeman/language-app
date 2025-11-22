@@ -50,8 +50,19 @@
             <div class="feedback" id="feedback"></div>
 
             <div class="controls">
+                <button id="cheatsheetBtn" class="btn btn-secondary" style="display: none;">📖 Cheatsheet</button>
                 <button id="nextBtn" class="btn btn-primary">Start</button>
             </div>
+
+            <!-- Cheatsheet Panel -->
+            <div id="cheatsheetPanel" class="cheatsheet-panel">
+                <div class="cheatsheet-header">
+                    <h2 id="cheatsheetTitle">Cheatsheet</h2>
+                    <button id="closeCheatsheet" class="close-btn">✕</button>
+                </div>
+                <div id="cheatsheetContent" class="cheatsheet-content"></div>
+            </div>
+            <div id="cheatsheetOverlay" class="cheatsheet-overlay"></div>
         </main>
     </div>
 
