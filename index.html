@@ -13,6 +13,10 @@
         <header>
             <h1 id="appTitle">Language Learning</h1>
             <button id="exitBtn" class="btn-exit-small" style="display: none;">✕</button>
+            <div class="stats-header" id="statsHeader" style="display: none;">
+                <span>Question <span id="currentQuestion">0</span> of <span id="totalQuestions">0</span></span>
+                <span class="score">Score: <span id="score">0</span>/<span id="total">0</span></span>
+            </div>
         </header>
 
         <main>
@@ -47,11 +51,6 @@
 
             <div class="controls">
                 <button id="nextBtn" class="btn btn-primary">Start</button>
-            </div>
-
-            <div class="stats">
-                <span>Question <span id="currentQuestion">0</span> of <span id="totalQuestions">0</span></span>
-                <span class="score">Score: <span id="score">0</span>/<span id="total">0</span></span>
             </div>
         </main>
     </div>

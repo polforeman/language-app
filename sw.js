@@ -1,6 +1,6 @@
 // Service worker with cache versioning
 // UPDATE THIS VERSION NUMBER whenever you make changes to the app
-const VERSION = '0.0.7';
+const VERSION = '0.0.8';
 const CACHE_NAME = `language-app-v${VERSION}`;
 
 const urlsToCache = [

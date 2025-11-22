@@ -23,6 +23,7 @@ const choicesEl = document.getElementById('choices');
 const feedbackEl = document.getElementById('feedback');
 const nextBtn = document.getElementById('nextBtn');
 const exitBtn = document.getElementById('exitBtn');
+const statsHeader = document.getElementById('statsHeader');
 const currentQuestionSpan = document.getElementById('currentQuestion');
 const totalQuestionsSpan = document.getElementById('totalQuestions');
 const scoreSpan = document.getElementById('score');
@@ -347,6 +348,7 @@ function enterLessonMode() {
     document.body.classList.add('lesson-mode');
     exitBtn.style.display = 'flex';
     questionCard.style.display = 'flex';
+    statsHeader.style.display = 'flex';
 }
 
 // Exit lesson mode - show selectors, hide exit button, reset
@@ -354,6 +356,7 @@ function exitLessonMode() {
     document.body.classList.remove('lesson-mode');
     exitBtn.style.display = 'none';
     questionCard.style.display = 'none';
+    statsHeader.style.display = 'none';
 
     // Reset lesson state
     currentIndex = -1;
