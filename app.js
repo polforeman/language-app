@@ -364,12 +364,12 @@ function checkAnswer(selected, buttonEl) {
 
 nextBtn.addEventListener('click', showNextQuestion);
 
-// Show cheatsheet for current topics
+// Show cheatsheet for current question's topic
 function showCheatsheet() {
-    if (selectedTopics.length === 0) return;
+    if (!currentQuestion) return;
 
-    // Use the first selected topic for cheatsheet
-    const topic = selectedTopics[0];
+    // Use the current question's first topic
+    const topic = currentQuestion.topics[0];
     const sheet = cheatsheets[topic]?.[currentLanguage];
 
     if (!sheet) {
