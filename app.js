@@ -40,7 +40,8 @@ const totalSpan = document.getElementById('total');
 const languageNames = {
     russian: 'Russian',
     ukrainian: 'Ukrainian',
-    portuguese: 'Portuguese'
+    portuguese: 'Portuguese',
+    german: 'German'
 };
 
 // Load questions from JSON

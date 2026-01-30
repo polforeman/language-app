@@ -15,6 +15,10 @@
       "portuguese": {
         "text": "Olá",
         "wrongAnswers": ["Adeus", "Obrigado", "Desculpe"]
+      },
+      "german": {
+        "text": "Hallo",
+        "wrongAnswers": ["Tschüss", "Danke", "Entschuldigung"]
       }
     }
   },
@@ -34,6 +38,10 @@
       "portuguese": {
         "text": "Adeus",
         "wrongAnswers": ["Olá", "Sim", "Não"]
+      },
+      "german": {
+        "text": "Tschüss",
+        "wrongAnswers": ["Hallo", "Ja", "Nein"]
       }
     }
   },
@@ -53,6 +61,10 @@
       "portuguese": {
         "text": "Obrigado",
         "wrongAnswers": ["Por favor", "Desculpe", "Ajuda"]
+      },
+      "german": {
+        "text": "Danke",
+        "wrongAnswers": ["Bitte", "Entschuldigung", "Hilfe"]
       }
     }
   },
@@ -72,6 +84,10 @@
       "portuguese": {
         "text": "Por favor",
         "wrongAnswers": ["Obrigado", "Olá", "Sim"]
+      },
+      "german": {
+        "text": "Bitte",
+        "wrongAnswers": ["Danke", "Hallo", "Ja"]
       }
     }
   },
@@ -91,6 +107,10 @@
       "portuguese": {
         "text": "Sim",
         "wrongAnswers": ["Não", "Talvez", "Bom"]
+      },
+      "german": {
+        "text": "Ja",
+        "wrongAnswers": ["Nein", "Vielleicht", "Gut"]
       }
     }
   },
@@ -110,6 +130,10 @@
       "portuguese": {
         "text": "Não",
         "wrongAnswers": ["Sim", "Nunca", "Nada"]
+      },
+      "german": {
+        "text": "Nein",
+        "wrongAnswers": ["Ja", "Niemals", "Nichts"]
       }
     }
   },
@@ -129,6 +153,10 @@
       "portuguese": {
         "text": "Desculpe",
         "wrongAnswers": ["Obrigado", "Por favor", "Perdão"]
+      },
+      "german": {
+        "text": "Entschuldigung",
+        "wrongAnswers": ["Danke", "Bitte", "Verzeihung"]
       }
     }
   },
@@ -148,6 +176,10 @@
       "portuguese": {
         "text": "Não entendo",
         "wrongAnswers": ["Entendo", "Sei", "Não sei"]
+      },
+      "german": {
+        "text": "Ich verstehe nicht",
+        "wrongAnswers": ["Ich verstehe", "Ich weiß", "Ich weiß nicht"]
       }
     }
   },
@@ -167,6 +199,10 @@
       "portuguese": {
         "text": "Não sei",
         "wrongAnswers": ["Sei", "Não entendo", "Não me lembro"]
+      },
+      "german": {
+        "text": "Ich weiß nicht",
+        "wrongAnswers": ["Ich weiß", "Ich verstehe nicht", "Ich erinnere mich nicht"]
       }
     }
   },
@@ -186,6 +222,10 @@
       "portuguese": {
         "text": "Acho que sim",
         "wrongAnswers": ["Não acho", "Sei isso", "Acredito que sim"]
+      },
+      "german": {
+        "text": "Ich denke schon",
+        "wrongAnswers": ["Ich denke nicht", "Ich weiß das", "Ich glaube schon"]
       }
     }
   },
@@ -205,6 +245,10 @@
       "portuguese": {
         "text": "Talvez",
         "wrongAnswers": ["Claro", "Provavelmente", "Com certeza"]
+      },
+      "german": {
+        "text": "Vielleicht",
+        "wrongAnswers": ["Natürlich", "Wahrscheinlich", "Sicher"]
       }
     }
   },
@@ -224,6 +268,10 @@
       "portuguese": {
         "text": "Provavelmente",
         "wrongAnswers": ["Talvez", "Com certeza", "Claro"]
+      },
+      "german": {
+        "text": "Wahrscheinlich",
+        "wrongAnswers": ["Vielleicht", "Sicher", "Natürlich"]
       }
     }
   },
@@ -243,6 +291,10 @@
       "portuguese": {
         "text": "Claro",
         "wrongAnswers": ["Provavelmente", "Talvez", "Possivelmente"]
+      },
+      "german": {
+        "text": "Natürlich",
+        "wrongAnswers": ["Wahrscheinlich", "Vielleicht", "Möglicherweise"]
       }
     }
   },
@@ -262,6 +314,10 @@
       "portuguese": {
         "text": "Um pouco",
         "wrongAnswers": ["Muito", "Um bocadinho", "Pouco"]
+      },
+      "german": {
+        "text": "Ein bisschen",
+        "wrongAnswers": ["Viel", "Ein wenig", "Wenig"]
       }
     }
   },
@@ -281,6 +337,10 @@
       "portuguese": {
         "text": "Muito",
         "wrongAnswers": ["Um pouco", "Pouco", "Bastante"]
+      },
+      "german": {
+        "text": "Sehr",
+        "wrongAnswers": ["Ein bisschen", "Wenig", "Viel"]
       }
     }
   },
@@ -300,6 +360,10 @@
       "portuguese": {
         "text": "Lembro-me",
         "wrongAnswers": ["Não me lembro", "Sei", "Esqueci"]
+      },
+      "german": {
+        "text": "Ich erinnere mich",
+        "wrongAnswers": ["Ich erinnere mich nicht", "Ich weiß", "Ich habe vergessen"]
       }
     }
   },
@@ -319,6 +383,10 @@
       "portuguese": {
         "text": "Esqueci",
         "wrongAnswers": ["Lembro-me", "Não sei", "Recordei"]
+      },
+      "german": {
+        "text": "Ich habe vergessen",
+        "wrongAnswers": ["Ich erinnere mich", "Ich weiß nicht", "Ich habe mich erinnert"]
       }
     }
   },
@@ -338,6 +406,10 @@
       "portuguese": {
         "text": "Na minha opinião",
         "wrongAnswers": ["Acho", "Parece-me", "Considero"]
+      },
+      "german": {
+        "text": "Meiner Meinung nach",
+        "wrongAnswers": ["Ich denke", "Es scheint mir", "Ich finde"]
       }
     }
   },
@@ -357,6 +429,10 @@
       "portuguese": {
         "text": "Parece-me",
         "wrongAnswers": ["Na minha opinião", "Acho", "Tenho certeza"]
+      },
+      "german": {
+        "text": "Es scheint mir",
+        "wrongAnswers": ["Meiner Meinung nach", "Ich denke", "Ich bin sicher"]
       }
     }
   },
@@ -376,6 +452,10 @@
       "portuguese": {
         "text": "Concordo",
         "wrongAnswers": ["Não concordo", "Acho assim", "É verdade"]
+      },
+      "german": {
+        "text": "Ich stimme zu",
+        "wrongAnswers": ["Ich stimme nicht zu", "Ich denke so", "Das ist wahr"]
       }
     }
   },
@@ -395,6 +475,10 @@
       "portuguese": {
         "text": "Não concordo",
         "wrongAnswers": ["Concordo", "Não é verdade", "Tenho dúvidas"]
+      },
+      "german": {
+        "text": "Ich stimme nicht zu",
+        "wrongAnswers": ["Ich stimme zu", "Das ist nicht wahr", "Ich habe Zweifel"]
       }
     }
   },
@@ -414,6 +498,10 @@
       "portuguese": {
         "text": "É verdade",
         "wrongAnswers": ["Não é verdade", "Está certo", "Claro"]
+      },
+      "german": {
+        "text": "Das stimmt",
+        "wrongAnswers": ["Das stimmt nicht", "Das ist richtig", "Natürlich"]
       }
     }
   },
@@ -433,6 +521,10 @@
       "portuguese": {
         "text": "Não é verdade",
         "wrongAnswers": ["É verdade", "É erro", "Não é assim"]
+      },
+      "german": {
+        "text": "Das stimmt nicht",
+        "wrongAnswers": ["Das stimmt", "Das ist ein Fehler", "Das ist nicht so"]
       }
     }
   },
@@ -452,6 +544,10 @@
       "portuguese": {
         "text": "Água",
         "wrongAnswers": ["Comida", "Leite", "Chá"]
+      },
+      "german": {
+        "text": "Wasser",
+        "wrongAnswers": ["Essen", "Milch", "Tee"]
       }
     }
   },
@@ -471,6 +567,10 @@
       "portuguese": {
         "text": "Comida",
         "wrongAnswers": ["Água", "Pão", "Carne"]
+      },
+      "german": {
+        "text": "Essen",
+        "wrongAnswers": ["Wasser", "Brot", "Fleisch"]
       }
     }
   },
@@ -490,6 +590,10 @@
       "portuguese": {
         "text": "Ajuda",
         "wrongAnswers": ["Ajude", "Aqui", "Lá"]
+      },
+      "german": {
+        "text": "Hilfe",
+        "wrongAnswers": ["Helfen Sie", "Hier", "Dort"]
       }
     }
   },
@@ -509,6 +613,10 @@
       "portuguese": {
         "text": "Um",
         "wrongAnswers": ["Dois", "Três", "Quatro"]
+      },
+      "german": {
+        "text": "Eins",
+        "wrongAnswers": ["Zwei", "Drei", "Vier"]
       }
     }
   },
@@ -528,6 +636,10 @@
       "portuguese": {
         "text": "Dois",
         "wrongAnswers": ["Um", "Três", "Cinco"]
+      },
+      "german": {
+        "text": "Zwei",
+        "wrongAnswers": ["Eins", "Drei", "Fünf"]
       }
     }
   },
@@ -547,6 +659,10 @@
       "portuguese": {
         "text": "Três",
         "wrongAnswers": ["Dois", "Quatro", "Seis"]
+      },
+      "german": {
+        "text": "Drei",
+        "wrongAnswers": ["Zwei", "Vier", "Sechs"]
       }
     }
   },
@@ -566,6 +682,10 @@
       "portuguese": {
         "text": "Posso ajudar-te",
         "wrongAnswers": ["Devo ajudar-te", "Quero ajudar-te", "Vou ajudar-te"]
+      },
+      "german": {
+        "text": "Ich kann dir helfen",
+        "wrongAnswers": ["Ich muss dir helfen", "Ich will dir helfen", "Ich werde dir helfen"]
       }
     }
   },
@@ -585,6 +705,10 @@
       "portuguese": {
         "text": "Podes falar português?",
         "wrongAnswers": ["Deves falar português?", "Queres falar português?", "Vais falar português?"]
+      },
+      "german": {
+        "text": "Kannst du Deutsch sprechen?",
+        "wrongAnswers": ["Musst du Deutsch sprechen?", "Willst du Deutsch sprechen?", "Wirst du Deutsch sprechen?"]
       }
     }
   },
@@ -604,6 +728,10 @@
       "portuguese": {
         "text": "Ela não pode vir hoje",
         "wrongAnswers": ["Ela não deve vir hoje", "Ela não quer vir hoje", "Ela não vai vir hoje"]
+      },
+      "german": {
+        "text": "Sie kann heute nicht kommen",
+        "wrongAnswers": ["Sie muss heute nicht kommen", "Sie will heute nicht kommen", "Sie wird heute nicht kommen"]
       }
     }
   },
@@ -623,6 +751,10 @@
       "portuguese": {
         "text": "Tenho de ir",
         "wrongAnswers": ["Posso ir", "Quero ir", "Vou ir"]
+      },
+      "german": {
+        "text": "Ich muss gehen",
+        "wrongAnswers": ["Ich kann gehen", "Ich will gehen", "Ich werde gehen"]
       }
     }
   },
@@ -642,6 +774,10 @@
       "portuguese": {
         "text": "Deves estudar",
         "wrongAnswers": ["Podes estudar", "Queres estudar", "Vais estudar"]
+      },
+      "german": {
+        "text": "Du solltest lernen",
+        "wrongAnswers": ["Du kannst lernen", "Du willst lernen", "Du wirst lernen"]
       }
     }
   },
@@ -661,6 +797,10 @@
       "portuguese": {
         "text": "Temos de trabalhar amanhã",
         "wrongAnswers": ["Podemos trabalhar amanhã", "Queremos trabalhar amanhã", "Vamos trabalhar amanhã"]
+      },
+      "german": {
+        "text": "Wir müssen morgen arbeiten",
+        "wrongAnswers": ["Wir können morgen arbeiten", "Wir wollen morgen arbeiten", "Wir werden morgen arbeiten"]
       }
     }
   },
@@ -680,6 +820,10 @@
       "portuguese": {
         "text": "Quero comer",
         "wrongAnswers": ["Posso comer", "Devo comer", "Vou comer"]
+      },
+      "german": {
+        "text": "Ich will essen",
+        "wrongAnswers": ["Ich kann essen", "Ich muss essen", "Ich werde essen"]
       }
     }
   },
@@ -699,6 +843,10 @@
       "portuguese": {
         "text": "Queres café?",
         "wrongAnswers": ["Podes café?", "Deves café?", "Vais café?"]
+      },
+      "german": {
+        "text": "Willst du Kaffee?",
+        "wrongAnswers": ["Kannst du Kaffee?", "Musst du Kaffee?", "Wirst du Kaffee?"]
       }
     }
   },
@@ -718,6 +866,10 @@
       "portuguese": {
         "text": "Querem sair",
         "wrongAnswers": ["Podem sair", "Devem sair", "Vão sair"]
+      },
+      "german": {
+        "text": "Sie wollen gehen",
+        "wrongAnswers": ["Sie können gehen", "Sie müssen gehen", "Sie werden gehen"]
       }
     }
   },
@@ -737,6 +889,10 @@
       "portuguese": {
         "text": "Preciso dormir",
         "wrongAnswers": ["Quero dormir", "Devo dormir", "Posso dormir"]
+      },
+      "german": {
+        "text": "Ich muss schlafen",
+        "wrongAnswers": ["Ich will schlafen", "Ich soll schlafen", "Ich kann schlafen"]
       }
     }
   },
@@ -756,6 +912,10 @@
       "portuguese": {
         "text": "Precisas descansar",
         "wrongAnswers": ["Queres descansar", "Deves descansar", "Podes descansar"]
+      },
+      "german": {
+        "text": "Du musst dich ausruhen",
+        "wrongAnswers": ["Du willst dich ausruhen", "Du sollst dich ausruhen", "Du kannst dich ausruhen"]
       }
     }
   },
@@ -775,6 +935,10 @@
       "portuguese": {
         "text": "Precisamos mais tempo",
         "wrongAnswers": ["Queremos mais tempo", "Devemos mais tempo", "Podemos mais tempo"]
+      },
+      "german": {
+        "text": "Wir brauchen mehr Zeit",
+        "wrongAnswers": ["Wir wollen mehr Zeit", "Wir müssen mehr Zeit", "Wir können mehr Zeit"]
       }
     }
   },
@@ -794,6 +958,10 @@
       "portuguese": {
         "text": "Poderei ajudar",
         "wrongAnswers": ["Posso ajudar", "Devo ajudar", "Quero ajudar"]
+      },
+      "german": {
+        "text": "Ich werde helfen können",
+        "wrongAnswers": ["Ich kann helfen", "Ich muss helfen", "Ich will helfen"]
       }
     }
   },
@@ -813,6 +981,10 @@
       "portuguese": {
         "text": "Conseguiste fazê-lo?",
         "wrongAnswers": ["Podes fazê-lo?", "Deves fazê-lo?", "Queres fazê-lo?"]
+      },
+      "german": {
+        "text": "Konntest du es machen?",
+        "wrongAnswers": ["Kannst du es machen?", "Musst du es machen?", "Willst du es machen?"]
       }
     }
   },
@@ -832,6 +1004,10 @@
       "portuguese": {
         "text": "Ela conseguiu terminar",
         "wrongAnswers": ["Ela pode terminar", "Ela deve terminar", "Ela quer terminar"]
+      },
+      "german": {
+        "text": "Sie hat es geschafft zu beenden",
+        "wrongAnswers": ["Sie kann beenden", "Sie muss beenden", "Sie will beenden"]
       }
     }
   },
@@ -851,6 +1027,10 @@
       "portuguese": {
         "text": "Sei nadar",
         "wrongAnswers": ["Posso nadar", "Quero nadar", "Devo nadar"]
+      },
+      "german": {
+        "text": "Ich kann schwimmen",
+        "wrongAnswers": ["Ich darf schwimmen", "Ich will schwimmen", "Ich muss schwimmen"]
       }
     }
   },
@@ -870,6 +1050,10 @@
       "portuguese": {
         "text": "Sabes conduzir?",
         "wrongAnswers": ["Podes conduzir?", "Queres conduzir?", "Deves conduzir?"]
+      },
+      "german": {
+        "text": "Kannst du fahren?",
+        "wrongAnswers": ["Darfst du fahren?", "Willst du fahren?", "Musst du fahren?"]
       }
     }
   },
@@ -889,6 +1073,10 @@
       "portuguese": {
         "text": "Ele sabe cozinhar",
         "wrongAnswers": ["Ele pode cozinhar", "Ele quer cozinhar", "Ele deve cozinhar"]
+      },
+      "german": {
+        "text": "Er kann kochen",
+        "wrongAnswers": ["Er darf kochen", "Er will kochen", "Er muss kochen"]
       }
     }
   },
@@ -908,6 +1096,10 @@
       "portuguese": {
         "text": "Não posso acreditar",
         "wrongAnswers": ["Não quero acreditar", "Não devo acreditar", "Não sei acreditar"]
+      },
+      "german": {
+        "text": "Ich kann es nicht glauben",
+        "wrongAnswers": ["Ich will es nicht glauben", "Ich muss es nicht glauben", "Ich darf es nicht glauben"]
       }
     }
   },
@@ -927,6 +1119,10 @@
       "portuguese": {
         "text": "Não podem esperar",
         "wrongAnswers": ["Não querem esperar", "Não devem esperar", "Não sabem esperar"]
+      },
+      "german": {
+        "text": "Sie können nicht warten",
+        "wrongAnswers": ["Sie wollen nicht warten", "Sie müssen nicht warten", "Sie dürfen nicht warten"]
       }
     }
   },
@@ -946,6 +1142,10 @@
       "portuguese": {
         "text": "Não podemos ficar",
         "wrongAnswers": ["Não queremos ficar", "Não devemos ficar", "Não sabemos ficar"]
+      },
+      "german": {
+        "text": "Wir können nicht bleiben",
+        "wrongAnswers": ["Wir wollen nicht bleiben", "Wir müssen nicht bleiben", "Wir dürfen nicht bleiben"]
       }
     }
   },
@@ -965,6 +1165,10 @@
       "portuguese": {
         "text": "É necessário estudar",
         "wrongAnswers": ["Apetece estudar", "É permitido estudar", "Sei estudar"]
+      },
+      "german": {
+        "text": "Man muss lernen",
+        "wrongAnswers": ["Man will lernen", "Man darf lernen", "Man kann lernen"]
       }
     }
   },
@@ -984,6 +1188,10 @@
       "portuguese": {
         "text": "É preciso ter cuidado",
         "wrongAnswers": ["É permitido ter cuidado", "Apetece ter cuidado", "Sei ter cuidado"]
+      },
+      "german": {
+        "text": "Man muss vorsichtig sein",
+        "wrongAnswers": ["Man darf vorsichtig sein", "Man will vorsichtig sein", "Man kann vorsichtig sein"]
       }
     }
   },
@@ -1003,6 +1211,10 @@
       "portuguese": {
         "text": "Precisamos apressar-nos",
         "wrongAnswers": ["Podemos apressar-nos", "Apetece apressar-nos", "Sabemos apressar-nos"]
+      },
+      "german": {
+        "text": "Wir müssen uns beeilen",
+        "wrongAnswers": ["Wir können uns beeilen", "Wir wollen uns beeilen", "Wir dürfen uns beeilen"]
       }
     }
   },
@@ -1022,6 +1234,10 @@
       "portuguese": {
         "text": "Posso entrar?",
         "wrongAnswers": ["Preciso entrar?", "Quero entrar?", "Devo entrar?"]
+      },
+      "german": {
+        "text": "Darf ich reinkommen?",
+        "wrongAnswers": ["Muss ich reinkommen?", "Will ich reinkommen?", "Soll ich reinkommen?"]
       }
     }
   },
@@ -1041,6 +1257,10 @@
       "portuguese": {
         "text": "Podes sentar aqui",
         "wrongAnswers": ["Precisas sentar aqui", "Deves sentar aqui", "Tens de sentar aqui"]
+      },
+      "german": {
+        "text": "Du kannst hier sitzen",
+        "wrongAnswers": ["Du musst hier sitzen", "Du sollst hier sitzen", "Du darfst hier sitzen"]
       }
     }
   },
@@ -1060,6 +1280,10 @@
       "portuguese": {
         "text": "Posso perguntar?",
         "wrongAnswers": ["Preciso perguntar?", "Devo perguntar?", "Quero perguntar?"]
+      },
+      "german": {
+        "text": "Darf ich fragen?",
+        "wrongAnswers": ["Muss ich fragen?", "Soll ich fragen?", "Will ich fragen?"]
       }
     }
   },
@@ -1079,6 +1303,10 @@
       "portuguese": {
         "text": "Vale a pena tentar",
         "wrongAnswers": ["Pode tentar", "Precisa tentar", "Quer tentar"]
+      },
+      "german": {
+        "text": "Es lohnt sich zu versuchen",
+        "wrongAnswers": ["Man kann versuchen", "Man muss versuchen", "Man will versuchen"]
       }
     }
   },
@@ -1098,6 +1326,10 @@
       "portuguese": {
         "text": "Vale a pena ver este filme",
         "wrongAnswers": ["Pode ver este filme", "Precisa ver este filme", "Deve ver este filme"]
+      },
+      "german": {
+        "text": "Du solltest diesen Film sehen",
+        "wrongAnswers": ["Du kannst diesen Film sehen", "Du musst diesen Film sehen", "Du darfst diesen Film sehen"]
       }
     }
   },
@@ -1117,6 +1349,10 @@
       "portuguese": {
         "text": "Vale a pena esperar?",
         "wrongAnswers": ["Pode esperar?", "Precisa esperar?", "Deve esperar?"]
+      },
+      "german": {
+        "text": "Lohnt es sich zu warten?",
+        "wrongAnswers": ["Kann man warten?", "Muss man warten?", "Soll man warten?"]
       }
     }
   },
@@ -1136,6 +1372,10 @@
       "portuguese": {
         "text": "Sei que tens razão",
         "wrongAnswers": ["Acho que tens razão", "Vejo que tens razão", "Ouvi que tens razão"]
+      },
+      "german": {
+        "text": "Ich weiß, dass du recht hast",
+        "wrongAnswers": ["Ich denke, dass du recht hast", "Ich sehe, dass du recht hast", "Ich hörte, dass du recht hast"]
       }
     }
   },
@@ -1155,6 +1395,10 @@
       "portuguese": {
         "text": "Acho que é importante",
         "wrongAnswers": ["Sei que é importante", "Considero que é importante", "Sinto que é importante"]
+      },
+      "german": {
+        "text": "Ich denke, dass es wichtig ist",
+        "wrongAnswers": ["Ich weiß, dass es wichtig ist", "Ich finde, dass es wichtig ist", "Ich fühle, dass es wichtig ist"]
       }
     }
   },
@@ -1174,6 +1418,10 @@
       "portuguese": {
         "text": "Ela disse que está ocupada",
         "wrongAnswers": ["Ela acha que está ocupada", "Ela sabe que está ocupada", "Ela sente que está ocupada"]
+      },
+      "german": {
+        "text": "Sie sagte, dass sie beschäftigt ist",
+        "wrongAnswers": ["Sie denkt, dass sie beschäftigt ist", "Sie weiß, dass sie beschäftigt ist", "Sie fühlt, dass sie beschäftigt ist"]
       }
     }
   },
@@ -1193,6 +1441,10 @@
       "portuguese": {
         "text": "Ouvi que ele saiu",
         "wrongAnswers": ["Sei que ele saiu", "Vi que ele saiu", "Acho que ele saiu"]
+      },
+      "german": {
+        "text": "Ich habe gehört, dass er gegangen ist",
+        "wrongAnswers": ["Ich weiß, dass er gegangen ist", "Ich habe gesehen, dass er gegangen ist", "Ich denke, dass er gegangen ist"]
       }
     }
   },
@@ -1212,6 +1464,10 @@
       "portuguese": {
         "text": "Quando chegar a casa, ligo",
         "wrongAnswers": ["Se chegar a casa, ligo", "Enquanto chegar a casa, ligo", "Depois de chegar a casa, ligo"]
+      },
+      "german": {
+        "text": "Wenn ich nach Hause komme, rufe ich an",
+        "wrongAnswers": ["Falls ich nach Hause komme, rufe ich an", "Während ich nach Hause komme, rufe ich an", "Nachdem ich nach Hause komme, rufe ich an"]
       }
     }
   },
@@ -1231,6 +1487,10 @@
       "portuguese": {
         "text": "Quando o vires, diz-lhe",
         "wrongAnswers": ["Se o vires, diz-lhe", "Enquanto o vires, diz-lhe", "Depois de o vires, diz-lhe"]
+      },
+      "german": {
+        "text": "Wenn du ihn siehst, sag ihm",
+        "wrongAnswers": ["Falls du ihn siehst, sag ihm", "Während du ihn siehst, sag ihm", "Nachdem du ihn siehst, sag ihm"]
       }
     }
   },
@@ -1250,6 +1510,10 @@
       "portuguese": {
         "text": "Fiquei feliz quando ela chegou",
         "wrongAnswers": ["Fiquei feliz se ela chegou", "Fiquei feliz enquanto ela chegou", "Fiquei feliz que ela chegou"]
+      },
+      "german": {
+        "text": "Ich war froh, als sie ankam",
+        "wrongAnswers": ["Ich war froh, falls sie ankam", "Ich war froh, während sie ankam", "Ich war froh, dass sie ankam"]
       }
     }
   },
@@ -1269,6 +1533,10 @@
       "portuguese": {
         "text": "Se quiseres, podemos ir",
         "wrongAnswers": ["Quando quiseres, podemos ir", "Enquanto quiseres, podemos ir", "O que quiseres, podemos ir"]
+      },
+      "german": {
+        "text": "Wenn du willst, können wir gehen",
+        "wrongAnswers": ["Wann du willst, können wir gehen", "Während du willst, können wir gehen", "Was du willst, können wir gehen"]
       }
     }
   },
@@ -1288,6 +1556,10 @@
       "portuguese": {
         "text": "Se chover, fico em casa",
         "wrongAnswers": ["Quando chover, fico em casa", "Enquanto chover, fico em casa", "O que chover, fico em casa"]
+      },
+      "german": {
+        "text": "Wenn es regnet, bleibe ich zu Hause",
+        "wrongAnswers": ["Wann es regnet, bleibe ich zu Hause", "Während es regnet, bleibe ich zu Hause", "Was es regnet, bleibe ich zu Hause"]
       }
     }
   },
@@ -1307,6 +1579,10 @@
       "portuguese": {
         "text": "Liga-me se precisares de ajuda",
         "wrongAnswers": ["Liga-me quando precisares de ajuda", "Liga-me enquanto precisares de ajuda", "Liga-me que precisas de ajuda"]
+      },
+      "german": {
+        "text": "Ruf mich an, wenn du Hilfe brauchst",
+        "wrongAnswers": ["Ruf mich an, wann du Hilfe brauchst", "Ruf mich an, während du Hilfe brauchst", "Ruf mich an, dass du Hilfe brauchst"]
       }
     }
   },
@@ -1326,6 +1602,10 @@
       "portuguese": {
         "text": "Estou atrasado porque havia trânsito",
         "wrongAnswers": ["Estou atrasado quando havia trânsito", "Estou atrasado se havia trânsito", "Estou atrasado enquanto havia trânsito"]
+      },
+      "german": {
+        "text": "Ich bin spät, weil der Verkehr schlecht war",
+        "wrongAnswers": ["Ich bin spät, wenn der Verkehr schlecht war", "Ich bin spät, falls der Verkehr schlecht war", "Ich bin spät, während der Verkehr schlecht war"]
       }
     }
   },
@@ -1345,6 +1625,10 @@
       "portuguese": {
         "text": "Está cansada porque trabalhou muito",
         "wrongAnswers": ["Está cansada quando trabalhou muito", "Está cansada se trabalhou muito", "Está cansada enquanto trabalhou muito"]
+      },
+      "german": {
+        "text": "Sie ist müde, weil sie viel gearbeitet hat",
+        "wrongAnswers": ["Sie ist müde, wenn sie viel gearbeitet hat", "Sie ist müde, falls sie viel gearbeitet hat", "Sie ist müde, während sie viel gearbeitet hat"]
       }
     }
   },
@@ -1364,6 +1648,10 @@
       "portuguese": {
         "text": "Estou aprendendo português porque gosto",
         "wrongAnswers": ["Estou aprendendo português quando gosto", "Estou aprendendo português se gosto", "Estou aprendendo português que gosto"]
+      },
+      "german": {
+        "text": "Ich lerne Deutsch, weil es mir gefällt",
+        "wrongAnswers": ["Ich lerne Deutsch, wenn es mir gefällt", "Ich lerne Deutsch, falls es mir gefällt", "Ich lerne Deutsch, dass es mir gefällt"]
       }
     }
   },
@@ -1383,6 +1671,10 @@
       "portuguese": {
         "text": "Vim para falar",
         "wrongAnswers": ["Vim quando falar", "Vim que falar", "Vim porque falar"]
+      },
+      "german": {
+        "text": "Ich bin gekommen, um zu reden",
+        "wrongAnswers": ["Ich bin gekommen, wenn reden", "Ich bin gekommen, dass reden", "Ich bin gekommen, weil reden"]
       }
     }
   },
@@ -1402,6 +1694,10 @@
       "portuguese": {
         "text": "Está estudando para passar no exame",
         "wrongAnswers": ["Está estudando quando passar no exame", "Está estudando porque passar no exame", "Está estudando se passar no exame"]
+      },
+      "german": {
+        "text": "Sie lernt, um die Prüfung zu bestehen",
+        "wrongAnswers": ["Sie lernt, wenn die Prüfung bestehen", "Sie lernt, weil die Prüfung bestehen", "Sie lernt, falls die Prüfung bestehen"]
       }
     }
   },
@@ -1421,6 +1717,10 @@
       "portuguese": {
         "text": "Precisamos apressar-nos para apanhar o comboio",
         "wrongAnswers": ["Precisamos apressar-nos quando apanhar o comboio", "Precisamos apressar-nos se apanhar o comboio", "Precisamos apressar-nos porque apanhar o comboio"]
+      },
+      "german": {
+        "text": "Wir müssen uns beeilen, um den Zug zu erreichen",
+        "wrongAnswers": ["Wir müssen uns beeilen, wenn den Zug erreichen", "Wir müssen uns beeilen, falls den Zug erreichen", "Wir müssen uns beeilen, weil den Zug erreichen"]
       }
     }
   }
