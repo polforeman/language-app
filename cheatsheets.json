@@ -44,6 +44,21 @@
         "• Não - No",
         "• Desculpe - Excuse me / Sorry"
       ]
+    },
+    "german": {
+      "title": "Basic Phrases",
+      "content": [
+        "**Greetings:**",
+        "• Hallo - Hello",
+        "• Tschüss - Bye (informal)",
+        "• Danke - Thank you",
+        "• Bitte - Please / You're welcome",
+        "",
+        "**Common responses:**",
+        "• Ja - Yes",
+        "• Nein - No",
+        "• Entschuldigung - Excuse me / Sorry"
+      ]
     }
   },
   "everyday-expressions": {
@@ -106,6 +121,26 @@
         "• Parece-me - It seems to me",
         "• Concordo - I agree"
       ]
+    },
+    "german": {
+      "title": "Everyday Expressions",
+      "content": [
+        "**Certainty & doubt:**",
+        "• Natürlich - Of course",
+        "• Vielleicht - Maybe",
+        "• Wahrscheinlich - Probably",
+        "",
+        "**Knowledge:**",
+        "• Ich weiß - I know",
+        "• Ich weiß nicht - I don't know",
+        "• Ich erinnere mich - I remember",
+        "• Ich habe vergessen - I forgot",
+        "",
+        "**Opinion:**",
+        "• Meiner Meinung nach - In my opinion",
+        "• Es scheint mir - It seems to me",
+        "• Ich stimme zu - I agree"
+      ]
     }
   },
   "numbers": {
@@ -134,6 +169,15 @@
         "• Um (1), Dois (2), Três (3)",
         "• Quatro (4), Cinco (5), Seis (6)",
         "• Sete (7), Oito (8), Nove (9), Dez (10)"
+      ]
+    },
+    "german": {
+      "title": "Numbers",
+      "content": [
+        "**1-10:**",
+        "• Eins (1), Zwei (2), Drei (3)",
+        "• Vier (4), Fünf (5), Sechs (6)",
+        "• Sieben (7), Acht (8), Neun (9), Zehn (10)"
       ]
     }
   },
@@ -206,6 +250,30 @@
         "**Saber (know how to):**",
         "• Sei nadar - I know how to swim"
       ]
+    },
+    "german": {
+      "title": "Modal Verbs",
+      "content": [
+        "**Können (can, be able to):**",
+        "• Ich kann - I can",
+        "• Du kannst - You can",
+        "• Er/sie/es kann - He/she can",
+        "",
+        "**Müssen (must):**",
+        "• Ich muss - I must",
+        "• Du musst - You must",
+        "• Er/sie/es muss - He/she must",
+        "",
+        "**Wollen (want):**",
+        "• Ich will, du willst, er will",
+        "",
+        "**Sollen (should):**",
+        "• Ich soll - I should",
+        "• Du sollst - You should",
+        "",
+        "**Brauchen (need):**",
+        "• Ich brauche - I need"
+      ]
     }
   },
   "subordinate-clauses": {
@@ -273,6 +341,148 @@
         "**Para (in order to):**",
         "• Vim para falar - I came to talk",
         "• Para + infinitive"
+      ]
+    },
+    "german": {
+      "title": "Subordinate Clauses",
+      "content": [
+        "**Dass (that):**",
+        "• Ich denke, dass... - I think that...",
+        "• Note: verb moves to the end of the clause",
+        "",
+        "**Wenn (if / when):**",
+        "• Wenn du willst - If you want / when you want",
+        "",
+        "**Weil (because):**",
+        "• ..., weil... - ...because...",
+        "• Note: verb moves to the end of the clause",
+        "",
+        "**Um... zu (in order to):**",
+        "• Ich bin hier, um zu lernen - I am here to learn",
+        "• Um + [objects] + zu + infinitive"
+      ]
+    }
+  },
+  "verb-conjugations": {
+    "russian": {
+      "title": "Verb Conjugations",
+      "content": [
+        "**Present Tense Endings (First Conjugation):**",
+        "• Я (I) ➔ -ю / -у",
+        "• Ты (you sing.) ➔ -ешь / -ёшь",
+        "• Он/Она/Оно (he/she/it) ➔ -ет / -ёт",
+        "• Мы (we) ➔ -ем / -ём",
+        "• Вы (you plur.) ➔ -ете / -ёте",
+        "• Они (they) ➔ -ют / -ут",
+        "",
+        "**Example (работать - to work):**",
+        "• работаю, работаешь, работает",
+        "• работаем, работаете, работают"
+      ]
+    },
+    "ukrainian": {
+      "title": "Verb Conjugations",
+      "content": [
+        "**Present Tense Endings (First Class):**",
+        "• Я (I) ➔ -ю / -у",
+        "• Ти (you sing.) ➔ -єш / -еш",
+        "• Він/Вона/Воно (he/she/it) ➔ -є / -е",
+        "• Ми (we) ➔ -ємо / -емо",
+        "• Ви (you plur.) ➔ -єте / -ете",
+        "• Вони (they) ➔ -ють / -уть",
+        "",
+        "**Example (працювати - to work):**",
+        "• працюю, працюєш, працює",
+        "• працюємо, працюєте, працюють"
+      ]
+    },
+    "portuguese": {
+      "title": "Verb Conjugations",
+      "content": [
+        "**Present Tense Endings (-ar verbs):**",
+        "• Eu (I) ➔ -o",
+        "• Tu (you sing. inf.) ➔ -as",
+        "• Ele/Ela/Você (he/she/you formal) ➔ -a",
+        "• Nós (we) ➔ -amos",
+        "• Eles/Elas/Vocês (they/you plur.) ➔ -am",
+        "",
+        "**Example (trabalhar - to work):**",
+        "• trabalho, trabalhas, trabalha",
+        "• trabalhamos, trabalham, trabalham"
+      ]
+    },
+    "german": {
+      "title": "Verb Conjugations",
+      "content": [
+        "**Present Tense Endings:**",
+        "• Ich (I) ➔ -e",
+        "• Du (you sing.) ➔ -st",
+        "• Er/Sie/Es (he/she/it) ➔ -t",
+        "• Wir (we) ➔ -en",
+        "• Ihr (you plur.) ➔ -t",
+        "• Sie/sie (you formal / they) ➔ -en",
+        "",
+        "**Example (arbeiten - to work):**",
+        "• arbeite, arbeitest, arbeitet",
+        "• arbeiten, arbeitet, arbeiten"
+      ]
+    }
+  },
+  "cases": {
+    "russian": {
+      "title": "Grammatical Cases",
+      "content": [
+        "**The 6 Cases:**",
+        "• **Nominative (Subject):** Кто/что (e.g., вода)",
+        "• **Accusative (Direct Object):** Кого/что (e.g., его, вижу книгу)",
+        "• **Genitive (Possession/'of'/'from'):** Кого/чего (e.g., мальчика, из города)",
+        "• **Dative (Indirect Object/'to'):** Кому/чему (e.g., сестре, учителю)",
+        "• **Instrumental (Means/'with'):** Кем/чем (e.g., ручкой, с братом)",
+        "• **Prepositional (Location/'about'):** О ком/о чём (e.g., в школе, о работе)"
+      ]
+    },
+    "ukrainian": {
+      "title": "Grammatical Cases",
+      "content": [
+        "**The 7 Cases (Common 6):**",
+        "• **Nominative (Subject):** Хто/що (e.g., вода)",
+        "• **Accusative (Direct Object):** Кого/що (e.g., його, бачу книгу)",
+        "• **Genitive (Possession/'of'/'from'):** Кого/чого (e.g., хлопчика, з міста)",
+        "• **Dative (Indirect Object/'to'):** Кому/чому (e.g., сестрі, вчителеві)",
+        "• **Instrumental (Means/'with'):** Ким/чим (e.g., ручкою, з братом)",
+        "• **Locative (Location/'about'):** На кому/на чому (e.g., у школі, про роботу)"
+      ]
+    },
+    "portuguese": {
+      "title": "Grammatical Cases (Contractions & Pronouns)",
+      "content": [
+        "**Preposition Contractions:**",
+        "• **de + articles (Genitive equivalent):**",
+        "  • de + o = do | de + a = da | de + os/as = dos/das",
+        "• **em + articles (Locative/Prepositional):**",
+        "  • em + o = no | em + a = na | em + os/as = nos/nas",
+        "• **a + articles (Dative equivalent):**",
+        "  • a + o = ao | a + a = à | a + os/as = aos/às",
+        "",
+        "**Object Pronouns (Accusative/Dative):**",
+        "• Direct object: -o, -a (e.g., vejo-o)",
+        "• Indirect object: -lhe (e.g., dou-lhe a chave)",
+        "• Us object: -nos (e.g., ajuda-nos)"
+      ]
+    },
+    "german": {
+      "title": "Grammatical Cases",
+      "content": [
+        "**The 4 Cases & Definite Articles:**",
+        "• **Nominative (Subject):** der, die, das, die",
+        "• **Accusative (Direct Object):** den, die, das, die",
+        "• **Dative (Indirect Object):** dem, der, dem, den",
+        "• **Genitive (Possession):** des (+s), der, des (+s), der",
+        "",
+        "**Preposition Rules:**",
+        "• **Dative Only:** aus, bei, mit, nach, seit, von, zu (e.g., aus dem Restaurant, mit dem Hund)",
+        "• **Accusative Only:** durch, für, gegen, ohne, um",
+        "• **Two-Way (Wechsel):** in, auf, über (Accusative = movement, Dative = location)"
       ]
     }
   }
