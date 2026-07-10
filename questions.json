@@ -1,1727 +1,6767 @@
 [
   {
     "id": "basic_hello",
-    "topics": ["basic-phrases"],
+    "topics": [
+      "basic-phrases"
+    ],
     "english": "Hello",
     "languages": {
       "russian": {
         "text": "Привет",
-        "wrongAnswers": ["Пока", "Спасибо", "Извините"]
+        "wrongAnswers": [
+          "Пока",
+          "Спасибо",
+          "Извините"
+        ]
       },
       "ukrainian": {
         "text": "Привіт",
-        "wrongAnswers": ["Бувай", "Дякую", "Вибачте"]
+        "wrongAnswers": [
+          "Бувай",
+          "Дякую",
+          "Вибачте"
+        ]
       },
       "portuguese": {
         "text": "Olá",
-        "wrongAnswers": ["Adeus", "Obrigado", "Desculpe"]
+        "wrongAnswers": [
+          "Adeus",
+          "Obrigado",
+          "Desculpe"
+        ]
       },
       "german": {
         "text": "Hallo",
-        "wrongAnswers": ["Tschüss", "Danke", "Entschuldigung"]
+        "wrongAnswers": [
+          "Tschüss",
+          "Danke",
+          "Entschuldigung"
+        ]
       }
     }
   },
   {
     "id": "basic_goodbye",
-    "topics": ["basic-phrases"],
+    "topics": [
+      "basic-phrases"
+    ],
     "english": "Goodbye",
     "languages": {
       "russian": {
         "text": "Пока",
-        "wrongAnswers": ["Привет", "Да", "Нет"]
+        "wrongAnswers": [
+          "Привет",
+          "Да",
+          "Нет"
+        ]
       },
       "ukrainian": {
         "text": "Бувай",
-        "wrongAnswers": ["Привіт", "Так", "Ні"]
+        "wrongAnswers": [
+          "Привіт",
+          "Так",
+          "Ні"
+        ]
       },
       "portuguese": {
         "text": "Adeus",
-        "wrongAnswers": ["Olá", "Sim", "Não"]
+        "wrongAnswers": [
+          "Olá",
+          "Sim",
+          "Não"
+        ]
       },
       "german": {
         "text": "Tschüss",
-        "wrongAnswers": ["Hallo", "Ja", "Nein"]
+        "wrongAnswers": [
+          "Hallo",
+          "Ja",
+          "Nein"
+        ]
       }
     }
   },
   {
     "id": "basic_thank_you",
-    "topics": ["basic-phrases"],
+    "topics": [
+      "basic-phrases"
+    ],
     "english": "Thank you",
     "languages": {
       "russian": {
         "text": "Спасибо",
-        "wrongAnswers": ["Пожалуйста", "Извините", "Помощь"]
+        "wrongAnswers": [
+          "Пожалуйста",
+          "Извините",
+          "Помощь"
+        ]
       },
       "ukrainian": {
         "text": "Дякую",
-        "wrongAnswers": ["Будь ласка", "Вибачте", "Допомога"]
+        "wrongAnswers": [
+          "Будь ласка",
+          "Вибачте",
+          "Допомога"
+        ]
       },
       "portuguese": {
         "text": "Obrigado",
-        "wrongAnswers": ["Por favor", "Desculpe", "Ajuda"]
+        "wrongAnswers": [
+          "Por favor",
+          "Desculpe",
+          "Ajuda"
+        ]
       },
       "german": {
         "text": "Danke",
-        "wrongAnswers": ["Bitte", "Entschuldigung", "Hilfe"]
+        "wrongAnswers": [
+          "Bitte",
+          "Entschuldigung",
+          "Hilfe"
+        ]
       }
     }
   },
   {
     "id": "basic_please",
-    "topics": ["basic-phrases"],
+    "topics": [
+      "basic-phrases"
+    ],
     "english": "Please",
     "languages": {
       "russian": {
         "text": "Пожалуйста",
-        "wrongAnswers": ["Спасибо", "Привет", "Да"]
+        "wrongAnswers": [
+          "Спасибо",
+          "Привет",
+          "Да"
+        ]
       },
       "ukrainian": {
         "text": "Будь ласка",
-        "wrongAnswers": ["Дякую", "Привіт", "Так"]
+        "wrongAnswers": [
+          "Дякую",
+          "Привіт",
+          "Так"
+        ]
       },
       "portuguese": {
         "text": "Por favor",
-        "wrongAnswers": ["Obrigado", "Olá", "Sim"]
+        "wrongAnswers": [
+          "Obrigado",
+          "Olá",
+          "Sim"
+        ]
       },
       "german": {
         "text": "Bitte",
-        "wrongAnswers": ["Danke", "Hallo", "Ja"]
+        "wrongAnswers": [
+          "Danke",
+          "Hallo",
+          "Ja"
+        ]
       }
     }
   },
   {
     "id": "basic_yes",
-    "topics": ["basic-phrases"],
+    "topics": [
+      "basic-phrases"
+    ],
     "english": "Yes",
     "languages": {
       "russian": {
         "text": "Да",
-        "wrongAnswers": ["Нет", "Может быть", "Хорошо"]
+        "wrongAnswers": [
+          "Нет",
+          "Может быть",
+          "Хорошо"
+        ]
       },
       "ukrainian": {
         "text": "Так",
-        "wrongAnswers": ["Ні", "Можливо", "Добре"]
+        "wrongAnswers": [
+          "Ні",
+          "Можливо",
+          "Добре"
+        ]
       },
       "portuguese": {
         "text": "Sim",
-        "wrongAnswers": ["Não", "Talvez", "Bom"]
+        "wrongAnswers": [
+          "Não",
+          "Talvez",
+          "Bom"
+        ]
       },
       "german": {
         "text": "Ja",
-        "wrongAnswers": ["Nein", "Vielleicht", "Gut"]
+        "wrongAnswers": [
+          "Nein",
+          "Vielleicht",
+          "Gut"
+        ]
       }
     }
   },
   {
     "id": "basic_no",
-    "topics": ["basic-phrases"],
+    "topics": [
+      "basic-phrases"
+    ],
     "english": "No",
     "languages": {
       "russian": {
         "text": "Нет",
-        "wrongAnswers": ["Да", "Никогда", "Ничего"]
+        "wrongAnswers": [
+          "Да",
+          "Никогда",
+          "Ничего"
+        ]
       },
       "ukrainian": {
         "text": "Ні",
-        "wrongAnswers": ["Так", "Ніколи", "Нічого"]
+        "wrongAnswers": [
+          "Так",
+          "Ніколи",
+          "Нічого"
+        ]
       },
       "portuguese": {
         "text": "Não",
-        "wrongAnswers": ["Sim", "Nunca", "Nada"]
+        "wrongAnswers": [
+          "Sim",
+          "Nunca",
+          "Nada"
+        ]
       },
       "german": {
         "text": "Nein",
-        "wrongAnswers": ["Ja", "Niemals", "Nichts"]
+        "wrongAnswers": [
+          "Ja",
+          "Niemals",
+          "Nichts"
+        ]
       }
     }
   },
   {
     "id": "basic_excuse_me",
-    "topics": ["basic-phrases"],
+    "topics": [
+      "basic-phrases"
+    ],
     "english": "Excuse me",
     "languages": {
       "russian": {
         "text": "Извините",
-        "wrongAnswers": ["Спасибо", "Пожалуйста", "Простите"]
+        "wrongAnswers": [
+          "Спасибо",
+          "Пожалуйста",
+          "Простите"
+        ]
       },
       "ukrainian": {
         "text": "Вибачте",
-        "wrongAnswers": ["Дякую", "Будь ласка", "Пробачте"]
+        "wrongAnswers": [
+          "Дякую",
+          "Будь ласка",
+          "Пробачте"
+        ]
       },
       "portuguese": {
         "text": "Desculpe",
-        "wrongAnswers": ["Obrigado", "Por favor", "Perdão"]
+        "wrongAnswers": [
+          "Obrigado",
+          "Por favor",
+          "Perdão"
+        ]
       },
       "german": {
         "text": "Entschuldigung",
-        "wrongAnswers": ["Danke", "Bitte", "Verzeihung"]
+        "wrongAnswers": [
+          "Danke",
+          "Bitte",
+          "Verzeihung"
+        ]
       }
     }
   },
   {
     "id": "basic_dont_understand",
-    "topics": ["basic-phrases"],
+    "topics": [
+      "basic-phrases"
+    ],
     "english": "I don't understand",
     "languages": {
       "russian": {
         "text": "Я не понимаю",
-        "wrongAnswers": ["Я понимаю", "Я знаю", "Я не знаю"]
+        "wrongAnswers": [
+          "Я понимаю",
+          "Я знаю",
+          "Я не знаю"
+        ]
       },
       "ukrainian": {
         "text": "Я не розумію",
-        "wrongAnswers": ["Я розумію", "Я знаю", "Я не знаю"]
+        "wrongAnswers": [
+          "Я розумію",
+          "Я знаю",
+          "Я не знаю"
+        ]
       },
       "portuguese": {
         "text": "Não entendo",
-        "wrongAnswers": ["Entendo", "Sei", "Não sei"]
+        "wrongAnswers": [
+          "Entendo",
+          "Sei",
+          "Não sei"
+        ]
       },
       "german": {
         "text": "Ich verstehe nicht",
-        "wrongAnswers": ["Ich verstehe", "Ich weiß", "Ich weiß nicht"]
+        "wrongAnswers": [
+          "Ich verstehe",
+          "Ich weiß",
+          "Ich weiß nicht"
+        ]
       }
     }
   },
   {
     "id": "everyday_dont_know",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "I don't know",
     "languages": {
       "russian": {
         "text": "Я не знаю",
-        "wrongAnswers": ["Я знаю", "Я не понимаю", "Я не помню"]
+        "wrongAnswers": [
+          "Я знаю",
+          "Я не понимаю",
+          "Я не помню"
+        ]
       },
       "ukrainian": {
         "text": "Я не знаю",
-        "wrongAnswers": ["Я знаю", "Я не розумію", "Я не пам'ятаю"]
+        "wrongAnswers": [
+          "Я знаю",
+          "Я не розумію",
+          "Я не пам'ятаю"
+        ]
       },
       "portuguese": {
         "text": "Não sei",
-        "wrongAnswers": ["Sei", "Não entendo", "Não me lembro"]
+        "wrongAnswers": [
+          "Sei",
+          "Não entendo",
+          "Não me lembro"
+        ]
       },
       "german": {
         "text": "Ich weiß nicht",
-        "wrongAnswers": ["Ich weiß", "Ich verstehe nicht", "Ich erinnere mich nicht"]
+        "wrongAnswers": [
+          "Ich weiß",
+          "Ich verstehe nicht",
+          "Ich erinnere mich nicht"
+        ]
       }
     }
   },
   {
     "id": "everyday_think_so",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "I think so",
     "languages": {
       "russian": {
         "text": "Я так думаю",
-        "wrongAnswers": ["Я не думаю", "Я знаю это", "Я так считаю"]
+        "wrongAnswers": [
+          "Я не думаю",
+          "Я знаю это",
+          "Я так считаю"
+        ]
       },
       "ukrainian": {
         "text": "Я так думаю",
-        "wrongAnswers": ["Я не думаю", "Я це знаю", "Я так вважаю"]
+        "wrongAnswers": [
+          "Я не думаю",
+          "Я це знаю",
+          "Я так вважаю"
+        ]
       },
       "portuguese": {
         "text": "Acho que sim",
-        "wrongAnswers": ["Não acho", "Sei isso", "Acredito que sim"]
+        "wrongAnswers": [
+          "Não acho",
+          "Sei isso",
+          "Acredito que sim"
+        ]
       },
       "german": {
         "text": "Ich denke schon",
-        "wrongAnswers": ["Ich denke nicht", "Ich weiß das", "Ich glaube schon"]
+        "wrongAnswers": [
+          "Ich denke nicht",
+          "Ich weiß das",
+          "Ich glaube schon"
+        ]
       }
     }
   },
   {
     "id": "everyday_maybe",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "Maybe",
     "languages": {
       "russian": {
         "text": "Может быть",
-        "wrongAnswers": ["Конечно", "Наверное", "Точно"]
+        "wrongAnswers": [
+          "Конечно",
+          "Наверное",
+          "Точно"
+        ]
       },
       "ukrainian": {
         "text": "Можливо",
-        "wrongAnswers": ["Звичайно", "Мабуть", "Точно"]
+        "wrongAnswers": [
+          "Звичайно",
+          "Мабуть",
+          "Точно"
+        ]
       },
       "portuguese": {
         "text": "Talvez",
-        "wrongAnswers": ["Claro", "Provavelmente", "Com certeza"]
+        "wrongAnswers": [
+          "Claro",
+          "Provavelmente",
+          "Com certeza"
+        ]
       },
       "german": {
         "text": "Vielleicht",
-        "wrongAnswers": ["Natürlich", "Wahrscheinlich", "Sicher"]
+        "wrongAnswers": [
+          "Natürlich",
+          "Wahrscheinlich",
+          "Sicher"
+        ]
       }
     }
   },
   {
     "id": "everyday_probably",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "Probably",
     "languages": {
       "russian": {
         "text": "Наверное",
-        "wrongAnswers": ["Может быть", "Точно", "Конечно"]
+        "wrongAnswers": [
+          "Может быть",
+          "Точно",
+          "Конечно"
+        ]
       },
       "ukrainian": {
         "text": "Мабуть",
-        "wrongAnswers": ["Можливо", "Точно", "Звичайно"]
+        "wrongAnswers": [
+          "Можливо",
+          "Точно",
+          "Звичайно"
+        ]
       },
       "portuguese": {
         "text": "Provavelmente",
-        "wrongAnswers": ["Talvez", "Com certeza", "Claro"]
+        "wrongAnswers": [
+          "Talvez",
+          "Com certeza",
+          "Claro"
+        ]
       },
       "german": {
         "text": "Wahrscheinlich",
-        "wrongAnswers": ["Vielleicht", "Sicher", "Natürlich"]
+        "wrongAnswers": [
+          "Vielleicht",
+          "Sicher",
+          "Natürlich"
+        ]
       }
     }
   },
   {
     "id": "everyday_of_course",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "Of course",
     "languages": {
       "russian": {
         "text": "Конечно",
-        "wrongAnswers": ["Наверное", "Может быть", "Возможно"]
+        "wrongAnswers": [
+          "Наверное",
+          "Может быть",
+          "Возможно"
+        ]
       },
       "ukrainian": {
         "text": "Звичайно",
-        "wrongAnswers": ["Мабуть", "Можливо", "Може бути"]
+        "wrongAnswers": [
+          "Мабуть",
+          "Можливо",
+          "Може бути"
+        ]
       },
       "portuguese": {
         "text": "Claro",
-        "wrongAnswers": ["Provavelmente", "Talvez", "Possivelmente"]
+        "wrongAnswers": [
+          "Provavelmente",
+          "Talvez",
+          "Possivelmente"
+        ]
       },
       "german": {
         "text": "Natürlich",
-        "wrongAnswers": ["Wahrscheinlich", "Vielleicht", "Möglicherweise"]
+        "wrongAnswers": [
+          "Wahrscheinlich",
+          "Vielleicht",
+          "Möglicherweise"
+        ]
       }
     }
   },
   {
     "id": "everyday_little_bit",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "A little bit",
     "languages": {
       "russian": {
         "text": "Немного",
-        "wrongAnswers": ["Много", "Чуть-чуть", "Мало"]
+        "wrongAnswers": [
+          "Много",
+          "Чуть-чуть",
+          "Мало"
+        ]
       },
       "ukrainian": {
         "text": "Трохи",
-        "wrongAnswers": ["Багато", "Трішки", "Мало"]
+        "wrongAnswers": [
+          "Багато",
+          "Трішки",
+          "Мало"
+        ]
       },
       "portuguese": {
         "text": "Um pouco",
-        "wrongAnswers": ["Muito", "Um bocadinho", "Pouco"]
+        "wrongAnswers": [
+          "Muito",
+          "Um bocadinho",
+          "Pouco"
+        ]
       },
       "german": {
         "text": "Ein bisschen",
-        "wrongAnswers": ["Viel", "Ein wenig", "Wenig"]
+        "wrongAnswers": [
+          "Viel",
+          "Ein wenig",
+          "Wenig"
+        ]
       }
     }
   },
   {
     "id": "everyday_very_much",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "Very much",
     "languages": {
       "russian": {
         "text": "Очень",
-        "wrongAnswers": ["Немного", "Мало", "Много"]
+        "wrongAnswers": [
+          "Немного",
+          "Мало",
+          "Много"
+        ]
       },
       "ukrainian": {
         "text": "Дуже",
-        "wrongAnswers": ["Трохи", "Мало", "Багато"]
+        "wrongAnswers": [
+          "Трохи",
+          "Мало",
+          "Багато"
+        ]
       },
       "portuguese": {
         "text": "Muito",
-        "wrongAnswers": ["Um pouco", "Pouco", "Bastante"]
+        "wrongAnswers": [
+          "Um pouco",
+          "Pouco",
+          "Bastante"
+        ]
       },
       "german": {
         "text": "Sehr",
-        "wrongAnswers": ["Ein bisschen", "Wenig", "Viel"]
+        "wrongAnswers": [
+          "Ein bisschen",
+          "Wenig",
+          "Viel"
+        ]
       }
     }
   },
   {
     "id": "everyday_remember",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "I remember",
     "languages": {
       "russian": {
         "text": "Я помню",
-        "wrongAnswers": ["Я не помню", "Я знаю", "Я забыл"]
+        "wrongAnswers": [
+          "Я не помню",
+          "Я знаю",
+          "Я забыл"
+        ]
       },
       "ukrainian": {
         "text": "Я пам'ятаю",
-        "wrongAnswers": ["Я не пам'ятаю", "Я знаю", "Я забув"]
+        "wrongAnswers": [
+          "Я не пам'ятаю",
+          "Я знаю",
+          "Я забув"
+        ]
       },
       "portuguese": {
         "text": "Lembro-me",
-        "wrongAnswers": ["Não me lembro", "Sei", "Esqueci"]
+        "wrongAnswers": [
+          "Não me lembro",
+          "Sei",
+          "Esqueci"
+        ]
       },
       "german": {
         "text": "Ich erinnere mich",
-        "wrongAnswers": ["Ich erinnere mich nicht", "Ich weiß", "Ich habe vergessen"]
+        "wrongAnswers": [
+          "Ich erinnere mich nicht",
+          "Ich weiß",
+          "Ich habe vergessen"
+        ]
       }
     }
   },
   {
     "id": "everyday_forgot",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "I forgot",
     "languages": {
       "russian": {
         "text": "Я забыл",
-        "wrongAnswers": ["Я помню", "Я не знаю", "Я вспомнил"]
+        "wrongAnswers": [
+          "Я помню",
+          "Я не знаю",
+          "Я вспомнил"
+        ]
       },
       "ukrainian": {
         "text": "Я забув",
-        "wrongAnswers": ["Я пам'ятаю", "Я не знаю", "Я згадав"]
+        "wrongAnswers": [
+          "Я пам'ятаю",
+          "Я не знаю",
+          "Я згадав"
+        ]
       },
       "portuguese": {
         "text": "Esqueci",
-        "wrongAnswers": ["Lembro-me", "Não sei", "Recordei"]
+        "wrongAnswers": [
+          "Lembro-me",
+          "Não sei",
+          "Recordei"
+        ]
       },
       "german": {
         "text": "Ich habe vergessen",
-        "wrongAnswers": ["Ich erinnere mich", "Ich weiß nicht", "Ich habe mich erinnert"]
+        "wrongAnswers": [
+          "Ich erinnere mich",
+          "Ich weiß nicht",
+          "Ich habe mich erinnert"
+        ]
       }
     }
   },
   {
     "id": "everyday_in_my_opinion",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "In my opinion",
     "languages": {
       "russian": {
         "text": "По-моему",
-        "wrongAnswers": ["Я думаю", "Мне кажется", "Я считаю"]
+        "wrongAnswers": [
+          "Я думаю",
+          "Мне кажется",
+          "Я считаю"
+        ]
       },
       "ukrainian": {
         "text": "На мою думку",
-        "wrongAnswers": ["Я думаю", "Мені здається", "Я вважаю"]
+        "wrongAnswers": [
+          "Я думаю",
+          "Мені здається",
+          "Я вважаю"
+        ]
       },
       "portuguese": {
         "text": "Na minha opinião",
-        "wrongAnswers": ["Acho", "Parece-me", "Considero"]
+        "wrongAnswers": [
+          "Acho",
+          "Parece-me",
+          "Considero"
+        ]
       },
       "german": {
         "text": "Meiner Meinung nach",
-        "wrongAnswers": ["Ich denke", "Es scheint mir", "Ich finde"]
+        "wrongAnswers": [
+          "Ich denke",
+          "Es scheint mir",
+          "Ich finde"
+        ]
       }
     }
   },
   {
     "id": "everyday_seems_to_me",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "It seems to me",
     "languages": {
       "russian": {
         "text": "Мне кажется",
-        "wrongAnswers": ["По-моему", "Я думаю", "Я уверен"]
+        "wrongAnswers": [
+          "По-моему",
+          "Я думаю",
+          "Я уверен"
+        ]
       },
       "ukrainian": {
         "text": "Мені здається",
-        "wrongAnswers": ["На мою думку", "Я думаю", "Я впевнений"]
+        "wrongAnswers": [
+          "На мою думку",
+          "Я думаю",
+          "Я впевнений"
+        ]
       },
       "portuguese": {
         "text": "Parece-me",
-        "wrongAnswers": ["Na minha opinião", "Acho", "Tenho certeza"]
+        "wrongAnswers": [
+          "Na minha opinião",
+          "Acho",
+          "Tenho certeza"
+        ]
       },
       "german": {
         "text": "Es scheint mir",
-        "wrongAnswers": ["Meiner Meinung nach", "Ich denke", "Ich bin sicher"]
+        "wrongAnswers": [
+          "Meiner Meinung nach",
+          "Ich denke",
+          "Ich bin sicher"
+        ]
       }
     }
   },
   {
     "id": "everyday_agree",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "I agree",
     "languages": {
       "russian": {
         "text": "Я согласен",
-        "wrongAnswers": ["Я не согласен", "Я думаю так", "Это правда"]
+        "wrongAnswers": [
+          "Я не согласен",
+          "Я думаю так",
+          "Это правда"
+        ]
       },
       "ukrainian": {
         "text": "Я згоден",
-        "wrongAnswers": ["Я не згоден", "Я так думаю", "Це правда"]
+        "wrongAnswers": [
+          "Я не згоден",
+          "Я так думаю",
+          "Це правда"
+        ]
       },
       "portuguese": {
         "text": "Concordo",
-        "wrongAnswers": ["Não concordo", "Acho assim", "É verdade"]
+        "wrongAnswers": [
+          "Não concordo",
+          "Acho assim",
+          "É verdade"
+        ]
       },
       "german": {
         "text": "Ich stimme zu",
-        "wrongAnswers": ["Ich stimme nicht zu", "Ich denke so", "Das ist wahr"]
+        "wrongAnswers": [
+          "Ich stimme nicht zu",
+          "Ich denke so",
+          "Das ist wahr"
+        ]
       }
     }
   },
   {
     "id": "everyday_dont_agree",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "I don't agree",
     "languages": {
       "russian": {
         "text": "Я не согласен",
-        "wrongAnswers": ["Я согласен", "Это неправда", "Я сомневаюсь"]
+        "wrongAnswers": [
+          "Я согласен",
+          "Это неправда",
+          "Я сомневаюсь"
+        ]
       },
       "ukrainian": {
         "text": "Я не згоден",
-        "wrongAnswers": ["Я згоден", "Це неправда", "Я сумніваюся"]
+        "wrongAnswers": [
+          "Я згоден",
+          "Це неправда",
+          "Я сумніваюся"
+        ]
       },
       "portuguese": {
         "text": "Não concordo",
-        "wrongAnswers": ["Concordo", "Não é verdade", "Tenho dúvidas"]
+        "wrongAnswers": [
+          "Concordo",
+          "Não é verdade",
+          "Tenho dúvidas"
+        ]
       },
       "german": {
         "text": "Ich stimme nicht zu",
-        "wrongAnswers": ["Ich stimme zu", "Das ist nicht wahr", "Ich habe Zweifel"]
+        "wrongAnswers": [
+          "Ich stimme zu",
+          "Das ist nicht wahr",
+          "Ich habe Zweifel"
+        ]
       }
     }
   },
   {
     "id": "everyday_thats_right",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "That's right",
     "languages": {
       "russian": {
         "text": "Это правда",
-        "wrongAnswers": ["Это неправда", "Это верно", "Конечно"]
+        "wrongAnswers": [
+          "Это неправда",
+          "Это верно",
+          "Конечно"
+        ]
       },
       "ukrainian": {
         "text": "Це правда",
-        "wrongAnswers": ["Це неправда", "Це вірно", "Звичайно"]
+        "wrongAnswers": [
+          "Це неправда",
+          "Це вірно",
+          "Звичайно"
+        ]
       },
       "portuguese": {
         "text": "É verdade",
-        "wrongAnswers": ["Não é verdade", "Está certo", "Claro"]
+        "wrongAnswers": [
+          "Não é verdade",
+          "Está certo",
+          "Claro"
+        ]
       },
       "german": {
         "text": "Das stimmt",
-        "wrongAnswers": ["Das stimmt nicht", "Das ist richtig", "Natürlich"]
+        "wrongAnswers": [
+          "Das stimmt nicht",
+          "Das ist richtig",
+          "Natürlich"
+        ]
       }
     }
   },
   {
     "id": "everyday_thats_wrong",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "That's wrong",
     "languages": {
       "russian": {
         "text": "Это неправда",
-        "wrongAnswers": ["Это правда", "Это ошибка", "Это не так"]
+        "wrongAnswers": [
+          "Это правда",
+          "Это ошибка",
+          "Это не так"
+        ]
       },
       "ukrainian": {
         "text": "Це неправда",
-        "wrongAnswers": ["Це правда", "Це помилка", "Це не так"]
+        "wrongAnswers": [
+          "Це правда",
+          "Це помилка",
+          "Це не так"
+        ]
       },
       "portuguese": {
         "text": "Não é verdade",
-        "wrongAnswers": ["É verdade", "É erro", "Não é assim"]
+        "wrongAnswers": [
+          "É verdade",
+          "É erro",
+          "Não é assim"
+        ]
       },
       "german": {
         "text": "Das stimmt nicht",
-        "wrongAnswers": ["Das stimmt", "Das ist ein Fehler", "Das ist nicht so"]
+        "wrongAnswers": [
+          "Das stimmt",
+          "Das ist ein Fehler",
+          "Das ist nicht so"
+        ]
       }
     }
   },
   {
     "id": "common_water",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "Water",
     "languages": {
       "russian": {
         "text": "Вода",
-        "wrongAnswers": ["Еда", "Молоко", "Чай"]
+        "wrongAnswers": [
+          "Еда",
+          "Молоко",
+          "Чай"
+        ]
       },
       "ukrainian": {
         "text": "Вода",
-        "wrongAnswers": ["Їжа", "Молоко", "Чай"]
+        "wrongAnswers": [
+          "Їжа",
+          "Молоко",
+          "Чай"
+        ]
       },
       "portuguese": {
         "text": "Água",
-        "wrongAnswers": ["Comida", "Leite", "Chá"]
+        "wrongAnswers": [
+          "Comida",
+          "Leite",
+          "Chá"
+        ]
       },
       "german": {
         "text": "Wasser",
-        "wrongAnswers": ["Essen", "Milch", "Tee"]
+        "wrongAnswers": [
+          "Essen",
+          "Milch",
+          "Tee"
+        ]
       }
     }
   },
   {
     "id": "common_food",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "Food",
     "languages": {
       "russian": {
         "text": "Еда",
-        "wrongAnswers": ["Вода", "Хлеб", "Мясо"]
+        "wrongAnswers": [
+          "Вода",
+          "Хлеб",
+          "Мясо"
+        ]
       },
       "ukrainian": {
         "text": "Їжа",
-        "wrongAnswers": ["Вода", "Хліб", "М'ясо"]
+        "wrongAnswers": [
+          "Вода",
+          "Хліб",
+          "М'ясо"
+        ]
       },
       "portuguese": {
         "text": "Comida",
-        "wrongAnswers": ["Água", "Pão", "Carne"]
+        "wrongAnswers": [
+          "Água",
+          "Pão",
+          "Carne"
+        ]
       },
       "german": {
         "text": "Essen",
-        "wrongAnswers": ["Wasser", "Brot", "Fleisch"]
+        "wrongAnswers": [
+          "Wasser",
+          "Brot",
+          "Fleisch"
+        ]
       }
     }
   },
   {
     "id": "common_help",
-    "topics": ["everyday-expressions"],
+    "topics": [
+      "everyday-expressions"
+    ],
     "english": "Help",
     "languages": {
       "russian": {
         "text": "Помощь",
-        "wrongAnswers": ["Помогите", "Здесь", "Там"]
+        "wrongAnswers": [
+          "Помогите",
+          "Здесь",
+          "Там"
+        ]
       },
       "ukrainian": {
         "text": "Допомога",
-        "wrongAnswers": ["Допоможіть", "Тут", "Там"]
+        "wrongAnswers": [
+          "Допоможіть",
+          "Тут",
+          "Там"
+        ]
       },
       "portuguese": {
         "text": "Ajuda",
-        "wrongAnswers": ["Ajude", "Aqui", "Lá"]
+        "wrongAnswers": [
+          "Ajude",
+          "Aqui",
+          "Lá"
+        ]
       },
       "german": {
         "text": "Hilfe",
-        "wrongAnswers": ["Helfen Sie", "Hier", "Dort"]
+        "wrongAnswers": [
+          "Helfen Sie",
+          "Hier",
+          "Dort"
+        ]
       }
     }
   },
   {
     "id": "numbers_one",
-    "topics": ["numbers"],
+    "topics": [
+      "numbers"
+    ],
     "english": "One",
     "languages": {
       "russian": {
         "text": "Один",
-        "wrongAnswers": ["Два", "Три", "Четыре"]
+        "wrongAnswers": [
+          "Два",
+          "Три",
+          "Четыре"
+        ]
       },
       "ukrainian": {
         "text": "Один",
-        "wrongAnswers": ["Два", "Три", "Чотири"]
+        "wrongAnswers": [
+          "Два",
+          "Три",
+          "Чотири"
+        ]
       },
       "portuguese": {
         "text": "Um",
-        "wrongAnswers": ["Dois", "Três", "Quatro"]
+        "wrongAnswers": [
+          "Dois",
+          "Três",
+          "Quatro"
+        ]
       },
       "german": {
         "text": "Eins",
-        "wrongAnswers": ["Zwei", "Drei", "Vier"]
+        "wrongAnswers": [
+          "Zwei",
+          "Drei",
+          "Vier"
+        ]
       }
     }
   },
   {
     "id": "numbers_two",
-    "topics": ["numbers"],
+    "topics": [
+      "numbers"
+    ],
     "english": "Two",
     "languages": {
       "russian": {
         "text": "Два",
-        "wrongAnswers": ["Один", "Три", "Пять"]
+        "wrongAnswers": [
+          "Один",
+          "Три",
+          "Пять"
+        ]
       },
       "ukrainian": {
         "text": "Два",
-        "wrongAnswers": ["Один", "Три", "П'ять"]
+        "wrongAnswers": [
+          "Один",
+          "Три",
+          "П'ять"
+        ]
       },
       "portuguese": {
         "text": "Dois",
-        "wrongAnswers": ["Um", "Três", "Cinco"]
+        "wrongAnswers": [
+          "Um",
+          "Três",
+          "Cinco"
+        ]
       },
       "german": {
         "text": "Zwei",
-        "wrongAnswers": ["Eins", "Drei", "Fünf"]
+        "wrongAnswers": [
+          "Eins",
+          "Drei",
+          "Fünf"
+        ]
       }
     }
   },
   {
     "id": "numbers_three",
-    "topics": ["numbers"],
+    "topics": [
+      "numbers"
+    ],
     "english": "Three",
     "languages": {
       "russian": {
         "text": "Три",
-        "wrongAnswers": ["Два", "Четыре", "Шесть"]
+        "wrongAnswers": [
+          "Два",
+          "Четыре",
+          "Шесть"
+        ]
       },
       "ukrainian": {
         "text": "Три",
-        "wrongAnswers": ["Два", "Чотири", "Шість"]
+        "wrongAnswers": [
+          "Два",
+          "Чотири",
+          "Шість"
+        ]
       },
       "portuguese": {
         "text": "Três",
-        "wrongAnswers": ["Dois", "Quatro", "Seis"]
+        "wrongAnswers": [
+          "Dois",
+          "Quatro",
+          "Seis"
+        ]
       },
       "german": {
         "text": "Drei",
-        "wrongAnswers": ["Zwei", "Vier", "Sechs"]
+        "wrongAnswers": [
+          "Zwei",
+          "Vier",
+          "Sechs"
+        ]
       }
     }
   },
   {
     "id": "modal_can_help",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "I can help you",
     "languages": {
       "russian": {
         "text": "Я могу помочь тебе",
-        "wrongAnswers": ["Я должен помочь тебе", "Я хочу помочь тебе", "Я буду помочь тебе"]
+        "wrongAnswers": [
+          "Я должен помочь тебе",
+          "Я хочу помочь тебе",
+          "Я буду помочь тебе"
+        ]
       },
       "ukrainian": {
         "text": "Я можу допомогти тобі",
-        "wrongAnswers": ["Я повинен допомогти тобі", "Я хочу допомогти тобі", "Я буду допомогти тобі"]
+        "wrongAnswers": [
+          "Я повинен допомогти тобі",
+          "Я хочу допомогти тобі",
+          "Я буду допомогти тобі"
+        ]
       },
       "portuguese": {
         "text": "Posso ajudar-te",
-        "wrongAnswers": ["Devo ajudar-te", "Quero ajudar-te", "Vou ajudar-te"]
+        "wrongAnswers": [
+          "Devo ajudar-te",
+          "Quero ajudar-te",
+          "Vou ajudar-te"
+        ]
       },
       "german": {
         "text": "Ich kann dir helfen",
-        "wrongAnswers": ["Ich muss dir helfen", "Ich will dir helfen", "Ich werde dir helfen"]
+        "wrongAnswers": [
+          "Ich muss dir helfen",
+          "Ich will dir helfen",
+          "Ich werde dir helfen"
+        ]
       }
     }
   },
   {
     "id": "modal_can_speak",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "Can you speak Russian?",
     "languages": {
       "russian": {
         "text": "Ты можешь говорить по-русски?",
-        "wrongAnswers": ["Ты должен говорить по-русски?", "Ты хочешь говорить по-русски?", "Ты будешь говорить по-русски?"]
+        "wrongAnswers": [
+          "Ты должен говорить по-русски?",
+          "Ты хочешь говорить по-русски?",
+          "Ты будешь говорить по-русски?"
+        ]
       },
       "ukrainian": {
         "text": "Ти можеш говорити українською?",
-        "wrongAnswers": ["Ти повинен говорити українською?", "Ти хочеш говорити українською?", "Ти будеш говорити українською?"]
+        "wrongAnswers": [
+          "Ти повинен говорити українською?",
+          "Ти хочеш говорити українською?",
+          "Ти будеш говорити українською?"
+        ]
       },
       "portuguese": {
         "text": "Podes falar português?",
-        "wrongAnswers": ["Deves falar português?", "Queres falar português?", "Vais falar português?"]
+        "wrongAnswers": [
+          "Deves falar português?",
+          "Queres falar português?",
+          "Vais falar português?"
+        ]
       },
       "german": {
         "text": "Kannst du Deutsch sprechen?",
-        "wrongAnswers": ["Musst du Deutsch sprechen?", "Willst du Deutsch sprechen?", "Wirst du Deutsch sprechen?"]
+        "wrongAnswers": [
+          "Musst du Deutsch sprechen?",
+          "Willst du Deutsch sprechen?",
+          "Wirst du Deutsch sprechen?"
+        ]
       }
     }
   },
   {
     "id": "modal_cant_come",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "She can't come today",
     "languages": {
       "russian": {
         "text": "Она не может прийти сегодня",
-        "wrongAnswers": ["Она не должна прийти сегодня", "Она не хочет прийти сегодня", "Она не будет прийти сегодня"]
+        "wrongAnswers": [
+          "Она не должна прийти сегодня",
+          "Она не хочет прийти сегодня",
+          "Она не будет прийти сегодня"
+        ]
       },
       "ukrainian": {
         "text": "Вона не може прийти сьогодні",
-        "wrongAnswers": ["Вона не повинна прийти сьогодні", "Вона не хоче прийти сьогодні", "Вона не буде прийти сьогодні"]
+        "wrongAnswers": [
+          "Вона не повинна прийти сьогодні",
+          "Вона не хоче прийти сьогодні",
+          "Вона не буде прийти сьогодні"
+        ]
       },
       "portuguese": {
         "text": "Ela não pode vir hoje",
-        "wrongAnswers": ["Ela não deve vir hoje", "Ela não quer vir hoje", "Ela não vai vir hoje"]
+        "wrongAnswers": [
+          "Ela não deve vir hoje",
+          "Ela não quer vir hoje",
+          "Ela não vai vir hoje"
+        ]
       },
       "german": {
         "text": "Sie kann heute nicht kommen",
-        "wrongAnswers": ["Sie muss heute nicht kommen", "Sie will heute nicht kommen", "Sie wird heute nicht kommen"]
+        "wrongAnswers": [
+          "Sie muss heute nicht kommen",
+          "Sie will heute nicht kommen",
+          "Sie wird heute nicht kommen"
+        ]
       }
     }
   },
   {
     "id": "modal_must_go",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "I must go",
     "languages": {
       "russian": {
         "text": "Я должен идти",
-        "wrongAnswers": ["Я могу идти", "Я хочу идти", "Я буду идти"]
+        "wrongAnswers": [
+          "Я могу идти",
+          "Я хочу идти",
+          "Я буду идти"
+        ]
       },
       "ukrainian": {
         "text": "Я повинен йти",
-        "wrongAnswers": ["Я можу йти", "Я хочу йти", "Я буду йти"]
+        "wrongAnswers": [
+          "Я можу йти",
+          "Я хочу йти",
+          "Я буду йти"
+        ]
       },
       "portuguese": {
         "text": "Tenho de ir",
-        "wrongAnswers": ["Posso ir", "Quero ir", "Vou ir"]
+        "wrongAnswers": [
+          "Posso ir",
+          "Quero ir",
+          "Vou ir"
+        ]
       },
       "german": {
         "text": "Ich muss gehen",
-        "wrongAnswers": ["Ich kann gehen", "Ich will gehen", "Ich werde gehen"]
+        "wrongAnswers": [
+          "Ich kann gehen",
+          "Ich will gehen",
+          "Ich werde gehen"
+        ]
       }
     }
   },
   {
     "id": "modal_should_study",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "You should study",
     "languages": {
       "russian": {
         "text": "Ты должен учиться",
-        "wrongAnswers": ["Ты можешь учиться", "Ты хочешь учиться", "Ты будешь учиться"]
+        "wrongAnswers": [
+          "Ты можешь учиться",
+          "Ты хочешь учиться",
+          "Ты будешь учиться"
+        ]
       },
       "ukrainian": {
         "text": "Ти повинен вчитися",
-        "wrongAnswers": ["Ти можеш вчитися", "Ти хочеш вчитися", "Ти будеш вчитися"]
+        "wrongAnswers": [
+          "Ти можеш вчитися",
+          "Ти хочеш вчитися",
+          "Ти будеш вчитися"
+        ]
       },
       "portuguese": {
         "text": "Deves estudar",
-        "wrongAnswers": ["Podes estudar", "Queres estudar", "Vais estudar"]
+        "wrongAnswers": [
+          "Podes estudar",
+          "Queres estudar",
+          "Vais estudar"
+        ]
       },
       "german": {
         "text": "Du solltest lernen",
-        "wrongAnswers": ["Du kannst lernen", "Du willst lernen", "Du wirst lernen"]
+        "wrongAnswers": [
+          "Du kannst lernen",
+          "Du willst lernen",
+          "Du wirst lernen"
+        ]
       }
     }
   },
   {
     "id": "modal_have_to_work",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "We have to work tomorrow",
     "languages": {
       "russian": {
         "text": "Мы должны работать завтра",
-        "wrongAnswers": ["Мы можем работать завтра", "Мы хотим работать завтра", "Мы будем работать завтра"]
+        "wrongAnswers": [
+          "Мы можем работать завтра",
+          "Мы хотим работать завтра",
+          "Мы будем работать завтра"
+        ]
       },
       "ukrainian": {
         "text": "Ми повинні працювати завтра",
-        "wrongAnswers": ["Ми можемо працювати завтра", "Ми хочемо працювати завтра", "Ми будемо працювати завтра"]
+        "wrongAnswers": [
+          "Ми можемо працювати завтра",
+          "Ми хочемо працювати завтра",
+          "Ми будемо працювати завтра"
+        ]
       },
       "portuguese": {
         "text": "Temos de trabalhar amanhã",
-        "wrongAnswers": ["Podemos trabalhar amanhã", "Queremos trabalhar amanhã", "Vamos trabalhar amanhã"]
+        "wrongAnswers": [
+          "Podemos trabalhar amanhã",
+          "Queremos trabalhar amanhã",
+          "Vamos trabalhar amanhã"
+        ]
       },
       "german": {
         "text": "Wir müssen morgen arbeiten",
-        "wrongAnswers": ["Wir können morgen arbeiten", "Wir wollen morgen arbeiten", "Wir werden morgen arbeiten"]
+        "wrongAnswers": [
+          "Wir können morgen arbeiten",
+          "Wir wollen morgen arbeiten",
+          "Wir werden morgen arbeiten"
+        ]
       }
     }
   },
   {
     "id": "modal_want_eat",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "I want to eat",
     "languages": {
       "russian": {
         "text": "Я хочу есть",
-        "wrongAnswers": ["Я могу есть", "Я должен есть", "Я буду есть"]
+        "wrongAnswers": [
+          "Я могу есть",
+          "Я должен есть",
+          "Я буду есть"
+        ]
       },
       "ukrainian": {
         "text": "Я хочу їсти",
-        "wrongAnswers": ["Я можу їсти", "Я повинен їсти", "Я буду їсти"]
+        "wrongAnswers": [
+          "Я можу їсти",
+          "Я повинен їсти",
+          "Я буду їсти"
+        ]
       },
       "portuguese": {
         "text": "Quero comer",
-        "wrongAnswers": ["Posso comer", "Devo comer", "Vou comer"]
+        "wrongAnswers": [
+          "Posso comer",
+          "Devo comer",
+          "Vou comer"
+        ]
       },
       "german": {
         "text": "Ich will essen",
-        "wrongAnswers": ["Ich kann essen", "Ich muss essen", "Ich werde essen"]
+        "wrongAnswers": [
+          "Ich kann essen",
+          "Ich muss essen",
+          "Ich werde essen"
+        ]
       }
     }
   },
   {
     "id": "modal_want_coffee",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "Do you want coffee?",
     "languages": {
       "russian": {
         "text": "Ты хочешь кофе?",
-        "wrongAnswers": ["Ты можешь кофе?", "Ты должен кофе?", "Ты будешь кофе?"]
+        "wrongAnswers": [
+          "Ты можешь кофе?",
+          "Ты должен кофе?",
+          "Ты будешь кофе?"
+        ]
       },
       "ukrainian": {
         "text": "Ти хочеш каву?",
-        "wrongAnswers": ["Ти можеш каву?", "Ти повинен каву?", "Ти будеш каву?"]
+        "wrongAnswers": [
+          "Ти можеш каву?",
+          "Ти повинен каву?",
+          "Ти будеш каву?"
+        ]
       },
       "portuguese": {
         "text": "Queres café?",
-        "wrongAnswers": ["Podes café?", "Deves café?", "Vais café?"]
+        "wrongAnswers": [
+          "Podes café?",
+          "Deves café?",
+          "Vais café?"
+        ]
       },
       "german": {
         "text": "Willst du Kaffee?",
-        "wrongAnswers": ["Kannst du Kaffee?", "Musst du Kaffee?", "Wirst du Kaffee?"]
+        "wrongAnswers": [
+          "Kannst du Kaffee?",
+          "Musst du Kaffee?",
+          "Wirst du Kaffee?"
+        ]
       }
     }
   },
   {
     "id": "modal_want_leave",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "They want to leave",
     "languages": {
       "russian": {
         "text": "Они хотят уйти",
-        "wrongAnswers": ["Они могут уйти", "Они должны уйти", "Они будут уйти"]
+        "wrongAnswers": [
+          "Они могут уйти",
+          "Они должны уйти",
+          "Они будут уйти"
+        ]
       },
       "ukrainian": {
         "text": "Вони хочуть піти",
-        "wrongAnswers": ["Вони можуть піти", "Вони повинні піти", "Вони будуть піти"]
+        "wrongAnswers": [
+          "Вони можуть піти",
+          "Вони повинні піти",
+          "Вони будуть піти"
+        ]
       },
       "portuguese": {
         "text": "Querem sair",
-        "wrongAnswers": ["Podem sair", "Devem sair", "Vão sair"]
+        "wrongAnswers": [
+          "Podem sair",
+          "Devem sair",
+          "Vão sair"
+        ]
       },
       "german": {
         "text": "Sie wollen gehen",
-        "wrongAnswers": ["Sie können gehen", "Sie müssen gehen", "Sie werden gehen"]
+        "wrongAnswers": [
+          "Sie können gehen",
+          "Sie müssen gehen",
+          "Sie werden gehen"
+        ]
       }
     }
   },
   {
     "id": "modal_need_sleep",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "I need to sleep",
     "languages": {
       "russian": {
         "text": "Мне нужно спать",
-        "wrongAnswers": ["Я хочу спать", "Я должен спать", "Я могу спать"]
+        "wrongAnswers": [
+          "Я хочу спать",
+          "Я должен спать",
+          "Я могу спать"
+        ]
       },
       "ukrainian": {
         "text": "Мені потрібно спати",
-        "wrongAnswers": ["Я хочу спати", "Я повинен спати", "Я можу спати"]
+        "wrongAnswers": [
+          "Я хочу спати",
+          "Я повинен спати",
+          "Я можу спати"
+        ]
       },
       "portuguese": {
         "text": "Preciso dormir",
-        "wrongAnswers": ["Quero dormir", "Devo dormir", "Posso dormir"]
+        "wrongAnswers": [
+          "Quero dormir",
+          "Devo dormir",
+          "Posso dormir"
+        ]
       },
       "german": {
         "text": "Ich muss schlafen",
-        "wrongAnswers": ["Ich will schlafen", "Ich soll schlafen", "Ich kann schlafen"]
+        "wrongAnswers": [
+          "Ich will schlafen",
+          "Ich soll schlafen",
+          "Ich kann schlafen"
+        ]
       }
     }
   },
   {
     "id": "modal_need_rest",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "You need to rest",
     "languages": {
       "russian": {
         "text": "Тебе нужно отдохнуть",
-        "wrongAnswers": ["Ты хочешь отдохнуть", "Ты должен отдохнуть", "Ты можешь отдохнуть"]
+        "wrongAnswers": [
+          "Ты хочешь отдохнуть",
+          "Ты должен отдохнуть",
+          "Ты можешь отдохнуть"
+        ]
       },
       "ukrainian": {
         "text": "Тобі потрібно відпочити",
-        "wrongAnswers": ["Ти хочеш відпочити", "Ти повинен відпочити", "Ти можеш відпочити"]
+        "wrongAnswers": [
+          "Ти хочеш відпочити",
+          "Ти повинен відпочити",
+          "Ти можеш відпочити"
+        ]
       },
       "portuguese": {
         "text": "Precisas descansar",
-        "wrongAnswers": ["Queres descansar", "Deves descansar", "Podes descansar"]
+        "wrongAnswers": [
+          "Queres descansar",
+          "Deves descansar",
+          "Podes descansar"
+        ]
       },
       "german": {
         "text": "Du musst dich ausruhen",
-        "wrongAnswers": ["Du willst dich ausruhen", "Du sollst dich ausruhen", "Du kannst dich ausruhen"]
+        "wrongAnswers": [
+          "Du willst dich ausruhen",
+          "Du sollst dich ausruhen",
+          "Du kannst dich ausruhen"
+        ]
       }
     }
   },
   {
     "id": "modal_need_time",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "We need more time",
     "languages": {
       "russian": {
         "text": "Нам нужно больше времени",
-        "wrongAnswers": ["Мы хотим больше времени", "Мы должны больше времени", "Мы можем больше времени"]
+        "wrongAnswers": [
+          "Мы хотим больше времени",
+          "Мы должны больше времени",
+          "Мы можем больше времени"
+        ]
       },
       "ukrainian": {
         "text": "Нам потрібно більше часу",
-        "wrongAnswers": ["Ми хочемо більше часу", "Ми повинні більше часу", "Ми можемо більше часу"]
+        "wrongAnswers": [
+          "Ми хочемо більше часу",
+          "Ми повинні більше часу",
+          "Ми можемо більше часу"
+        ]
       },
       "portuguese": {
         "text": "Precisamos mais tempo",
-        "wrongAnswers": ["Queremos mais tempo", "Devemos mais tempo", "Podemos mais tempo"]
+        "wrongAnswers": [
+          "Queremos mais tempo",
+          "Devemos mais tempo",
+          "Podemos mais tempo"
+        ]
       },
       "german": {
         "text": "Wir brauchen mehr Zeit",
-        "wrongAnswers": ["Wir wollen mehr Zeit", "Wir müssen mehr Zeit", "Wir können mehr Zeit"]
+        "wrongAnswers": [
+          "Wir wollen mehr Zeit",
+          "Wir müssen mehr Zeit",
+          "Wir können mehr Zeit"
+        ]
       }
     }
   },
   {
     "id": "modal_will_be_able_help",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "I will be able to help",
     "languages": {
       "russian": {
         "text": "Я смогу помочь",
-        "wrongAnswers": ["Я могу помочь", "Я должен помочь", "Я хочу помочь"]
+        "wrongAnswers": [
+          "Я могу помочь",
+          "Я должен помочь",
+          "Я хочу помочь"
+        ]
       },
       "ukrainian": {
         "text": "Я зможу допомогти",
-        "wrongAnswers": ["Я можу допомогти", "Я повинен допомогти", "Я хочу допомогти"]
+        "wrongAnswers": [
+          "Я можу допомогти",
+          "Я повинен допомогти",
+          "Я хочу допомогти"
+        ]
       },
       "portuguese": {
         "text": "Poderei ajudar",
-        "wrongAnswers": ["Posso ajudar", "Devo ajudar", "Quero ajudar"]
+        "wrongAnswers": [
+          "Posso ajudar",
+          "Devo ajudar",
+          "Quero ajudar"
+        ]
       },
       "german": {
         "text": "Ich werde helfen können",
-        "wrongAnswers": ["Ich kann helfen", "Ich muss helfen", "Ich will helfen"]
+        "wrongAnswers": [
+          "Ich kann helfen",
+          "Ich muss helfen",
+          "Ich will helfen"
+        ]
       }
     }
   },
   {
     "id": "modal_could_do_it",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "Could you do it?",
     "languages": {
       "russian": {
         "text": "Ты смог это сделать?",
-        "wrongAnswers": ["Ты можешь это сделать?", "Ты должен это сделать?", "Ты хочешь это сделать?"]
+        "wrongAnswers": [
+          "Ты можешь это сделать?",
+          "Ты должен это сделать?",
+          "Ты хочешь это сделать?"
+        ]
       },
       "ukrainian": {
         "text": "Ти зміг це зробити?",
-        "wrongAnswers": ["Ти можеш це зробити?", "Ти повинен це зробити?", "Ти хочеш це зробити?"]
+        "wrongAnswers": [
+          "Ти можеш це зробити?",
+          "Ти повинен це зробити?",
+          "Ти хочеш це зробити?"
+        ]
       },
       "portuguese": {
         "text": "Conseguiste fazê-lo?",
-        "wrongAnswers": ["Podes fazê-lo?", "Deves fazê-lo?", "Queres fazê-lo?"]
+        "wrongAnswers": [
+          "Podes fazê-lo?",
+          "Deves fazê-lo?",
+          "Queres fazê-lo?"
+        ]
       },
       "german": {
         "text": "Konntest du es machen?",
-        "wrongAnswers": ["Kannst du es machen?", "Musst du es machen?", "Willst du es machen?"]
+        "wrongAnswers": [
+          "Kannst du es machen?",
+          "Musst du es machen?",
+          "Willst du es machen?"
+        ]
       }
     }
   },
   {
     "id": "modal_managed_finish",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "She managed to finish",
     "languages": {
       "russian": {
         "text": "Она смогла закончить",
-        "wrongAnswers": ["Она может закончить", "Она должна закончить", "Она хочет закончить"]
+        "wrongAnswers": [
+          "Она может закончить",
+          "Она должна закончить",
+          "Она хочет закончить"
+        ]
       },
       "ukrainian": {
         "text": "Вона змогла закінчити",
-        "wrongAnswers": ["Вона може закінчити", "Вона повинна закінчити", "Вона хоче закінчити"]
+        "wrongAnswers": [
+          "Вона може закінчити",
+          "Вона повинна закінчити",
+          "Вона хоче закінчити"
+        ]
       },
       "portuguese": {
         "text": "Ela conseguiu terminar",
-        "wrongAnswers": ["Ela pode terminar", "Ela deve terminar", "Ela quer terminar"]
+        "wrongAnswers": [
+          "Ela pode terminar",
+          "Ela deve terminar",
+          "Ela quer terminar"
+        ]
       },
       "german": {
         "text": "Sie hat es geschafft zu beenden",
-        "wrongAnswers": ["Sie kann beenden", "Sie muss beenden", "Sie will beenden"]
+        "wrongAnswers": [
+          "Sie kann beenden",
+          "Sie muss beenden",
+          "Sie will beenden"
+        ]
       }
     }
   },
   {
     "id": "modal_know_how_swim",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "I know how to swim",
     "languages": {
       "russian": {
         "text": "Я умею плавать",
-        "wrongAnswers": ["Я могу плавать", "Я хочу плавать", "Я должен плавать"]
+        "wrongAnswers": [
+          "Я могу плавать",
+          "Я хочу плавать",
+          "Я должен плавать"
+        ]
       },
       "ukrainian": {
         "text": "Я вмію плавати",
-        "wrongAnswers": ["Я можу плавати", "Я хочу плавати", "Я повинен плавати"]
+        "wrongAnswers": [
+          "Я можу плавати",
+          "Я хочу плавати",
+          "Я повинен плавати"
+        ]
       },
       "portuguese": {
         "text": "Sei nadar",
-        "wrongAnswers": ["Posso nadar", "Quero nadar", "Devo nadar"]
+        "wrongAnswers": [
+          "Posso nadar",
+          "Quero nadar",
+          "Devo nadar"
+        ]
       },
       "german": {
         "text": "Ich kann schwimmen",
-        "wrongAnswers": ["Ich darf schwimmen", "Ich will schwimmen", "Ich muss schwimmen"]
+        "wrongAnswers": [
+          "Ich darf schwimmen",
+          "Ich will schwimmen",
+          "Ich muss schwimmen"
+        ]
       }
     }
   },
   {
     "id": "modal_can_drive",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "Can you drive?",
     "languages": {
       "russian": {
         "text": "Ты умеешь водить?",
-        "wrongAnswers": ["Ты можешь водить?", "Ты хочешь водить?", "Ты должен водить?"]
+        "wrongAnswers": [
+          "Ты можешь водить?",
+          "Ты хочешь водить?",
+          "Ты должен водить?"
+        ]
       },
       "ukrainian": {
         "text": "Ти вмієш водити?",
-        "wrongAnswers": ["Ти можеш водити?", "Ти хочеш водити?", "Ти повинен водити?"]
+        "wrongAnswers": [
+          "Ти можеш водити?",
+          "Ти хочеш водити?",
+          "Ти повинен водити?"
+        ]
       },
       "portuguese": {
         "text": "Sabes conduzir?",
-        "wrongAnswers": ["Podes conduzir?", "Queres conduzir?", "Deves conduzir?"]
+        "wrongAnswers": [
+          "Podes conduzir?",
+          "Queres conduzir?",
+          "Deves conduzir?"
+        ]
       },
       "german": {
         "text": "Kannst du fahren?",
-        "wrongAnswers": ["Darfst du fahren?", "Willst du fahren?", "Musst du fahren?"]
+        "wrongAnswers": [
+          "Darfst du fahren?",
+          "Willst du fahren?",
+          "Musst du fahren?"
+        ]
       }
     }
   },
   {
     "id": "modal_knows_cook",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "He knows how to cook",
     "languages": {
       "russian": {
         "text": "Он умеет готовить",
-        "wrongAnswers": ["Он может готовить", "Он хочет готовить", "Он должен готовить"]
+        "wrongAnswers": [
+          "Он может готовить",
+          "Он хочет готовить",
+          "Он должен готовить"
+        ]
       },
       "ukrainian": {
         "text": "Він вміє готувати",
-        "wrongAnswers": ["Він може готувати", "Він хоче готувати", "Він повинен готувати"]
+        "wrongAnswers": [
+          "Він може готувати",
+          "Він хоче готувати",
+          "Він повинен готувати"
+        ]
       },
       "portuguese": {
         "text": "Ele sabe cozinhar",
-        "wrongAnswers": ["Ele pode cozinhar", "Ele quer cozinhar", "Ele deve cozinhar"]
+        "wrongAnswers": [
+          "Ele pode cozinhar",
+          "Ele quer cozinhar",
+          "Ele deve cozinhar"
+        ]
       },
       "german": {
         "text": "Er kann kochen",
-        "wrongAnswers": ["Er darf kochen", "Er will kochen", "Er muss kochen"]
+        "wrongAnswers": [
+          "Er darf kochen",
+          "Er will kochen",
+          "Er muss kochen"
+        ]
       }
     }
   },
   {
     "id": "modal_cannot_believe",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "I cannot believe it",
     "languages": {
       "russian": {
         "text": "Я не могу в это поверить",
-        "wrongAnswers": ["Я не хочу в это поверить", "Я не должен в это поверить", "Я не умею в это поверить"]
+        "wrongAnswers": [
+          "Я не хочу в это поверить",
+          "Я не должен в это поверить",
+          "Я не умею в это поверить"
+        ]
       },
       "ukrainian": {
         "text": "Я не можу в це повірити",
-        "wrongAnswers": ["Я не хочу в це повірити", "Я не повинен в це повірити", "Я не вмію в це повірити"]
+        "wrongAnswers": [
+          "Я не хочу в це повірити",
+          "Я не повинен в це повірити",
+          "Я не вмію в це повірити"
+        ]
       },
       "portuguese": {
         "text": "Não posso acreditar",
-        "wrongAnswers": ["Não quero acreditar", "Não devo acreditar", "Não sei acreditar"]
+        "wrongAnswers": [
+          "Não quero acreditar",
+          "Não devo acreditar",
+          "Não sei acreditar"
+        ]
       },
       "german": {
         "text": "Ich kann es nicht glauben",
-        "wrongAnswers": ["Ich will es nicht glauben", "Ich muss es nicht glauben", "Ich darf es nicht glauben"]
+        "wrongAnswers": [
+          "Ich will es nicht glauben",
+          "Ich muss es nicht glauben",
+          "Ich darf es nicht glauben"
+        ]
       }
     }
   },
   {
     "id": "modal_cannot_wait",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "They cannot wait",
     "languages": {
       "russian": {
         "text": "Они не могут ждать",
-        "wrongAnswers": ["Они не хотят ждать", "Они не должны ждать", "Они не умеют ждать"]
+        "wrongAnswers": [
+          "Они не хотят ждать",
+          "Они не должны ждать",
+          "Они не умеют ждать"
+        ]
       },
       "ukrainian": {
         "text": "Вони не можуть чекати",
-        "wrongAnswers": ["Вони не хочуть чекати", "Вони не повинні чекати", "Вони не вміють чекати"]
+        "wrongAnswers": [
+          "Вони не хочуть чекати",
+          "Вони не повинні чекати",
+          "Вони не вміють чекати"
+        ]
       },
       "portuguese": {
         "text": "Não podem esperar",
-        "wrongAnswers": ["Não querem esperar", "Não devem esperar", "Não sabem esperar"]
+        "wrongAnswers": [
+          "Não querem esperar",
+          "Não devem esperar",
+          "Não sabem esperar"
+        ]
       },
       "german": {
         "text": "Sie können nicht warten",
-        "wrongAnswers": ["Sie wollen nicht warten", "Sie müssen nicht warten", "Sie dürfen nicht warten"]
+        "wrongAnswers": [
+          "Sie wollen nicht warten",
+          "Sie müssen nicht warten",
+          "Sie dürfen nicht warten"
+        ]
       }
     }
   },
   {
     "id": "modal_cannot_stay",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "We cannot stay",
     "languages": {
       "russian": {
         "text": "Мы не можем остаться",
-        "wrongAnswers": ["Мы не хотим остаться", "Мы не должны остаться", "Мы не умеем остаться"]
+        "wrongAnswers": [
+          "Мы не хотим остаться",
+          "Мы не должны остаться",
+          "Мы не умеем остаться"
+        ]
       },
       "ukrainian": {
         "text": "Ми не можемо залишитися",
-        "wrongAnswers": ["Ми не хочемо залишитися", "Ми не повинні залишитися", "Ми не вміємо залишитися"]
+        "wrongAnswers": [
+          "Ми не хочемо залишитися",
+          "Ми не повинні залишитися",
+          "Ми не вміємо залишитися"
+        ]
       },
       "portuguese": {
         "text": "Não podemos ficar",
-        "wrongAnswers": ["Não queremos ficar", "Não devemos ficar", "Não sabemos ficar"]
+        "wrongAnswers": [
+          "Não queremos ficar",
+          "Não devemos ficar",
+          "Não sabemos ficar"
+        ]
       },
       "german": {
         "text": "Wir können nicht bleiben",
-        "wrongAnswers": ["Wir wollen nicht bleiben", "Wir müssen nicht bleiben", "Wir dürfen nicht bleiben"]
+        "wrongAnswers": [
+          "Wir wollen nicht bleiben",
+          "Wir müssen nicht bleiben",
+          "Wir dürfen nicht bleiben"
+        ]
       }
     }
   },
   {
     "id": "modal_necessary_study",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "It is necessary to study",
     "languages": {
       "russian": {
         "text": "Надо учиться",
-        "wrongAnswers": ["Хочется учиться", "Можно учиться", "Умею учиться"]
+        "wrongAnswers": [
+          "Хочется учиться",
+          "Можно учиться",
+          "Умею учиться"
+        ]
       },
       "ukrainian": {
         "text": "Треба вчитися",
-        "wrongAnswers": ["Хочеться вчитися", "Можна вчитися", "Вмію вчитися"]
+        "wrongAnswers": [
+          "Хочеться вчитися",
+          "Можна вчитися",
+          "Вмію вчитися"
+        ]
       },
       "portuguese": {
         "text": "É necessário estudar",
-        "wrongAnswers": ["Apetece estudar", "É permitido estudar", "Sei estudar"]
+        "wrongAnswers": [
+          "Apetece estudar",
+          "É permitido estudar",
+          "Sei estudar"
+        ]
       },
       "german": {
         "text": "Man muss lernen",
-        "wrongAnswers": ["Man will lernen", "Man darf lernen", "Man kann lernen"]
+        "wrongAnswers": [
+          "Man will lernen",
+          "Man darf lernen",
+          "Man kann lernen"
+        ]
       }
     }
   },
   {
     "id": "modal_must_be_careful",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "You must be careful",
     "languages": {
       "russian": {
         "text": "Надо быть осторожным",
-        "wrongAnswers": ["Можно быть осторожным", "Хочется быть осторожным", "Умею быть осторожным"]
+        "wrongAnswers": [
+          "Можно быть осторожным",
+          "Хочется быть осторожным",
+          "Умею быть осторожным"
+        ]
       },
       "ukrainian": {
         "text": "Треба бути обережним",
-        "wrongAnswers": ["Можна бути обережним", "Хочеться бути обережним", "Вмію бути обережним"]
+        "wrongAnswers": [
+          "Можна бути обережним",
+          "Хочеться бути обережним",
+          "Вмію бути обережним"
+        ]
       },
       "portuguese": {
         "text": "É preciso ter cuidado",
-        "wrongAnswers": ["É permitido ter cuidado", "Apetece ter cuidado", "Sei ter cuidado"]
+        "wrongAnswers": [
+          "É permitido ter cuidado",
+          "Apetece ter cuidado",
+          "Sei ter cuidado"
+        ]
       },
       "german": {
         "text": "Man muss vorsichtig sein",
-        "wrongAnswers": ["Man darf vorsichtig sein", "Man will vorsichtig sein", "Man kann vorsichtig sein"]
+        "wrongAnswers": [
+          "Man darf vorsichtig sein",
+          "Man will vorsichtig sein",
+          "Man kann vorsichtig sein"
+        ]
       }
     }
   },
   {
     "id": "modal_must_hurry",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "We must hurry",
     "languages": {
       "russian": {
         "text": "Нам надо спешить",
-        "wrongAnswers": ["Нам можно спешить", "Нам хочется спешить", "Нам умеется спешить"]
+        "wrongAnswers": [
+          "Нам можно спешить",
+          "Нам хочется спешить",
+          "Нам умеется спешить"
+        ]
       },
       "ukrainian": {
         "text": "Нам треба поспішати",
-        "wrongAnswers": ["Нам можна поспішати", "Нам хочеться поспішати", "Нам вміється поспішати"]
+        "wrongAnswers": [
+          "Нам можна поспішати",
+          "Нам хочеться поспішати",
+          "Нам вміється поспішати"
+        ]
       },
       "portuguese": {
         "text": "Precisamos apressar-nos",
-        "wrongAnswers": ["Podemos apressar-nos", "Apetece apressar-nos", "Sabemos apressar-nos"]
+        "wrongAnswers": [
+          "Podemos apressar-nos",
+          "Apetece apressar-nos",
+          "Sabemos apressar-nos"
+        ]
       },
       "german": {
         "text": "Wir müssen uns beeilen",
-        "wrongAnswers": ["Wir können uns beeilen", "Wir wollen uns beeilen", "Wir dürfen uns beeilen"]
+        "wrongAnswers": [
+          "Wir können uns beeilen",
+          "Wir wollen uns beeilen",
+          "Wir dürfen uns beeilen"
+        ]
       }
     }
   },
   {
     "id": "modal_may_come_in",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "May I come in?",
     "languages": {
       "russian": {
         "text": "Можно войти?",
-        "wrongAnswers": ["Нужно войти?", "Хочется войти?", "Надо войти?"]
+        "wrongAnswers": [
+          "Нужно войти?",
+          "Хочется войти?",
+          "Надо войти?"
+        ]
       },
       "ukrainian": {
         "text": "Можна увійти?",
-        "wrongAnswers": ["Потрібно увійти?", "Хочеться увійти?", "Треба увійти?"]
+        "wrongAnswers": [
+          "Потрібно увійти?",
+          "Хочеться увійти?",
+          "Треба увійти?"
+        ]
       },
       "portuguese": {
         "text": "Posso entrar?",
-        "wrongAnswers": ["Preciso entrar?", "Quero entrar?", "Devo entrar?"]
+        "wrongAnswers": [
+          "Preciso entrar?",
+          "Quero entrar?",
+          "Devo entrar?"
+        ]
       },
       "german": {
         "text": "Darf ich reinkommen?",
-        "wrongAnswers": ["Muss ich reinkommen?", "Will ich reinkommen?", "Soll ich reinkommen?"]
+        "wrongAnswers": [
+          "Muss ich reinkommen?",
+          "Will ich reinkommen?",
+          "Soll ich reinkommen?"
+        ]
       }
     }
   },
   {
     "id": "modal_can_sit_here",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "You can sit here",
     "languages": {
       "russian": {
         "text": "Можно здесь сесть",
-        "wrongAnswers": ["Нужно здесь сесть", "Надо здесь сесть", "Должен здесь сесть"]
+        "wrongAnswers": [
+          "Нужно здесь сесть",
+          "Надо здесь сесть",
+          "Должен здесь сесть"
+        ]
       },
       "ukrainian": {
         "text": "Можна тут сісти",
-        "wrongAnswers": ["Потрібно тут сісти", "Треба тут сісти", "Повинен тут сісти"]
+        "wrongAnswers": [
+          "Потрібно тут сісти",
+          "Треба тут сісти",
+          "Повинен тут сісти"
+        ]
       },
       "portuguese": {
         "text": "Podes sentar aqui",
-        "wrongAnswers": ["Precisas sentar aqui", "Deves sentar aqui", "Tens de sentar aqui"]
+        "wrongAnswers": [
+          "Precisas sentar aqui",
+          "Deves sentar aqui",
+          "Tens de sentar aqui"
+        ]
       },
       "german": {
         "text": "Du kannst hier sitzen",
-        "wrongAnswers": ["Du musst hier sitzen", "Du sollst hier sitzen", "Du darfst hier sitzen"]
+        "wrongAnswers": [
+          "Du musst hier sitzen",
+          "Du sollst hier sitzen",
+          "Du darfst hier sitzen"
+        ]
       }
     }
   },
   {
     "id": "modal_okay_to_ask",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "Is it okay to ask?",
     "languages": {
       "russian": {
         "text": "Можно спросить?",
-        "wrongAnswers": ["Нужно спросить?", "Надо спросить?", "Хочется спросить?"]
+        "wrongAnswers": [
+          "Нужно спросить?",
+          "Надо спросить?",
+          "Хочется спросить?"
+        ]
       },
       "ukrainian": {
         "text": "Можна запитати?",
-        "wrongAnswers": ["Потрібно запитати?", "Треба запитати?", "Хочеться запитати?"]
+        "wrongAnswers": [
+          "Потрібно запитати?",
+          "Треба запитати?",
+          "Хочеться запитати?"
+        ]
       },
       "portuguese": {
         "text": "Posso perguntar?",
-        "wrongAnswers": ["Preciso perguntar?", "Devo perguntar?", "Quero perguntar?"]
+        "wrongAnswers": [
+          "Preciso perguntar?",
+          "Devo perguntar?",
+          "Quero perguntar?"
+        ]
       },
       "german": {
         "text": "Darf ich fragen?",
-        "wrongAnswers": ["Muss ich fragen?", "Soll ich fragen?", "Will ich fragen?"]
+        "wrongAnswers": [
+          "Muss ich fragen?",
+          "Soll ich fragen?",
+          "Will ich fragen?"
+        ]
       }
     }
   },
   {
     "id": "modal_worth_trying",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "It's worth trying",
     "languages": {
       "russian": {
         "text": "Стоит попробовать",
-        "wrongAnswers": ["Можно попробовать", "Нужно попробовать", "Хочется попробовать"]
+        "wrongAnswers": [
+          "Можно попробовать",
+          "Нужно попробовать",
+          "Хочется попробовать"
+        ]
       },
       "ukrainian": {
         "text": "Варто спробувати",
-        "wrongAnswers": ["Можна спробувати", "Потрібно спробувати", "Хочеться спробувати"]
+        "wrongAnswers": [
+          "Можна спробувати",
+          "Потрібно спробувати",
+          "Хочеться спробувати"
+        ]
       },
       "portuguese": {
         "text": "Vale a pena tentar",
-        "wrongAnswers": ["Pode tentar", "Precisa tentar", "Quer tentar"]
+        "wrongAnswers": [
+          "Pode tentar",
+          "Precisa tentar",
+          "Quer tentar"
+        ]
       },
       "german": {
         "text": "Es lohnt sich zu versuchen",
-        "wrongAnswers": ["Man kann versuchen", "Man muss versuchen", "Man will versuchen"]
+        "wrongAnswers": [
+          "Man kann versuchen",
+          "Man muss versuchen",
+          "Man will versuchen"
+        ]
       }
     }
   },
   {
     "id": "modal_should_see_film",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "You should see this film",
     "languages": {
       "russian": {
         "text": "Стоит посмотреть этот фильм",
-        "wrongAnswers": ["Можно посмотреть этот фильм", "Нужно посмотреть этот фильм", "Надо посмотреть этот фильм"]
+        "wrongAnswers": [
+          "Можно посмотреть этот фильм",
+          "Нужно посмотреть этот фильм",
+          "Надо посмотреть этот фильм"
+        ]
       },
       "ukrainian": {
         "text": "Варто подивитися цей фільм",
-        "wrongAnswers": ["Можна подивитися цей фільм", "Потрібно подивитися цей фільм", "Треба подивитися цей фільм"]
+        "wrongAnswers": [
+          "Можна подивитися цей фільм",
+          "Потрібно подивитися цей фільм",
+          "Треба подивитися цей фільм"
+        ]
       },
       "portuguese": {
         "text": "Vale a pena ver este filme",
-        "wrongAnswers": ["Pode ver este filme", "Precisa ver este filme", "Deve ver este filme"]
+        "wrongAnswers": [
+          "Pode ver este filme",
+          "Precisa ver este filme",
+          "Deve ver este filme"
+        ]
       },
       "german": {
         "text": "Du solltest diesen Film sehen",
-        "wrongAnswers": ["Du kannst diesen Film sehen", "Du musst diesen Film sehen", "Du darfst diesen Film sehen"]
+        "wrongAnswers": [
+          "Du kannst diesen Film sehen",
+          "Du musst diesen Film sehen",
+          "Du darfst diesen Film sehen"
+        ]
       }
     }
   },
   {
     "id": "modal_worth_waiting",
-    "topics": ["modal-verbs"],
+    "topics": [
+      "modal-verbs"
+    ],
     "english": "Is it worth waiting?",
     "languages": {
       "russian": {
         "text": "Стоит ждать?",
-        "wrongAnswers": ["Можно ждать?", "Нужно ждать?", "Надо ждать?"]
+        "wrongAnswers": [
+          "Можно ждать?",
+          "Нужно ждать?",
+          "Надо ждать?"
+        ]
       },
       "ukrainian": {
         "text": "Варто чекати?",
-        "wrongAnswers": ["Можна чекати?", "Потрібно чекати?", "Треба чекати?"]
+        "wrongAnswers": [
+          "Можна чекати?",
+          "Потрібно чекати?",
+          "Треба чекати?"
+        ]
       },
       "portuguese": {
         "text": "Vale a pena esperar?",
-        "wrongAnswers": ["Pode esperar?", "Precisa esperar?", "Deve esperar?"]
+        "wrongAnswers": [
+          "Pode esperar?",
+          "Precisa esperar?",
+          "Deve esperar?"
+        ]
       },
       "german": {
         "text": "Lohnt es sich zu warten?",
-        "wrongAnswers": ["Kann man warten?", "Muss man warten?", "Soll man warten?"]
+        "wrongAnswers": [
+          "Kann man warten?",
+          "Muss man warten?",
+          "Soll man warten?"
+        ]
       }
     }
   },
   {
     "id": "subordinate_know_that",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "I know that you are right",
     "languages": {
       "russian": {
         "text": "Я знаю, что ты прав",
-        "wrongAnswers": ["Я думаю, что ты прав", "Я вижу, что ты прав", "Я слышал, что ты прав"]
+        "wrongAnswers": [
+          "Я думаю, что ты прав",
+          "Я вижу, что ты прав",
+          "Я слышал, что ты прав"
+        ]
       },
       "ukrainian": {
         "text": "Я знаю, що ти правий",
-        "wrongAnswers": ["Я думаю, що ти правий", "Я бачу, що ти правий", "Я чув, що ти правий"]
+        "wrongAnswers": [
+          "Я думаю, що ти правий",
+          "Я бачу, що ти правий",
+          "Я чув, що ти правий"
+        ]
       },
       "portuguese": {
         "text": "Sei que tens razão",
-        "wrongAnswers": ["Acho que tens razão", "Vejo que tens razão", "Ouvi que tens razão"]
+        "wrongAnswers": [
+          "Acho que tens razão",
+          "Vejo que tens razão",
+          "Ouvi que tens razão"
+        ]
       },
       "german": {
         "text": "Ich weiß, dass du recht hast",
-        "wrongAnswers": ["Ich denke, dass du recht hast", "Ich sehe, dass du recht hast", "Ich hörte, dass du recht hast"]
+        "wrongAnswers": [
+          "Ich denke, dass du recht hast",
+          "Ich sehe, dass du recht hast",
+          "Ich hörte, dass du recht hast"
+        ]
       }
     }
   },
   {
     "id": "subordinate_think_that",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "I think that it's important",
     "languages": {
       "russian": {
         "text": "Я думаю, что это важно",
-        "wrongAnswers": ["Я знаю, что это важно", "Я считаю, что это важно", "Я чувствую, что это важно"]
+        "wrongAnswers": [
+          "Я знаю, что это важно",
+          "Я считаю, что это важно",
+          "Я чувствую, что это важно"
+        ]
       },
       "ukrainian": {
         "text": "Я думаю, що це важливо",
-        "wrongAnswers": ["Я знаю, що це важливо", "Я вважаю, що це важливо", "Я відчуваю, що це важливо"]
+        "wrongAnswers": [
+          "Я знаю, що це важливо",
+          "Я вважаю, що це важливо",
+          "Я відчуваю, що це важливо"
+        ]
       },
       "portuguese": {
         "text": "Acho que é importante",
-        "wrongAnswers": ["Sei que é importante", "Considero que é importante", "Sinto que é importante"]
+        "wrongAnswers": [
+          "Sei que é importante",
+          "Considero que é importante",
+          "Sinto que é importante"
+        ]
       },
       "german": {
         "text": "Ich denke, dass es wichtig ist",
-        "wrongAnswers": ["Ich weiß, dass es wichtig ist", "Ich finde, dass es wichtig ist", "Ich fühle, dass es wichtig ist"]
+        "wrongAnswers": [
+          "Ich weiß, dass es wichtig ist",
+          "Ich finde, dass es wichtig ist",
+          "Ich fühle, dass es wichtig ist"
+        ]
       }
     }
   },
   {
     "id": "subordinate_said_that",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "She said that she's busy",
     "languages": {
       "russian": {
         "text": "Она сказала, что она занята",
-        "wrongAnswers": ["Она думает, что она занята", "Она знает, что она занята", "Она чувствует, что она занята"]
+        "wrongAnswers": [
+          "Она думает, что она занята",
+          "Она знает, что она занята",
+          "Она чувствует, что она занята"
+        ]
       },
       "ukrainian": {
         "text": "Вона сказала, що вона зайнята",
-        "wrongAnswers": ["Вона думає, що вона зайнята", "Вона знає, що вона зайнята", "Вона відчуває, що вона зайнята"]
+        "wrongAnswers": [
+          "Вона думає, що вона зайнята",
+          "Вона знає, що вона зайнята",
+          "Вона відчуває, що вона зайнята"
+        ]
       },
       "portuguese": {
         "text": "Ela disse que está ocupada",
-        "wrongAnswers": ["Ela acha que está ocupada", "Ela sabe que está ocupada", "Ela sente que está ocupada"]
+        "wrongAnswers": [
+          "Ela acha que está ocupada",
+          "Ela sabe que está ocupada",
+          "Ela sente que está ocupada"
+        ]
       },
       "german": {
         "text": "Sie sagte, dass sie beschäftigt ist",
-        "wrongAnswers": ["Sie denkt, dass sie beschäftigt ist", "Sie weiß, dass sie beschäftigt ist", "Sie fühlt, dass sie beschäftigt ist"]
+        "wrongAnswers": [
+          "Sie denkt, dass sie beschäftigt ist",
+          "Sie weiß, dass sie beschäftigt ist",
+          "Sie fühlt, dass sie beschäftigt ist"
+        ]
       }
     }
   },
   {
     "id": "subordinate_heard_that",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "I heard that he left",
     "languages": {
       "russian": {
         "text": "Я слышал, что он ушёл",
-        "wrongAnswers": ["Я знаю, что он ушёл", "Я видел, что он ушёл", "Я думаю, что он ушёл"]
+        "wrongAnswers": [
+          "Я знаю, что он ушёл",
+          "Я видел, что он ушёл",
+          "Я думаю, что он ушёл"
+        ]
       },
       "ukrainian": {
         "text": "Я чув, що він пішов",
-        "wrongAnswers": ["Я знаю, що він пішов", "Я бачив, що він пішов", "Я думаю, що він пішов"]
+        "wrongAnswers": [
+          "Я знаю, що він пішов",
+          "Я бачив, що він пішов",
+          "Я думаю, що він пішов"
+        ]
       },
       "portuguese": {
         "text": "Ouvi que ele saiu",
-        "wrongAnswers": ["Sei que ele saiu", "Vi que ele saiu", "Acho que ele saiu"]
+        "wrongAnswers": [
+          "Sei que ele saiu",
+          "Vi que ele saiu",
+          "Acho que ele saiu"
+        ]
       },
       "german": {
         "text": "Ich habe gehört, dass er gegangen ist",
-        "wrongAnswers": ["Ich weiß, dass er gegangen ist", "Ich habe gesehen, dass er gegangen ist", "Ich denke, dass er gegangen ist"]
+        "wrongAnswers": [
+          "Ich weiß, dass er gegangen ist",
+          "Ich habe gesehen, dass er gegangen ist",
+          "Ich denke, dass er gegangen ist"
+        ]
       }
     }
   },
   {
     "id": "subordinate_when_come_home",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "When I come home, I'll call",
     "languages": {
       "russian": {
         "text": "Когда я приду домой, я позвоню",
-        "wrongAnswers": ["Если я приду домой, я позвоню", "Пока я приду домой, я позвоню", "После того как я приду домой, я позвоню"]
+        "wrongAnswers": [
+          "Если я приду домой, я позвоню",
+          "Пока я приду домой, я позвоню",
+          "После того как я приду домой, я позвоню"
+        ]
       },
       "ukrainian": {
         "text": "Коли я прийду додому, я подзвоню",
-        "wrongAnswers": ["Якщо я прийду додому, я подзвоню", "Поки я прийду додому, я подзвоню", "Після того як я прийду додому, я подзвоню"]
+        "wrongAnswers": [
+          "Якщо я прийду додому, я подзвоню",
+          "Поки я прийду додому, я подзвоню",
+          "Після того як я прийду додому, я подзвоню"
+        ]
       },
       "portuguese": {
         "text": "Quando chegar a casa, ligo",
-        "wrongAnswers": ["Se chegar a casa, ligo", "Enquanto chegar a casa, ligo", "Depois de chegar a casa, ligo"]
+        "wrongAnswers": [
+          "Se chegar a casa, ligo",
+          "Enquanto chegar a casa, ligo",
+          "Depois de chegar a casa, ligo"
+        ]
       },
       "german": {
         "text": "Wenn ich nach Hause komme, rufe ich an",
-        "wrongAnswers": ["Falls ich nach Hause komme, rufe ich an", "Während ich nach Hause komme, rufe ich an", "Nachdem ich nach Hause komme, rufe ich an"]
+        "wrongAnswers": [
+          "Falls ich nach Hause komme, rufe ich an",
+          "Während ich nach Hause komme, rufe ich an",
+          "Nachdem ich nach Hause komme, rufe ich an"
+        ]
       }
     }
   },
   {
     "id": "subordinate_when_see_him",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "When you see him, tell him",
     "languages": {
       "russian": {
         "text": "Когда ты увидишь его, скажи ему",
-        "wrongAnswers": ["Если ты увидишь его, скажи ему", "Пока ты увидишь его, скажи ему", "После того как ты увидишь его, скажи ему"]
+        "wrongAnswers": [
+          "Если ты увидишь его, скажи ему",
+          "Пока ты увидишь его, скажи ему",
+          "После того как ты увидишь его, скажи ему"
+        ]
       },
       "ukrainian": {
         "text": "Коли ти побачиш його, скажи йому",
-        "wrongAnswers": ["Якщо ти побачиш його, скажи йому", "Поки ти побачиш його, скажи йому", "Після того як ти побачиш його, скажи йому"]
+        "wrongAnswers": [
+          "Якщо ти побачиш його, скажи йому",
+          "Поки ти побачиш його, скажи йому",
+          "Після того як ти побачиш його, скажи йому"
+        ]
       },
       "portuguese": {
         "text": "Quando o vires, diz-lhe",
-        "wrongAnswers": ["Se o vires, diz-lhe", "Enquanto o vires, diz-lhe", "Depois de o vires, diz-lhe"]
+        "wrongAnswers": [
+          "Se o vires, diz-lhe",
+          "Enquanto o vires, diz-lhe",
+          "Depois de o vires, diz-lhe"
+        ]
       },
       "german": {
         "text": "Wenn du ihn siehst, sag ihm",
-        "wrongAnswers": ["Falls du ihn siehst, sag ihm", "Während du ihn siehst, sag ihm", "Nachdem du ihn siehst, sag ihm"]
+        "wrongAnswers": [
+          "Falls du ihn siehst, sag ihm",
+          "Während du ihn siehst, sag ihm",
+          "Nachdem du ihn siehst, sag ihm"
+        ]
       }
     }
   },
   {
     "id": "subordinate_when_arrived",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "I was happy when she arrived",
     "languages": {
       "russian": {
         "text": "Я был рад, когда она приехала",
-        "wrongAnswers": ["Я был рад, если она приехала", "Я был рад, пока она приехала", "Я был рад, что она приехала"]
+        "wrongAnswers": [
+          "Я был рад, если она приехала",
+          "Я был рад, пока она приехала",
+          "Я был рад, что она приехала"
+        ]
       },
       "ukrainian": {
         "text": "Я був радий, коли вона приїхала",
-        "wrongAnswers": ["Я був радий, якщо вона приїхала", "Я був радий, поки вона приїхала", "Я був радий, що вона приїхала"]
+        "wrongAnswers": [
+          "Я був радий, якщо вона приїхала",
+          "Я був радий, поки вона приїхала",
+          "Я був радий, що вона приїхала"
+        ]
       },
       "portuguese": {
         "text": "Fiquei feliz quando ela chegou",
-        "wrongAnswers": ["Fiquei feliz se ela chegou", "Fiquei feliz enquanto ela chegou", "Fiquei feliz que ela chegou"]
+        "wrongAnswers": [
+          "Fiquei feliz se ela chegou",
+          "Fiquei feliz enquanto ela chegou",
+          "Fiquei feliz que ela chegou"
+        ]
       },
       "german": {
         "text": "Ich war froh, als sie ankam",
-        "wrongAnswers": ["Ich war froh, falls sie ankam", "Ich war froh, während sie ankam", "Ich war froh, dass sie ankam"]
+        "wrongAnswers": [
+          "Ich war froh, falls sie ankam",
+          "Ich war froh, während sie ankam",
+          "Ich war froh, dass sie ankam"
+        ]
       }
     }
   },
   {
     "id": "subordinate_if_want",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "If you want, we can go",
     "languages": {
       "russian": {
         "text": "Если хочешь, мы можем пойти",
-        "wrongAnswers": ["Когда хочешь, мы можем пойти", "Пока хочешь, мы можем пойти", "Что хочешь, мы можем пойти"]
+        "wrongAnswers": [
+          "Когда хочешь, мы можем пойти",
+          "Пока хочешь, мы можем пойти",
+          "Что хочешь, мы можем пойти"
+        ]
       },
       "ukrainian": {
         "text": "Якщо хочеш, ми можемо піти",
-        "wrongAnswers": ["Коли хочеш, ми можемо піти", "Поки хочеш, ми можемо піти", "Що хочеш, ми можемо піти"]
+        "wrongAnswers": [
+          "Коли хочеш, ми можемо піти",
+          "Поки хочеш, ми можемо піти",
+          "Що хочеш, ми можемо піти"
+        ]
       },
       "portuguese": {
         "text": "Se quiseres, podemos ir",
-        "wrongAnswers": ["Quando quiseres, podemos ir", "Enquanto quiseres, podemos ir", "O que quiseres, podemos ir"]
+        "wrongAnswers": [
+          "Quando quiseres, podemos ir",
+          "Enquanto quiseres, podemos ir",
+          "O que quiseres, podemos ir"
+        ]
       },
       "german": {
         "text": "Wenn du willst, können wir gehen",
-        "wrongAnswers": ["Wann du willst, können wir gehen", "Während du willst, können wir gehen", "Was du willst, können wir gehen"]
+        "wrongAnswers": [
+          "Wann du willst, können wir gehen",
+          "Während du willst, können wir gehen",
+          "Was du willst, können wir gehen"
+        ]
       }
     }
   },
   {
     "id": "subordinate_if_rains",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "If it rains, I'll stay home",
     "languages": {
       "russian": {
         "text": "Если будет дождь, я останусь дома",
-        "wrongAnswers": ["Когда будет дождь, я останусь дома", "Пока будет дождь, я останусь дома", "Что будет дождь, я останусь дома"]
+        "wrongAnswers": [
+          "Когда будет дождь, я останусь дома",
+          "Пока будет дождь, я останусь дома",
+          "Что будет дождь, я останусь дома"
+        ]
       },
       "ukrainian": {
         "text": "Якщо буде дощ, я залишуся вдома",
-        "wrongAnswers": ["Коли буде дощ, я залишуся вдома", "Поки буде дощ, я залишуся вдома", "Що буде дощ, я залишуся вдома"]
+        "wrongAnswers": [
+          "Коли буде дощ, я залишуся вдома",
+          "Поки буде дощ, я залишуся вдома",
+          "Що буде дощ, я залишуся вдома"
+        ]
       },
       "portuguese": {
         "text": "Se chover, fico em casa",
-        "wrongAnswers": ["Quando chover, fico em casa", "Enquanto chover, fico em casa", "O que chover, fico em casa"]
+        "wrongAnswers": [
+          "Quando chover, fico em casa",
+          "Enquanto chover, fico em casa",
+          "O que chover, fico em casa"
+        ]
       },
       "german": {
         "text": "Wenn es regnet, bleibe ich zu Hause",
-        "wrongAnswers": ["Wann es regnet, bleibe ich zu Hause", "Während es regnet, bleibe ich zu Hause", "Was es regnet, bleibe ich zu Hause"]
+        "wrongAnswers": [
+          "Wann es regnet, bleibe ich zu Hause",
+          "Während es regnet, bleibe ich zu Hause",
+          "Was es regnet, bleibe ich zu Hause"
+        ]
       }
     }
   },
   {
     "id": "subordinate_if_need_help",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "Call me if you need help",
     "languages": {
       "russian": {
         "text": "Позвони мне, если нужна помощь",
-        "wrongAnswers": ["Позвони мне, когда нужна помощь", "Позвони мне, пока нужна помощь", "Позвони мне, что нужна помощь"]
+        "wrongAnswers": [
+          "Позвони мне, когда нужна помощь",
+          "Позвони мне, пока нужна помощь",
+          "Позвони мне, что нужна помощь"
+        ]
       },
       "ukrainian": {
         "text": "Подзвони мені, якщо потрібна допомога",
-        "wrongAnswers": ["Подзвони мені, коли потрібна допомога", "Подзвони мені, поки потрібна допомога", "Подзвони мені, що потрібна допомога"]
+        "wrongAnswers": [
+          "Подзвони мені, коли потрібна допомога",
+          "Подзвони мені, поки потрібна допомога",
+          "Подзвони мені, що потрібна допомога"
+        ]
       },
       "portuguese": {
         "text": "Liga-me se precisares de ajuda",
-        "wrongAnswers": ["Liga-me quando precisares de ajuda", "Liga-me enquanto precisares de ajuda", "Liga-me que precisas de ajuda"]
+        "wrongAnswers": [
+          "Liga-me quando precisares de ajuda",
+          "Liga-me enquanto precisares de ajuda",
+          "Liga-me que precisas de ajuda"
+        ]
       },
       "german": {
         "text": "Ruf mich an, wenn du Hilfe brauchst",
-        "wrongAnswers": ["Ruf mich an, wann du Hilfe brauchst", "Ruf mich an, während du Hilfe brauchst", "Ruf mich an, dass du Hilfe brauchst"]
+        "wrongAnswers": [
+          "Ruf mich an, wann du Hilfe brauchst",
+          "Ruf mich an, während du Hilfe brauchst",
+          "Ruf mich an, dass du Hilfe brauchst"
+        ]
       }
     }
   },
   {
     "id": "subordinate_because_traffic",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "I'm late because traffic was bad",
     "languages": {
       "russian": {
         "text": "Я опоздал, потому что были пробки",
-        "wrongAnswers": ["Я опоздал, когда были пробки", "Я опоздал, если были пробки", "Я опоздал, пока были пробки"]
+        "wrongAnswers": [
+          "Я опоздал, когда были пробки",
+          "Я опоздал, если были пробки",
+          "Я опоздал, пока были пробки"
+        ]
       },
       "ukrainian": {
         "text": "Я спізнився, тому що були затори",
-        "wrongAnswers": ["Я спізнився, коли були затори", "Я спізнився, якщо були затори", "Я спізнився, поки були затори"]
+        "wrongAnswers": [
+          "Я спізнився, коли були затори",
+          "Я спізнився, якщо були затори",
+          "Я спізнився, поки були затори"
+        ]
       },
       "portuguese": {
         "text": "Estou atrasado porque havia trânsito",
-        "wrongAnswers": ["Estou atrasado quando havia trânsito", "Estou atrasado se havia trânsito", "Estou atrasado enquanto havia trânsito"]
+        "wrongAnswers": [
+          "Estou atrasado quando havia trânsito",
+          "Estou atrasado se havia trânsito",
+          "Estou atrasado enquanto havia trânsito"
+        ]
       },
       "german": {
         "text": "Ich bin spät, weil der Verkehr schlecht war",
-        "wrongAnswers": ["Ich bin spät, wenn der Verkehr schlecht war", "Ich bin spät, falls der Verkehr schlecht war", "Ich bin spät, während der Verkehr schlecht war"]
+        "wrongAnswers": [
+          "Ich bin spät, wenn der Verkehr schlecht war",
+          "Ich bin spät, falls der Verkehr schlecht war",
+          "Ich bin spät, während der Verkehr schlecht war"
+        ]
       }
     }
   },
   {
     "id": "subordinate_because_worked",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "She's tired because she worked a lot",
     "languages": {
       "russian": {
         "text": "Она устала, потому что много работала",
-        "wrongAnswers": ["Она устала, когда много работала", "Она устала, если много работала", "Она устала, пока много работала"]
+        "wrongAnswers": [
+          "Она устала, когда много работала",
+          "Она устала, если много работала",
+          "Она устала, пока много работала"
+        ]
       },
       "ukrainian": {
         "text": "Вона втомилася, тому що багато працювала",
-        "wrongAnswers": ["Вона втомилася, коли багато працювала", "Вона втомилася, якщо багато працювала", "Вона втомилася, поки багато працювала"]
+        "wrongAnswers": [
+          "Вона втомилася, коли багато працювала",
+          "Вона втомилася, якщо багато працювала",
+          "Вона втомилася, поки багато працювала"
+        ]
       },
       "portuguese": {
         "text": "Está cansada porque trabalhou muito",
-        "wrongAnswers": ["Está cansada quando trabalhou muito", "Está cansada se trabalhou muito", "Está cansada enquanto trabalhou muito"]
+        "wrongAnswers": [
+          "Está cansada quando trabalhou muito",
+          "Está cansada se trabalhou muito",
+          "Está cansada enquanto trabalhou muito"
+        ]
       },
       "german": {
         "text": "Sie ist müde, weil sie viel gearbeitet hat",
-        "wrongAnswers": ["Sie ist müde, wenn sie viel gearbeitet hat", "Sie ist müde, falls sie viel gearbeitet hat", "Sie ist müde, während sie viel gearbeitet hat"]
+        "wrongAnswers": [
+          "Sie ist müde, wenn sie viel gearbeitet hat",
+          "Sie ist müde, falls sie viel gearbeitet hat",
+          "Sie ist müde, während sie viel gearbeitet hat"
+        ]
       }
     }
   },
   {
     "id": "subordinate_because_like",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "I'm learning Russian because I like it",
     "languages": {
       "russian": {
         "text": "Я учу русский, потому что мне нравится",
-        "wrongAnswers": ["Я учу русский, когда мне нравится", "Я учу русский, если мне нравится", "Я учу русский, что мне нравится"]
+        "wrongAnswers": [
+          "Я учу русский, когда мне нравится",
+          "Я учу русский, если мне нравится",
+          "Я учу русский, что мне нравится"
+        ]
       },
       "ukrainian": {
         "text": "Я вчу українську, тому що мені подобається",
-        "wrongAnswers": ["Я вчу українську, коли мені подобається", "Я вчу українську, якщо мені подобається", "Я вчу українську, що мені подобається"]
+        "wrongAnswers": [
+          "Я вчу українську, коли мені подобається",
+          "Я вчу українську, якщо мені подобається",
+          "Я вчу українську, що мені подобається"
+        ]
       },
       "portuguese": {
         "text": "Estou aprendendo português porque gosto",
-        "wrongAnswers": ["Estou aprendendo português quando gosto", "Estou aprendendo português se gosto", "Estou aprendendo português que gosto"]
+        "wrongAnswers": [
+          "Estou aprendendo português quando gosto",
+          "Estou aprendendo português se gosto",
+          "Estou aprendendo português que gosto"
+        ]
       },
       "german": {
         "text": "Ich lerne Deutsch, weil es mir gefällt",
-        "wrongAnswers": ["Ich lerne Deutsch, wenn es mir gefällt", "Ich lerne Deutsch, falls es mir gefällt", "Ich lerne Deutsch, dass es mir gefällt"]
+        "wrongAnswers": [
+          "Ich lerne Deutsch, wenn es mir gefällt",
+          "Ich lerne Deutsch, falls es mir gefällt",
+          "Ich lerne Deutsch, dass es mir gefällt"
+        ]
       }
     }
   },
   {
     "id": "subordinate_to_talk",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "I came to talk",
     "languages": {
       "russian": {
         "text": "Я пришёл, чтобы поговорить",
-        "wrongAnswers": ["Я пришёл, когда поговорить", "Я пришёл, что поговорить", "Я пришёл, потому что поговорить"]
+        "wrongAnswers": [
+          "Я пришёл, когда поговорить",
+          "Я пришёл, что поговорить",
+          "Я пришёл, потому что поговорить"
+        ]
       },
       "ukrainian": {
         "text": "Я прийшов, щоб поговорити",
-        "wrongAnswers": ["Я прийшов, коли поговорити", "Я прийшов, що поговорити", "Я прийшов, тому що поговорити"]
+        "wrongAnswers": [
+          "Я прийшов, коли поговорити",
+          "Я прийшов, що поговорити",
+          "Я прийшов, тому що поговорити"
+        ]
       },
       "portuguese": {
         "text": "Vim para falar",
-        "wrongAnswers": ["Vim quando falar", "Vim que falar", "Vim porque falar"]
+        "wrongAnswers": [
+          "Vim quando falar",
+          "Vim que falar",
+          "Vim porque falar"
+        ]
       },
       "german": {
         "text": "Ich bin gekommen, um zu reden",
-        "wrongAnswers": ["Ich bin gekommen, wenn reden", "Ich bin gekommen, dass reden", "Ich bin gekommen, weil reden"]
+        "wrongAnswers": [
+          "Ich bin gekommen, wenn reden",
+          "Ich bin gekommen, dass reden",
+          "Ich bin gekommen, weil reden"
+        ]
       }
     }
   },
   {
     "id": "subordinate_to_pass_exam",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "She's studying to pass the exam",
     "languages": {
       "russian": {
         "text": "Она учится, чтобы сдать экзамен",
-        "wrongAnswers": ["Она учится, когда сдать экзамен", "Она учится, потому что сдать экзамен", "Она учится, если сдать экзамен"]
+        "wrongAnswers": [
+          "Она учится, когда сдать экзамен",
+          "Она учится, потому что сдать экзамен",
+          "Она учится, если сдать экзамен"
+        ]
       },
       "ukrainian": {
         "text": "Вона вчиться, щоб здати іспит",
-        "wrongAnswers": ["Вона вчиться, коли здати іспит", "Вона вчиться, тому що здати іспит", "Вона вчиться, якщо здати іспит"]
+        "wrongAnswers": [
+          "Вона вчиться, коли здати іспит",
+          "Вона вчиться, тому що здати іспит",
+          "Вона вчиться, якщо здати іспит"
+        ]
       },
       "portuguese": {
         "text": "Está estudando para passar no exame",
-        "wrongAnswers": ["Está estudando quando passar no exame", "Está estudando porque passar no exame", "Está estudando se passar no exame"]
+        "wrongAnswers": [
+          "Está estudando quando passar no exame",
+          "Está estudando porque passar no exame",
+          "Está estudando se passar no exame"
+        ]
       },
       "german": {
         "text": "Sie lernt, um die Prüfung zu bestehen",
-        "wrongAnswers": ["Sie lernt, wenn die Prüfung bestehen", "Sie lernt, weil die Prüfung bestehen", "Sie lernt, falls die Prüfung bestehen"]
+        "wrongAnswers": [
+          "Sie lernt, wenn die Prüfung bestehen",
+          "Sie lernt, weil die Prüfung bestehen",
+          "Sie lernt, falls die Prüfung bestehen"
+        ]
       }
     }
   },
   {
     "id": "subordinate_to_catch_train",
-    "topics": ["subordinate-clauses"],
+    "topics": [
+      "subordinate-clauses"
+    ],
     "english": "We need to hurry to catch the train",
     "languages": {
       "russian": {
         "text": "Нам надо спешить, чтобы успеть на поезд",
-        "wrongAnswers": ["Нам надо спешить, когда успеть на поезд", "Нам надо спешить, если успеть на поезд", "Нам надо спешить, потому что успеть на поезд"]
+        "wrongAnswers": [
+          "Нам надо спешить, когда успеть на поезд",
+          "Нам надо спешить, если успеть на поезд",
+          "Нам надо спешить, потому что успеть на поезд"
+        ]
       },
       "ukrainian": {
         "text": "Нам треба поспішати, щоб встигнути на поїзд",
-        "wrongAnswers": ["Нам треба поспішати, коли встигнути на поїзд", "Нам треба поспішати, якщо встигнути на поїзд", "Нам треба поспішати, тому що встигнути на поїзд"]
+        "wrongAnswers": [
+          "Нам треба поспішати, коли встигнути на поїзд",
+          "Нам треба поспішати, якщо встигнути на поїзд",
+          "Нам треба поспішати, тому що встигнути на поїзд"
+        ]
       },
       "portuguese": {
         "text": "Precisamos apressar-nos para apanhar o comboio",
-        "wrongAnswers": ["Precisamos apressar-nos quando apanhar o comboio", "Precisamos apressar-nos se apanhar o comboio", "Precisamos apressar-nos porque apanhar o comboio"]
+        "wrongAnswers": [
+          "Precisamos apressar-nos quando apanhar o comboio",
+          "Precisamos apressar-nos se apanhar o comboio",
+          "Precisamos apressar-nos porque apanhar o comboio"
+        ]
       },
       "german": {
         "text": "Wir müssen uns beeilen, um den Zug zu erreichen",
-        "wrongAnswers": ["Wir müssen uns beeilen, wenn den Zug erreichen", "Wir müssen uns beeilen, falls den Zug erreichen", "Wir müssen uns beeilen, weil den Zug erreichen"]
+        "wrongAnswers": [
+          "Wir müssen uns beeilen, wenn den Zug erreichen",
+          "Wir müssen uns beeilen, falls den Zug erreichen",
+          "Wir müssen uns beeilen, weil den Zug erreichen"
+        ]
       }
     }
+  },
+  {
+    "id": "conjugation_to_work_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I work",
+    "languages": {
+      "russian": {
+        "text": "работаю",
+        "wrongAnswers": [
+          "работаешь",
+          "работает",
+          "работаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "працюю",
+        "wrongAnswers": [
+          "працюєш",
+          "працює",
+          "працюємо"
+        ]
+      },
+      "portuguese": {
+        "text": "trabalho",
+        "wrongAnswers": [
+          "trabalhas",
+          "trabalha",
+          "trabalhamos"
+        ]
+      },
+      "german": {
+        "text": "arbeite",
+        "wrongAnswers": [
+          "arbeitest",
+          "arbeitet",
+          "arbeiten"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_work_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) work",
+    "languages": {
+      "russian": {
+        "text": "работаешь",
+        "wrongAnswers": [
+          "работаю",
+          "работает",
+          "работаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "працюєш",
+        "wrongAnswers": [
+          "працюю",
+          "працює",
+          "працюємо"
+        ]
+      },
+      "portuguese": {
+        "text": "trabalhas",
+        "wrongAnswers": [
+          "trabalho",
+          "trabalha",
+          "trabalhamos"
+        ]
+      },
+      "german": {
+        "text": "arbeitest",
+        "wrongAnswers": [
+          "arbeite",
+          "arbeitet",
+          "arbeiten"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_work_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it works",
+    "languages": {
+      "russian": {
+        "text": "работает",
+        "wrongAnswers": [
+          "работаю",
+          "работаешь",
+          "работаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "працює",
+        "wrongAnswers": [
+          "працюю",
+          "працюєш",
+          "працюємо"
+        ]
+      },
+      "portuguese": {
+        "text": "trabalha",
+        "wrongAnswers": [
+          "trabalho",
+          "trabalhas",
+          "trabalhamos"
+        ]
+      },
+      "german": {
+        "text": "arbeitet",
+        "wrongAnswers": [
+          "arbeite",
+          "arbeitest",
+          "arbeiten"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_work_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we work",
+    "languages": {
+      "russian": {
+        "text": "работаем",
+        "wrongAnswers": [
+          "работаю",
+          "работаешь",
+          "работает"
+        ]
+      },
+      "ukrainian": {
+        "text": "працюємо",
+        "wrongAnswers": [
+          "працюю",
+          "працюєш",
+          "працює"
+        ]
+      },
+      "portuguese": {
+        "text": "trabalhamos",
+        "wrongAnswers": [
+          "trabalho",
+          "trabalhas",
+          "trabalha"
+        ]
+      },
+      "german": {
+        "text": "arbeiten",
+        "wrongAnswers": [
+          "arbeite",
+          "arbeitest",
+          "arbeitet"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_work_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) work",
+    "languages": {
+      "russian": {
+        "text": "работаете",
+        "wrongAnswers": [
+          "работаю",
+          "работаешь",
+          "работает"
+        ]
+      },
+      "ukrainian": {
+        "text": "працюєте",
+        "wrongAnswers": [
+          "працюю",
+          "працюєш",
+          "працює"
+        ]
+      },
+      "portuguese": {
+        "text": "trabalham",
+        "wrongAnswers": [
+          "trabalho",
+          "trabalhas",
+          "trabalha"
+        ]
+      },
+      "german": {
+        "text": "arbeitet",
+        "wrongAnswers": [
+          "arbeite",
+          "arbeitest",
+          "arbeiten"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_work_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they work",
+    "languages": {
+      "russian": {
+        "text": "работают",
+        "wrongAnswers": [
+          "работаю",
+          "работаешь",
+          "работает"
+        ]
+      },
+      "ukrainian": {
+        "text": "працюють",
+        "wrongAnswers": [
+          "працюю",
+          "працюєш",
+          "працює"
+        ]
+      },
+      "portuguese": {
+        "text": "trabalham",
+        "wrongAnswers": [
+          "trabalho",
+          "trabalhas",
+          "trabalha"
+        ]
+      },
+      "german": {
+        "text": "arbeiten",
+        "wrongAnswers": [
+          "arbeite",
+          "arbeitest",
+          "arbeitet"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_play_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I play",
+    "languages": {
+      "russian": {
+        "text": "играю",
+        "wrongAnswers": [
+          "играешь",
+          "играет",
+          "играем"
+        ]
+      },
+      "ukrainian": {
+        "text": "граю",
+        "wrongAnswers": [
+          "граєш",
+          "грає",
+          "граємо"
+        ]
+      },
+      "portuguese": {
+        "text": "jogo",
+        "wrongAnswers": [
+          "jogas",
+          "joga",
+          "jogamos"
+        ]
+      },
+      "german": {
+        "text": "spiele",
+        "wrongAnswers": [
+          "spielst",
+          "spielt",
+          "spielen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_play_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) play",
+    "languages": {
+      "russian": {
+        "text": "играешь",
+        "wrongAnswers": [
+          "играю",
+          "играет",
+          "играем"
+        ]
+      },
+      "ukrainian": {
+        "text": "граєш",
+        "wrongAnswers": [
+          "граю",
+          "грає",
+          "граємо"
+        ]
+      },
+      "portuguese": {
+        "text": "jogas",
+        "wrongAnswers": [
+          "jogo",
+          "joga",
+          "jogamos"
+        ]
+      },
+      "german": {
+        "text": "spielst",
+        "wrongAnswers": [
+          "spiele",
+          "spielt",
+          "spielen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_play_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it plays",
+    "languages": {
+      "russian": {
+        "text": "играет",
+        "wrongAnswers": [
+          "играю",
+          "играешь",
+          "играем"
+        ]
+      },
+      "ukrainian": {
+        "text": "грає",
+        "wrongAnswers": [
+          "граю",
+          "граєш",
+          "граємо"
+        ]
+      },
+      "portuguese": {
+        "text": "joga",
+        "wrongAnswers": [
+          "jogo",
+          "jogas",
+          "jogamos"
+        ]
+      },
+      "german": {
+        "text": "spielt",
+        "wrongAnswers": [
+          "spiele",
+          "spielst",
+          "spielen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_play_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we play",
+    "languages": {
+      "russian": {
+        "text": "играем",
+        "wrongAnswers": [
+          "играю",
+          "играешь",
+          "играет"
+        ]
+      },
+      "ukrainian": {
+        "text": "граємо",
+        "wrongAnswers": [
+          "граю",
+          "граєш",
+          "грає"
+        ]
+      },
+      "portuguese": {
+        "text": "jogamos",
+        "wrongAnswers": [
+          "jogo",
+          "jogas",
+          "joga"
+        ]
+      },
+      "german": {
+        "text": "spielen",
+        "wrongAnswers": [
+          "spiele",
+          "spielst",
+          "spielt"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_play_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) play",
+    "languages": {
+      "russian": {
+        "text": "играете",
+        "wrongAnswers": [
+          "играю",
+          "играешь",
+          "играет"
+        ]
+      },
+      "ukrainian": {
+        "text": "граєте",
+        "wrongAnswers": [
+          "граю",
+          "граєш",
+          "грає"
+        ]
+      },
+      "portuguese": {
+        "text": "jogam",
+        "wrongAnswers": [
+          "jogo",
+          "jogas",
+          "joga"
+        ]
+      },
+      "german": {
+        "text": "spielt",
+        "wrongAnswers": [
+          "spiele",
+          "spielst",
+          "spielen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_play_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they play",
+    "languages": {
+      "russian": {
+        "text": "играют",
+        "wrongAnswers": [
+          "играю",
+          "играешь",
+          "играет"
+        ]
+      },
+      "ukrainian": {
+        "text": "грають",
+        "wrongAnswers": [
+          "граю",
+          "граєш",
+          "грає"
+        ]
+      },
+      "portuguese": {
+        "text": "jogam",
+        "wrongAnswers": [
+          "jogo",
+          "jogas",
+          "joga"
+        ]
+      },
+      "german": {
+        "text": "spielen",
+        "wrongAnswers": [
+          "spiele",
+          "spielst",
+          "spielt"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_buy_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I buy",
+    "languages": {
+      "russian": {
+        "text": "покупаю",
+        "wrongAnswers": [
+          "покупаешь",
+          "покупает",
+          "покупаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "купую",
+        "wrongAnswers": [
+          "купуєш",
+          "купує",
+          "купуємо"
+        ]
+      },
+      "portuguese": {
+        "text": "compro",
+        "wrongAnswers": [
+          "compras",
+          "compra",
+          "compramos"
+        ]
+      },
+      "german": {
+        "text": "kaufe",
+        "wrongAnswers": [
+          "kaufst",
+          "kauft",
+          "kaufen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_buy_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) buy",
+    "languages": {
+      "russian": {
+        "text": "покупаешь",
+        "wrongAnswers": [
+          "покупаю",
+          "покупает",
+          "покупаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "купуєш",
+        "wrongAnswers": [
+          "купую",
+          "купує",
+          "купуємо"
+        ]
+      },
+      "portuguese": {
+        "text": "compras",
+        "wrongAnswers": [
+          "compro",
+          "compra",
+          "compramos"
+        ]
+      },
+      "german": {
+        "text": "kaufst",
+        "wrongAnswers": [
+          "kaufe",
+          "kauft",
+          "kaufen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_buy_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it buys",
+    "languages": {
+      "russian": {
+        "text": "покупает",
+        "wrongAnswers": [
+          "покупаю",
+          "покупаешь",
+          "покупаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "купує",
+        "wrongAnswers": [
+          "купую",
+          "купуєш",
+          "купуємо"
+        ]
+      },
+      "portuguese": {
+        "text": "compra",
+        "wrongAnswers": [
+          "compro",
+          "compras",
+          "compramos"
+        ]
+      },
+      "german": {
+        "text": "kauft",
+        "wrongAnswers": [
+          "kaufe",
+          "kaufst",
+          "kaufen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_buy_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we buy",
+    "languages": {
+      "russian": {
+        "text": "покупаем",
+        "wrongAnswers": [
+          "покупаю",
+          "покупаешь",
+          "покупает"
+        ]
+      },
+      "ukrainian": {
+        "text": "купуємо",
+        "wrongAnswers": [
+          "купую",
+          "купуєш",
+          "купує"
+        ]
+      },
+      "portuguese": {
+        "text": "compramos",
+        "wrongAnswers": [
+          "compro",
+          "compras",
+          "compra"
+        ]
+      },
+      "german": {
+        "text": "kaufen",
+        "wrongAnswers": [
+          "kaufe",
+          "kaufst",
+          "kauft"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_buy_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) buy",
+    "languages": {
+      "russian": {
+        "text": "покупаете",
+        "wrongAnswers": [
+          "покупаю",
+          "покупаешь",
+          "покупает"
+        ]
+      },
+      "ukrainian": {
+        "text": "купуєте",
+        "wrongAnswers": [
+          "купую",
+          "купуєш",
+          "купує"
+        ]
+      },
+      "portuguese": {
+        "text": "compram",
+        "wrongAnswers": [
+          "compro",
+          "compras",
+          "compra"
+        ]
+      },
+      "german": {
+        "text": "kauft",
+        "wrongAnswers": [
+          "kaufe",
+          "kaufst",
+          "kaufen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_buy_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they buy",
+    "languages": {
+      "russian": {
+        "text": "покупают",
+        "wrongAnswers": [
+          "покупаю",
+          "покупаешь",
+          "покупает"
+        ]
+      },
+      "ukrainian": {
+        "text": "купують",
+        "wrongAnswers": [
+          "купую",
+          "купуєш",
+          "купує"
+        ]
+      },
+      "portuguese": {
+        "text": "compram",
+        "wrongAnswers": [
+          "compro",
+          "compras",
+          "compra"
+        ]
+      },
+      "german": {
+        "text": "kaufen",
+        "wrongAnswers": [
+          "kaufe",
+          "kaufst",
+          "kauft"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_listen_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I listen",
+    "languages": {
+      "russian": {
+        "text": "слушаю",
+        "wrongAnswers": [
+          "слушаешь",
+          "слушает",
+          "слушаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "слухаю",
+        "wrongAnswers": [
+          "слухаєш",
+          "слухає",
+          "слухаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "escuto",
+        "wrongAnswers": [
+          "escutas",
+          "escuta",
+          "escutamos"
+        ]
+      },
+      "german": {
+        "text": "höre",
+        "wrongAnswers": [
+          "hörst",
+          "hört",
+          "hören"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_listen_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) listen",
+    "languages": {
+      "russian": {
+        "text": "слушаешь",
+        "wrongAnswers": [
+          "слушаю",
+          "слушает",
+          "слушаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "слухаєш",
+        "wrongAnswers": [
+          "слухаю",
+          "слухає",
+          "слухаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "escutas",
+        "wrongAnswers": [
+          "escuto",
+          "escuta",
+          "escutamos"
+        ]
+      },
+      "german": {
+        "text": "hörst",
+        "wrongAnswers": [
+          "höre",
+          "hört",
+          "hören"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_listen_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it listens",
+    "languages": {
+      "russian": {
+        "text": "слушает",
+        "wrongAnswers": [
+          "слушаю",
+          "слушаешь",
+          "слушаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "слухає",
+        "wrongAnswers": [
+          "слухаю",
+          "слухаєш",
+          "слухаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "escuta",
+        "wrongAnswers": [
+          "escuto",
+          "escutas",
+          "escutamos"
+        ]
+      },
+      "german": {
+        "text": "hört",
+        "wrongAnswers": [
+          "höre",
+          "hörst",
+          "hören"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_listen_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we listen",
+    "languages": {
+      "russian": {
+        "text": "слушаем",
+        "wrongAnswers": [
+          "слушаю",
+          "слушаешь",
+          "слушает"
+        ]
+      },
+      "ukrainian": {
+        "text": "слухаємо",
+        "wrongAnswers": [
+          "слухаю",
+          "слухаєш",
+          "слухає"
+        ]
+      },
+      "portuguese": {
+        "text": "escutamos",
+        "wrongAnswers": [
+          "escuto",
+          "escutas",
+          "escuta"
+        ]
+      },
+      "german": {
+        "text": "hören",
+        "wrongAnswers": [
+          "höre",
+          "hörst",
+          "hört"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_listen_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) listen",
+    "languages": {
+      "russian": {
+        "text": "слушаете",
+        "wrongAnswers": [
+          "слушаю",
+          "слушаешь",
+          "слушает"
+        ]
+      },
+      "ukrainian": {
+        "text": "слухаєте",
+        "wrongAnswers": [
+          "слухаю",
+          "слухаєш",
+          "слухає"
+        ]
+      },
+      "portuguese": {
+        "text": "escutam",
+        "wrongAnswers": [
+          "escuto",
+          "escutas",
+          "escuta"
+        ]
+      },
+      "german": {
+        "text": "hört",
+        "wrongAnswers": [
+          "höre",
+          "hörst",
+          "hören"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_listen_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they listen",
+    "languages": {
+      "russian": {
+        "text": "слушают",
+        "wrongAnswers": [
+          "слушаю",
+          "слушаешь",
+          "слушает"
+        ]
+      },
+      "ukrainian": {
+        "text": "слухають",
+        "wrongAnswers": [
+          "слухаю",
+          "слухаєш",
+          "слухає"
+        ]
+      },
+      "portuguese": {
+        "text": "escutam",
+        "wrongAnswers": [
+          "escuto",
+          "escutas",
+          "escuta"
+        ]
+      },
+      "german": {
+        "text": "hören",
+        "wrongAnswers": [
+          "höre",
+          "hörst",
+          "hört"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_ask_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I ask",
+    "languages": {
+      "russian": {
+        "text": "спрашиваю",
+        "wrongAnswers": [
+          "спрашиваешь",
+          "спрашивает",
+          "спрашиваем"
+        ]
+      },
+      "ukrainian": {
+        "text": "запитую",
+        "wrongAnswers": [
+          "запитуєш",
+          "запитує",
+          "запитуємо"
+        ]
+      },
+      "portuguese": {
+        "text": "pergunto",
+        "wrongAnswers": [
+          "perguntas",
+          "pergunta",
+          "perguntamos"
+        ]
+      },
+      "german": {
+        "text": "frage",
+        "wrongAnswers": [
+          "fragst",
+          "fragt",
+          "fragen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_ask_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) ask",
+    "languages": {
+      "russian": {
+        "text": "спрашиваешь",
+        "wrongAnswers": [
+          "спрашиваю",
+          "спрашивает",
+          "спрашиваем"
+        ]
+      },
+      "ukrainian": {
+        "text": "запитуєш",
+        "wrongAnswers": [
+          "запитую",
+          "запитує",
+          "запитуємо"
+        ]
+      },
+      "portuguese": {
+        "text": "perguntas",
+        "wrongAnswers": [
+          "pergunto",
+          "pergunta",
+          "perguntamos"
+        ]
+      },
+      "german": {
+        "text": "fragst",
+        "wrongAnswers": [
+          "frage",
+          "fragt",
+          "fragen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_ask_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it asks",
+    "languages": {
+      "russian": {
+        "text": "спрашивает",
+        "wrongAnswers": [
+          "спрашиваю",
+          "спрашиваешь",
+          "спрашиваем"
+        ]
+      },
+      "ukrainian": {
+        "text": "запитує",
+        "wrongAnswers": [
+          "запитую",
+          "запитуєш",
+          "запитуємо"
+        ]
+      },
+      "portuguese": {
+        "text": "pergunta",
+        "wrongAnswers": [
+          "pergunto",
+          "perguntas",
+          "perguntamos"
+        ]
+      },
+      "german": {
+        "text": "fragt",
+        "wrongAnswers": [
+          "frage",
+          "fragst",
+          "fragen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_ask_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we ask",
+    "languages": {
+      "russian": {
+        "text": "спрашиваем",
+        "wrongAnswers": [
+          "спрашиваю",
+          "спрашиваешь",
+          "спрашивает"
+        ]
+      },
+      "ukrainian": {
+        "text": "запитуємо",
+        "wrongAnswers": [
+          "запитую",
+          "запитуєш",
+          "запитує"
+        ]
+      },
+      "portuguese": {
+        "text": "perguntamos",
+        "wrongAnswers": [
+          "pergunto",
+          "perguntas",
+          "pergunta"
+        ]
+      },
+      "german": {
+        "text": "fragen",
+        "wrongAnswers": [
+          "frage",
+          "fragst",
+          "fragt"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_ask_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) ask",
+    "languages": {
+      "russian": {
+        "text": "спрашиваете",
+        "wrongAnswers": [
+          "спрашиваю",
+          "спрашиваешь",
+          "спрашивает"
+        ]
+      },
+      "ukrainian": {
+        "text": "запитуєте",
+        "wrongAnswers": [
+          "запитую",
+          "запитуєш",
+          "запитує"
+        ]
+      },
+      "portuguese": {
+        "text": "perguntam",
+        "wrongAnswers": [
+          "pergunto",
+          "perguntas",
+          "pergunta"
+        ]
+      },
+      "german": {
+        "text": "fragt",
+        "wrongAnswers": [
+          "frage",
+          "fragst",
+          "fragen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_ask_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they ask",
+    "languages": {
+      "russian": {
+        "text": "спрашивают",
+        "wrongAnswers": [
+          "спрашиваю",
+          "спрашиваешь",
+          "спрашивает"
+        ]
+      },
+      "ukrainian": {
+        "text": "запитують",
+        "wrongAnswers": [
+          "запитую",
+          "запитуєш",
+          "запитує"
+        ]
+      },
+      "portuguese": {
+        "text": "perguntam",
+        "wrongAnswers": [
+          "pergunto",
+          "perguntas",
+          "pergunta"
+        ]
+      },
+      "german": {
+        "text": "fragen",
+        "wrongAnswers": [
+          "frage",
+          "fragst",
+          "fragt"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_answer_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I answer",
+    "languages": {
+      "russian": {
+        "text": "отвечаю",
+        "wrongAnswers": [
+          "отвечаешь",
+          "отвечает",
+          "отвечаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "відповідаю",
+        "wrongAnswers": [
+          "відповідаєш",
+          "відповідає",
+          "відповідаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "respondo",
+        "wrongAnswers": [
+          "respondes",
+          "responde",
+          "respondemos"
+        ]
+      },
+      "german": {
+        "text": "antworte",
+        "wrongAnswers": [
+          "antwortest",
+          "antwortet",
+          "antworten"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_answer_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) answer",
+    "languages": {
+      "russian": {
+        "text": "отвечаешь",
+        "wrongAnswers": [
+          "отвечаю",
+          "отвечает",
+          "отвечаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "відповідаєш",
+        "wrongAnswers": [
+          "відповідаю",
+          "відповідає",
+          "відповідаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "respondes",
+        "wrongAnswers": [
+          "respondo",
+          "responde",
+          "respondemos"
+        ]
+      },
+      "german": {
+        "text": "antwortest",
+        "wrongAnswers": [
+          "antworte",
+          "antwortet",
+          "antworten"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_answer_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it answers",
+    "languages": {
+      "russian": {
+        "text": "отвечает",
+        "wrongAnswers": [
+          "отвечаю",
+          "отвечаешь",
+          "отвечаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "відповідає",
+        "wrongAnswers": [
+          "відповідаю",
+          "відповідаєш",
+          "відповідаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "responde",
+        "wrongAnswers": [
+          "respondo",
+          "respondes",
+          "respondemos"
+        ]
+      },
+      "german": {
+        "text": "antwortet",
+        "wrongAnswers": [
+          "antworte",
+          "antwortest",
+          "antworten"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_answer_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we answer",
+    "languages": {
+      "russian": {
+        "text": "отвечаем",
+        "wrongAnswers": [
+          "отвечаю",
+          "отвечаешь",
+          "отвечает"
+        ]
+      },
+      "ukrainian": {
+        "text": "відповідаємо",
+        "wrongAnswers": [
+          "відповідаю",
+          "відповідаєш",
+          "відповідає"
+        ]
+      },
+      "portuguese": {
+        "text": "respondemos",
+        "wrongAnswers": [
+          "respondo",
+          "respondes",
+          "responde"
+        ]
+      },
+      "german": {
+        "text": "antworten",
+        "wrongAnswers": [
+          "antworte",
+          "antwortest",
+          "antwortet"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_answer_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) answer",
+    "languages": {
+      "russian": {
+        "text": "отвечаете",
+        "wrongAnswers": [
+          "отвечаю",
+          "отвечаешь",
+          "отвечает"
+        ]
+      },
+      "ukrainian": {
+        "text": "відповідаєте",
+        "wrongAnswers": [
+          "відповідаю",
+          "відповідаєш",
+          "відповідає"
+        ]
+      },
+      "portuguese": {
+        "text": "respondem",
+        "wrongAnswers": [
+          "respondo",
+          "respondes",
+          "responde"
+        ]
+      },
+      "german": {
+        "text": "antwortet",
+        "wrongAnswers": [
+          "antworte",
+          "antwortest",
+          "antworten"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_answer_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they answer",
+    "languages": {
+      "russian": {
+        "text": "отвечают",
+        "wrongAnswers": [
+          "отвечаю",
+          "отвечаешь",
+          "отвечает"
+        ]
+      },
+      "ukrainian": {
+        "text": "відповідають",
+        "wrongAnswers": [
+          "відповідаю",
+          "відповідаєш",
+          "відповідає"
+        ]
+      },
+      "portuguese": {
+        "text": "respondem",
+        "wrongAnswers": [
+          "respondo",
+          "respondes",
+          "responde"
+        ]
+      },
+      "german": {
+        "text": "antworten",
+        "wrongAnswers": [
+          "antworte",
+          "antwortest",
+          "antwortet"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_live_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I live",
+    "languages": {
+      "russian": {
+        "text": "проживаю",
+        "wrongAnswers": [
+          "проживаешь",
+          "проживает",
+          "проживаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "проживаю",
+        "wrongAnswers": [
+          "проживаєш",
+          "проживає",
+          "проживаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "vivo",
+        "wrongAnswers": [
+          "vives",
+          "vive",
+          "vivemos"
+        ]
+      },
+      "german": {
+        "text": "lebe",
+        "wrongAnswers": [
+          "lebst",
+          "lebt",
+          "leben"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_live_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) live",
+    "languages": {
+      "russian": {
+        "text": "проживаешь",
+        "wrongAnswers": [
+          "проживаю",
+          "проживает",
+          "проживаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "проживаєш",
+        "wrongAnswers": [
+          "проживаю",
+          "проживає",
+          "проживаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "vives",
+        "wrongAnswers": [
+          "vivo",
+          "vive",
+          "vivemos"
+        ]
+      },
+      "german": {
+        "text": "lebst",
+        "wrongAnswers": [
+          "lebe",
+          "lebt",
+          "leben"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_live_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it lives",
+    "languages": {
+      "russian": {
+        "text": "проживает",
+        "wrongAnswers": [
+          "проживаю",
+          "проживаешь",
+          "проживаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "проживає",
+        "wrongAnswers": [
+          "проживаю",
+          "проживаєш",
+          "проживаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "vive",
+        "wrongAnswers": [
+          "vivo",
+          "vives",
+          "vivemos"
+        ]
+      },
+      "german": {
+        "text": "lebt",
+        "wrongAnswers": [
+          "lebe",
+          "lebst",
+          "leben"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_live_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we live",
+    "languages": {
+      "russian": {
+        "text": "проживаем",
+        "wrongAnswers": [
+          "проживаю",
+          "проживаешь",
+          "проживает"
+        ]
+      },
+      "ukrainian": {
+        "text": "проживаємо",
+        "wrongAnswers": [
+          "проживаю",
+          "проживаєш",
+          "проживає"
+        ]
+      },
+      "portuguese": {
+        "text": "vivemos",
+        "wrongAnswers": [
+          "vivo",
+          "vives",
+          "vive"
+        ]
+      },
+      "german": {
+        "text": "leben",
+        "wrongAnswers": [
+          "lebe",
+          "lebst",
+          "lebt"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_live_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) live",
+    "languages": {
+      "russian": {
+        "text": "проживаете",
+        "wrongAnswers": [
+          "проживаю",
+          "проживаешь",
+          "проживает"
+        ]
+      },
+      "ukrainian": {
+        "text": "проживаєте",
+        "wrongAnswers": [
+          "проживаю",
+          "проживаєш",
+          "проживає"
+        ]
+      },
+      "portuguese": {
+        "text": "vivem",
+        "wrongAnswers": [
+          "vivo",
+          "vives",
+          "vive"
+        ]
+      },
+      "german": {
+        "text": "lebt",
+        "wrongAnswers": [
+          "lebe",
+          "lebst",
+          "leben"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_live_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they live",
+    "languages": {
+      "russian": {
+        "text": "проживают",
+        "wrongAnswers": [
+          "проживаю",
+          "проживаешь",
+          "проживает"
+        ]
+      },
+      "ukrainian": {
+        "text": "проживають",
+        "wrongAnswers": [
+          "проживаю",
+          "проживаєш",
+          "проживає"
+        ]
+      },
+      "portuguese": {
+        "text": "vivem",
+        "wrongAnswers": [
+          "vivo",
+          "vives",
+          "vive"
+        ]
+      },
+      "german": {
+        "text": "leben",
+        "wrongAnswers": [
+          "lebe",
+          "lebst",
+          "lebt"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_study_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I study",
+    "languages": {
+      "russian": {
+        "text": "изучаю",
+        "wrongAnswers": [
+          "изучаешь",
+          "изучает",
+          "изучаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "вивчаю",
+        "wrongAnswers": [
+          "вивчаєш",
+          "вивчає",
+          "вивчаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "estudo",
+        "wrongAnswers": [
+          "estudas",
+          "estuda",
+          "estudamos"
+        ]
+      },
+      "german": {
+        "text": "lerne",
+        "wrongAnswers": [
+          "lernst",
+          "lernt",
+          "lernen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_study_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) study",
+    "languages": {
+      "russian": {
+        "text": "изучаешь",
+        "wrongAnswers": [
+          "изучаю",
+          "изучает",
+          "изучаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "вивчаєш",
+        "wrongAnswers": [
+          "вивчаю",
+          "вивчає",
+          "вивчаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "estudas",
+        "wrongAnswers": [
+          "estudo",
+          "estuda",
+          "estudamos"
+        ]
+      },
+      "german": {
+        "text": "lernst",
+        "wrongAnswers": [
+          "lerne",
+          "lernt",
+          "lernen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_study_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it studies",
+    "languages": {
+      "russian": {
+        "text": "изучает",
+        "wrongAnswers": [
+          "изучаю",
+          "изучаешь",
+          "изучаем"
+        ]
+      },
+      "ukrainian": {
+        "text": "вивчає",
+        "wrongAnswers": [
+          "вивчаю",
+          "вивчаєш",
+          "вивчаємо"
+        ]
+      },
+      "portuguese": {
+        "text": "estuda",
+        "wrongAnswers": [
+          "estudo",
+          "estudas",
+          "estudamos"
+        ]
+      },
+      "german": {
+        "text": "lernt",
+        "wrongAnswers": [
+          "lerne",
+          "lernst",
+          "lernen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_study_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we study",
+    "languages": {
+      "russian": {
+        "text": "изучаем",
+        "wrongAnswers": [
+          "изучаю",
+          "изучаешь",
+          "изучает"
+        ]
+      },
+      "ukrainian": {
+        "text": "вивчаємо",
+        "wrongAnswers": [
+          "вивчаю",
+          "вивчаєш",
+          "вивчає"
+        ]
+      },
+      "portuguese": {
+        "text": "estudamos",
+        "wrongAnswers": [
+          "estudo",
+          "estudas",
+          "estuda"
+        ]
+      },
+      "german": {
+        "text": "lernen",
+        "wrongAnswers": [
+          "lerne",
+          "lernst",
+          "lernt"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_study_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) study",
+    "languages": {
+      "russian": {
+        "text": "изучаете",
+        "wrongAnswers": [
+          "изучаю",
+          "изучаешь",
+          "изучает"
+        ]
+      },
+      "ukrainian": {
+        "text": "вивчаєте",
+        "wrongAnswers": [
+          "вивчаю",
+          "вивчаєш",
+          "вивчає"
+        ]
+      },
+      "portuguese": {
+        "text": "estudam",
+        "wrongAnswers": [
+          "estudo",
+          "estudas",
+          "estuda"
+        ]
+      },
+      "german": {
+        "text": "lernt",
+        "wrongAnswers": [
+          "lerne",
+          "lernst",
+          "lernen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_study_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they study",
+    "languages": {
+      "russian": {
+        "text": "изучают",
+        "wrongAnswers": [
+          "изучаю",
+          "изучаешь",
+          "изучает"
+        ]
+      },
+      "ukrainian": {
+        "text": "вивчають",
+        "wrongAnswers": [
+          "вивчаю",
+          "вивчаєш",
+          "вивчає"
+        ]
+      },
+      "portuguese": {
+        "text": "estudam",
+        "wrongAnswers": [
+          "estudo",
+          "estudas",
+          "estuda"
+        ]
+      },
+      "german": {
+        "text": "lernen",
+        "wrongAnswers": [
+          "lerne",
+          "lernst",
+          "lernt"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_open_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I open",
+    "languages": {
+      "russian": {
+        "text": "открываю",
+        "wrongAnswers": [
+          "открываешь",
+          "открывает",
+          "открываем"
+        ]
+      },
+      "ukrainian": {
+        "text": "відчиняю",
+        "wrongAnswers": [
+          "відчиняєш",
+          "відчиняє",
+          "відчиняємо"
+        ]
+      },
+      "portuguese": {
+        "text": "abro",
+        "wrongAnswers": [
+          "abres",
+          "abre",
+          "abrimos"
+        ]
+      },
+      "german": {
+        "text": "öffne",
+        "wrongAnswers": [
+          "öffnest",
+          "öffnet",
+          "öffnen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_open_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) open",
+    "languages": {
+      "russian": {
+        "text": "открываешь",
+        "wrongAnswers": [
+          "открываю",
+          "открывает",
+          "открываем"
+        ]
+      },
+      "ukrainian": {
+        "text": "відчиняєш",
+        "wrongAnswers": [
+          "відчиняю",
+          "відчиняє",
+          "відчиняємо"
+        ]
+      },
+      "portuguese": {
+        "text": "abres",
+        "wrongAnswers": [
+          "abro",
+          "abre",
+          "abrimos"
+        ]
+      },
+      "german": {
+        "text": "öffnest",
+        "wrongAnswers": [
+          "öffne",
+          "öffnet",
+          "öffnen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_open_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it opens",
+    "languages": {
+      "russian": {
+        "text": "открывает",
+        "wrongAnswers": [
+          "открываю",
+          "открываешь",
+          "открываем"
+        ]
+      },
+      "ukrainian": {
+        "text": "відчиняє",
+        "wrongAnswers": [
+          "відчиняю",
+          "відчиняєш",
+          "відчиняємо"
+        ]
+      },
+      "portuguese": {
+        "text": "abre",
+        "wrongAnswers": [
+          "abro",
+          "abres",
+          "abrimos"
+        ]
+      },
+      "german": {
+        "text": "öffnet",
+        "wrongAnswers": [
+          "öffne",
+          "öffnest",
+          "öffnen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_open_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we open",
+    "languages": {
+      "russian": {
+        "text": "открываем",
+        "wrongAnswers": [
+          "открываю",
+          "открываешь",
+          "открывает"
+        ]
+      },
+      "ukrainian": {
+        "text": "відчиняємо",
+        "wrongAnswers": [
+          "відчиняю",
+          "відчиняєш",
+          "відчиняє"
+        ]
+      },
+      "portuguese": {
+        "text": "abrimos",
+        "wrongAnswers": [
+          "abro",
+          "abres",
+          "abre"
+        ]
+      },
+      "german": {
+        "text": "öffnen",
+        "wrongAnswers": [
+          "öffne",
+          "öffnest",
+          "öffnet"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_open_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) open",
+    "languages": {
+      "russian": {
+        "text": "открываете",
+        "wrongAnswers": [
+          "открываю",
+          "открываешь",
+          "открывает"
+        ]
+      },
+      "ukrainian": {
+        "text": "відчиняєте",
+        "wrongAnswers": [
+          "відчиняю",
+          "відчиняєш",
+          "відчиняє"
+        ]
+      },
+      "portuguese": {
+        "text": "abrem",
+        "wrongAnswers": [
+          "abro",
+          "abres",
+          "abre"
+        ]
+      },
+      "german": {
+        "text": "öffnet",
+        "wrongAnswers": [
+          "öffne",
+          "öffnest",
+          "öffnen"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_open_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they open",
+    "languages": {
+      "russian": {
+        "text": "открывают",
+        "wrongAnswers": [
+          "открываю",
+          "открываешь",
+          "открывает"
+        ]
+      },
+      "ukrainian": {
+        "text": "відчиняють",
+        "wrongAnswers": [
+          "відчиняю",
+          "відчиняєш",
+          "відчиняє"
+        ]
+      },
+      "portuguese": {
+        "text": "abrem",
+        "wrongAnswers": [
+          "abro",
+          "abres",
+          "abre"
+        ]
+      },
+      "german": {
+        "text": "öffnen",
+        "wrongAnswers": [
+          "öffne",
+          "öffnest",
+          "öffnet"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_walk_I",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "I walk",
+    "languages": {
+      "russian": {
+        "text": "гуляю",
+        "wrongAnswers": [
+          "гуляешь",
+          "гуляет",
+          "гуляем"
+        ]
+      },
+      "ukrainian": {
+        "text": "гуляю",
+        "wrongAnswers": [
+          "гуляєш",
+          "гуляє",
+          "гуляємо"
+        ]
+      },
+      "portuguese": {
+        "text": "caminho",
+        "wrongAnswers": [
+          "caminhas",
+          "caminha",
+          "caminhamos"
+        ]
+      },
+      "german": {
+        "text": "wandere",
+        "wrongAnswers": [
+          "wanderst",
+          "wandert",
+          "wandern"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_walk_you_singular",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (singular) walk",
+    "languages": {
+      "russian": {
+        "text": "гуляешь",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляет",
+          "гуляем"
+        ]
+      },
+      "ukrainian": {
+        "text": "гуляєш",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляє",
+          "гуляємо"
+        ]
+      },
+      "portuguese": {
+        "text": "caminhas",
+        "wrongAnswers": [
+          "caminho",
+          "caminha",
+          "caminhamos"
+        ]
+      },
+      "german": {
+        "text": "wanderst",
+        "wrongAnswers": [
+          "wandere",
+          "wandert",
+          "wandern"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_walk_he/she/it",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "he/she/it walks",
+    "languages": {
+      "russian": {
+        "text": "гуляет",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляешь",
+          "гуляем"
+        ]
+      },
+      "ukrainian": {
+        "text": "гуляє",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляєш",
+          "гуляємо"
+        ]
+      },
+      "portuguese": {
+        "text": "caminha",
+        "wrongAnswers": [
+          "caminho",
+          "caminhas",
+          "caminhamos"
+        ]
+      },
+      "german": {
+        "text": "wandert",
+        "wrongAnswers": [
+          "wandere",
+          "wanderst",
+          "wandern"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_walk_we",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "we walk",
+    "languages": {
+      "russian": {
+        "text": "гуляем",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляешь",
+          "гуляет"
+        ]
+      },
+      "ukrainian": {
+        "text": "гуляємо",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляєш",
+          "гуляє"
+        ]
+      },
+      "portuguese": {
+        "text": "caminhamos",
+        "wrongAnswers": [
+          "caminho",
+          "caminhas",
+          "caminha"
+        ]
+      },
+      "german": {
+        "text": "wandern",
+        "wrongAnswers": [
+          "wandere",
+          "wanderst",
+          "wandert"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_walk_you_plural",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "you (plural) walk",
+    "languages": {
+      "russian": {
+        "text": "гуляете",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляешь",
+          "гуляет"
+        ]
+      },
+      "ukrainian": {
+        "text": "гуляєте",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляєш",
+          "гуляє"
+        ]
+      },
+      "portuguese": {
+        "text": "caminham",
+        "wrongAnswers": [
+          "caminho",
+          "caminhas",
+          "caminha"
+        ]
+      },
+      "german": {
+        "text": "wandert",
+        "wrongAnswers": [
+          "wandere",
+          "wanderst",
+          "wandern"
+        ]
+      }
+    }
+  },
+  {
+    "id": "conjugation_to_walk_they",
+    "topics": [
+      "verb-conjugations"
+    ],
+    "english": "they walk",
+    "languages": {
+      "russian": {
+        "text": "гуляют",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляешь",
+          "гуляет"
+        ]
+      },
+      "ukrainian": {
+        "text": "гуляють",
+        "wrongAnswers": [
+          "гуляю",
+          "гуляєш",
+          "гуляє"
+        ]
+      },
+      "portuguese": {
+        "text": "caminham",
+        "wrongAnswers": [
+          "caminho",
+          "caminhas",
+          "caminha"
+        ]
+      },
+      "german": {
+        "text": "wandern",
+        "wrongAnswers": [
+          "wandere",
+          "wanderst",
+          "wandert"
+        ]
+      }
+    }
+  },
+  {
+    "id": "case_genitive_boy_book",
+    "english": "This is the boy's book",
+    "languages": {
+      "russian": {
+        "text": "Это книга мальчика",
+        "wrongAnswers": [
+          "Это книга мальчик",
+          "Это книга мальчику",
+          "Это книга мальчиком"
+        ]
+      },
+      "ukrainian": {
+        "text": "Це книга хлопчика",
+        "wrongAnswers": [
+          "Це книга хлопчик",
+          "Це книга хлопчику",
+          "Це книга хлопчиком"
+        ]
+      },
+      "german": {
+        "text": "Das ist das Buch des Jungen",
+        "wrongAnswers": [
+          "Das ist das Buch der Junge",
+          "Das ist das Buch dem Jungen",
+          "Das ist das Buch den Jungen"
+        ]
+      },
+      "portuguese": {
+        "text": "Este é o livro do rapaz",
+        "wrongAnswers": [
+          "Este é o livro de o rapaz",
+          "Este é o livro da rapaz",
+          "Este é o livro no rapaz"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_genitive_from_city",
+    "english": "I am from the city",
+    "languages": {
+      "russian": {
+        "text": "Я из города",
+        "wrongAnswers": [
+          "Я из город",
+          "Я из городу",
+          "Я из городом"
+        ]
+      },
+      "ukrainian": {
+        "text": "Я з міста",
+        "wrongAnswers": [
+          "Я з місто",
+          "Я з місту",
+          "Я з містом"
+        ]
+      },
+      "german": {
+        "text": "Ich bin aus der Stadt",
+        "wrongAnswers": [
+          "Ich bin aus die Stadt",
+          "Ich bin aus den Stadt",
+          "Ich bin aus des Stadt"
+        ]
+      },
+      "portuguese": {
+        "text": "Eu sou da cidade",
+        "wrongAnswers": [
+          "Eu sou de a cidade",
+          "Eu sou do cidade",
+          "Eu sou na cidade"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_genitive_talk_work",
+    "english": "He talks about the work",
+    "languages": {
+      "russian": {
+        "text": "Он говорит о работе",
+        "wrongAnswers": [
+          "Он говорит о работа",
+          "Он говорит о работу",
+          "Он говорит о работы"
+        ]
+      },
+      "ukrainian": {
+        "text": "Він говорить про роботу",
+        "wrongAnswers": [
+          "Він говорить про робота",
+          "Він говорить про роботі",
+          "Він говорить про роботи"
+        ]
+      },
+      "german": {
+        "text": "Er spricht über die Arbeit",
+        "wrongAnswers": [
+          "Er spricht über der Arbeit",
+          "Er spricht über den Arbeit",
+          "Er spricht über des Arbeit"
+        ]
+      },
+      "portuguese": {
+        "text": "Ele fala do trabalho",
+        "wrongAnswers": [
+          "Ele fala de o trabalho",
+          "Ele fala no trabalho",
+          "Ele fala ao trabalho"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_genitive_house_sister",
+    "english": "This is the house of the sister",
+    "languages": {
+      "russian": {
+        "text": "Это дом сестры",
+        "wrongAnswers": [
+          "Это дом сестра",
+          "Это дом сестру",
+          "Это дом сестре"
+        ]
+      },
+      "ukrainian": {
+        "text": "Це будинок сестри",
+        "wrongAnswers": [
+          "Це будинок сестра",
+          "Це будинок сестру",
+          "Це будинок сестрі"
+        ]
+      },
+      "german": {
+        "text": "Das ist das Haus der Schwester",
+        "wrongAnswers": [
+          "Das ist das Haus die Schwester",
+          "Das ist das Haus den Schwester",
+          "Das ist das Haus des Schwester"
+        ]
+      },
+      "portuguese": {
+        "text": "Esta é a casa da irmã",
+        "wrongAnswers": [
+          "Esta é a casa de a irmã",
+          "Esta é a casa do irmã",
+          "Esta é a casa na irmã"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_genitive_from_restaurant",
+    "english": "We come from the restaurant",
+    "languages": {
+      "russian": {
+        "text": "Мы идём из ресторана",
+        "wrongAnswers": [
+          "Мы идём из ресторан",
+          "Мы идём из ресторану",
+          "Мы идём из рестораном"
+        ]
+      },
+      "ukrainian": {
+        "text": "Ми йдемо з ресторану",
+        "wrongAnswers": [
+          "Ми йдемо з ресторан",
+          "Ми йдемо з ресторанові",
+          "Ми йдемо з рестораном"
+        ]
+      },
+      "german": {
+        "text": "Wir kommen aus dem Restaurant",
+        "wrongAnswers": [
+          "Wir kommen aus das Restaurant",
+          "Wir kommen aus des Restaurants",
+          "Wir kommen aus den Restaurant"
+        ]
+      },
+      "portuguese": {
+        "text": "Nós vimos do restaurante",
+        "wrongAnswers": [
+          "Nós vimos de o restaurante",
+          "Nós vimos no restaurante",
+          "Nós vimos ao restaurante"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_prepositional_in_school",
+    "english": "He is in the school",
+    "languages": {
+      "russian": {
+        "text": "Он в школе",
+        "wrongAnswers": [
+          "Он в школа",
+          "Он в школу",
+          "Он в школы"
+        ]
+      },
+      "ukrainian": {
+        "text": "Він у школі",
+        "wrongAnswers": [
+          "Він у школа",
+          "Він у школу",
+          "Він у школи"
+        ]
+      },
+      "german": {
+        "text": "Er ist in der Schule",
+        "wrongAnswers": [
+          "Er ist in die Schule",
+          "Er ist in den Schule",
+          "Er ist in des Schule"
+        ]
+      },
+      "portuguese": {
+        "text": "Ele está na escola",
+        "wrongAnswers": [
+          "Ele está em a escola",
+          "Ele está no escola",
+          "Ele está da escola"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_prepositional_on_table",
+    "english": "The book is on the table",
+    "languages": {
+      "russian": {
+        "text": "Книга на столе",
+        "wrongAnswers": [
+          "Книга на стол",
+          "Книга на стола",
+          "Книга на столом"
+        ]
+      },
+      "ukrainian": {
+        "text": "Книга на столі",
+        "wrongAnswers": [
+          "Книга на стіл",
+          "Книга на стола",
+          "Книга на столом"
+        ]
+      },
+      "german": {
+        "text": "Das Buch liegt auf dem Tisch",
+        "wrongAnswers": [
+          "Das Buch liegt auf der Tisch",
+          "Das Buch liegt auf den Tisch",
+          "Das Buch liegt auf des Tisches"
+        ]
+      },
+      "portuguese": {
+        "text": "O livro está na mesa",
+        "wrongAnswers": [
+          "O livro está em a mesa",
+          "O livro está no mesa",
+          "O livro está da mesa"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_prepositional_in_apartment",
+    "english": "We live in the apartment",
+    "languages": {
+      "russian": {
+        "text": "Мы живём в квартире",
+        "wrongAnswers": [
+          "Мы живём в квартира",
+          "Мы живём в квартиру",
+          "Мы живём в квартиры"
+        ]
+      },
+      "ukrainian": {
+        "text": "Ми живемо в квартирі",
+        "wrongAnswers": [
+          "Ми живемо в квартира",
+          "Ми живемо в квартиру",
+          "Ми живемо в квартири"
+        ]
+      },
+      "german": {
+        "text": "Wir wohnen in dem Apartment",
+        "wrongAnswers": [
+          "Wir wohnen in das Apartment",
+          "Wir wohnen in des Apartments",
+          "Wir wohnen in den Apartment"
+        ]
+      },
+      "portuguese": {
+        "text": "Nós vivemos no apartamento",
+        "wrongAnswers": [
+          "Nós vivemos em o apartamento",
+          "Nós vivemos na apartamento",
+          "Nós vivemos do apartamento"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_prepositional_in_library",
+    "english": "I study in the library",
+    "languages": {
+      "russian": {
+        "text": "Я учусь в библиотеке",
+        "wrongAnswers": [
+          "Я учусь в библиотека",
+          "Я учусь в библиотеку",
+          "Я учусь в библиотеки"
+        ]
+      },
+      "ukrainian": {
+        "text": "Я навчаюся в бібліотеці",
+        "wrongAnswers": [
+          "Я навчаюся в бібліотека",
+          "Я навчаюся в бібліотеку",
+          "Я навчаюся в бібліотеки"
+        ]
+      },
+      "german": {
+        "text": "Ich lerne in der Bibliothek",
+        "wrongAnswers": [
+          "Ich lerne in die Bibliothek",
+          "Ich lerne in den Bibliothek",
+          "Ich lerne in des Bibliothek"
+        ]
+      },
+      "portuguese": {
+        "text": "Eu estudo na biblioteca",
+        "wrongAnswers": [
+          "Eu estudo em a biblioteca",
+          "Eu estudo no biblioteca",
+          "Eu estudo da biblioteca"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_prepositional_in_hospital",
+    "english": "They work in the hospital",
+    "languages": {
+      "russian": {
+        "text": "Они работают в больнице",
+        "wrongAnswers": [
+          "Они работают в больница",
+          "Они работают в больницу",
+          "Они работают в больницы"
+        ]
+      },
+      "ukrainian": {
+        "text": "Вони працюють у лікарні",
+        "wrongAnswers": [
+          "Вони працюють у лікарня",
+          "Вони працюють у лікарню",
+          "Вони працюють у лікарні-wrong"
+        ]
+      },
+      "german": {
+        "text": "Sie arbeiten in dem Krankenhaus",
+        "wrongAnswers": [
+          "Sie arbeiten in das Krankenhaus",
+          "Sie arbeiten in des Krankenhauses",
+          "Sie arbeiten in den Krankenhaus"
+        ]
+      },
+      "portuguese": {
+        "text": "Eles trabalham no hospital",
+        "wrongAnswers": [
+          "Eles trabalham em o hospital",
+          "Eles trabalham na hospital",
+          "Eles trabalham do hospital"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_dative_to_market",
+    "english": "I go to the market",
+    "languages": {
+      "russian": {
+        "text": "Я иду на рынок",
+        "wrongAnswers": [
+          "Я иду на рынке",
+          "Я иду на рынка",
+          "Я иду на рынком"
+        ]
+      },
+      "ukrainian": {
+        "text": "Я йду на ринок",
+        "wrongAnswers": [
+          "Я йду на ринку",
+          "Я йду на ринка",
+          "Я йду на ринком"
+        ]
+      },
+      "german": {
+        "text": "Ich gehe zu dem Markt",
+        "wrongAnswers": [
+          "Ich gehe zu der Markt",
+          "Ich gehe zu den Markt",
+          "Ich gehe zu des Marktes"
+        ]
+      },
+      "portuguese": {
+        "text": "Eu vou ao mercado",
+        "wrongAnswers": [
+          "Eu vou a o mercado",
+          "Eu vou à mercado",
+          "Eu vou do mercado"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_dative_gift_sister",
+    "english": "She gives a gift to the sister",
+    "languages": {
+      "russian": {
+        "text": "Она дарит подарок сестре",
+        "wrongAnswers": [
+          "Она дарит подарок сестра",
+          "Она дарит подарок сестру",
+          "Она дарит подарок сестры"
+        ]
+      },
+      "ukrainian": {
+        "text": "Вона дарує подарунок сестрі",
+        "wrongAnswers": [
+          "Вона дарує подарунок сестра",
+          "Вона дарує подарунок сестру",
+          "Вона дарує подарунок сестри"
+        ]
+      },
+      "german": {
+        "text": "Sie gibt der Schwester ein Geschenk",
+        "wrongAnswers": [
+          "Sie gibt die Schwester ein Geschenk",
+          "Sie gibt den Schwester ein Geschenk",
+          "Sie gibt des Schwester ein Geschenk"
+        ]
+      },
+      "portuguese": {
+        "text": "Ela dá um presente à irmã",
+        "wrongAnswers": [
+          "Ela dá um presente a a irmã",
+          "Ela dá um presente ao irmã",
+          "Ela dá um presente da irmã"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_dative_to_beach",
+    "english": "We go to the beach",
+    "languages": {
+      "russian": {
+        "text": "Мы идём на пляж",
+        "wrongAnswers": [
+          "Мы идём на пляже",
+          "Мы идём на пляжа",
+          "Мы идём на пляжем"
+        ]
+      },
+      "ukrainian": {
+        "text": "Ми йдемо на пляж",
+        "wrongAnswers": [
+          "Ми йдемо на пляжі",
+          "Ми йдемо на пляжу",
+          "Ми йдемо на пляжем"
+        ]
+      },
+      "german": {
+        "text": "Wir gehen zu dem Strand",
+        "wrongAnswers": [
+          "Wir gehen zu der Strand",
+          "Wir gehen zu den Strand",
+          "Wir gehen zu des Strandes"
+        ]
+      },
+      "portuguese": {
+        "text": "Nós vamos à praia",
+        "wrongAnswers": [
+          "Nós vamos a a praia",
+          "Nós vamos ao praia",
+          "Nós vamos na praia"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_dative_write_teacher",
+    "english": "He writes to the teacher",
+    "languages": {
+      "russian": {
+        "text": "Он пишет учителю",
+        "wrongAnswers": [
+          "Он пишет учитель",
+          "Он пишет учителя",
+          "Он пишет учителем"
+        ]
+      },
+      "ukrainian": {
+        "text": "Він пише вчителеві",
+        "wrongAnswers": [
+          "Він пише вчитель",
+          "Він пише вчителя",
+          "Він пише вчителем"
+        ]
+      },
+      "german": {
+        "text": "Er schreibt dem Lehrer",
+        "wrongAnswers": [
+          "Er schreibt der Lehrer",
+          "Er schreibt den Lehrer",
+          "Er schreibt des Lehrers"
+        ]
+      },
+      "portuguese": {
+        "text": "Ele escreve ao professor",
+        "wrongAnswers": [
+          "Ele escreve a o professor",
+          "Ele escreve à professor",
+          "Ele escreve do professor"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_dative_respond_doctor",
+    "english": "I respond to the doctor",
+    "languages": {
+      "russian": {
+        "text": "Я отвечаю врачу",
+        "wrongAnswers": [
+          "Я отвечаю врач",
+          "Я отвечаю врача",
+          "Я отвечаю врачом"
+        ]
+      },
+      "ukrainian": {
+        "text": "Я відповідаю лікареві",
+        "wrongAnswers": [
+          "Я відповідаю лікар",
+          "Я відповідаю лікаря",
+          "Я відповідаю лікарем"
+        ]
+      },
+      "german": {
+        "text": "Ich antworte dem Arzt",
+        "wrongAnswers": [
+          "Ich antworte der Arzt",
+          "Ich antworte den Arzt",
+          "Ich antworte des Arztes"
+        ]
+      },
+      "portuguese": {
+        "text": "Eu respondo ao médico",
+        "wrongAnswers": [
+          "Eu respondo a o médico",
+          "Eu respondo à médico",
+          "Eu respondo do médico"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_accusative_see_him",
+    "english": "I see him",
+    "languages": {
+      "russian": {
+        "text": "Я вижу его",
+        "wrongAnswers": [
+          "Я вижу он",
+          "Я вижу ему",
+          "Я вижу им"
+        ]
+      },
+      "ukrainian": {
+        "text": "Я бачу його",
+        "wrongAnswers": [
+          "Я бачу він",
+          "Я бачу йому",
+          "Я бачу ним"
+        ]
+      },
+      "german": {
+        "text": "Ich sehe ihn",
+        "wrongAnswers": [
+          "Ich sehe er",
+          "Ich sehe ihm",
+          "Ich sehe seiner"
+        ]
+      },
+      "portuguese": {
+        "text": "Eu vejo-o",
+        "wrongAnswers": [
+          "Eu vejo-lhe",
+          "Eu vejo-a",
+          "Eu vejo-me"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_accusative_give_key",
+    "english": "I give him the key",
+    "languages": {
+      "russian": {
+        "text": "Я даю ему ключ",
+        "wrongAnswers": [
+          "Я даю его ключ",
+          "Я даю им ключ",
+          "Я даю он ключ"
+        ]
+      },
+      "ukrainian": {
+        "text": "Я даю йому ключ",
+        "wrongAnswers": [
+          "Я даю його ключ",
+          "Я даю ним ключ",
+          "Я даю він ключ"
+        ]
+      },
+      "german": {
+        "text": "Ich gebe ihm den Schlüssel",
+        "wrongAnswers": [
+          "Ich gebe er den Schlüssel",
+          "Ich gebe ihn den Schlüssel",
+          "Ich gebe seiner den Schlüssel"
+        ]
+      },
+      "portuguese": {
+        "text": "Eu dou-lhe a chave",
+        "wrongAnswers": [
+          "Eu dou-o a chave",
+          "Eu dou-a a chave",
+          "Eu dou-nos a chave"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_accusative_love_her",
+    "english": "She loves her",
+    "languages": {
+      "russian": {
+        "text": "Она любит её",
+        "wrongAnswers": [
+          "Она любит она",
+          "Она любит ей",
+          "Она любит ней"
+        ]
+      },
+      "ukrainian": {
+        "text": "Вона любить її",
+        "wrongAnswers": [
+          "Вона любить вона",
+          "Вона любить їй",
+          "Вона любить нею"
+        ]
+      },
+      "german": {
+        "text": "Sie liebt sie",
+        "wrongAnswers": [
+          "Sie liebt ihr",
+          "Sie liebt ihnen",
+          "Sie liebt sie-wrong"
+        ]
+      },
+      "portuguese": {
+        "text": "Ela ama-a",
+        "wrongAnswers": [
+          "Ela ama-lhe",
+          "Ela ama-o",
+          "Ela ama-te"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_accusative_helps_us",
+    "english": "He helps us",
+    "languages": {
+      "russian": {
+        "text": "Он помогает нам",
+        "wrongAnswers": [
+          "Он помогает мы",
+          "Он помогает нас",
+          "Он помогает нами"
+        ]
+      },
+      "ukrainian": {
+        "text": "Він допомагає нам",
+        "wrongAnswers": [
+          "Він допомагає ми",
+          "Він допомагає нас",
+          "Він допомагає нами"
+        ]
+      },
+      "german": {
+        "text": "Er hilft uns",
+        "wrongAnswers": [
+          "Er hilft wir",
+          "Er hilft unser",
+          "Er hilft euch"
+        ]
+      },
+      "portuguese": {
+        "text": "Ele ajuda-nos",
+        "wrongAnswers": [
+          "Ele ajuda-lhes",
+          "Ele ajuda-o",
+          "Ele ajuda-me"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_accusative_write_us",
+    "english": "They write to us",
+    "languages": {
+      "russian": {
+        "text": "Они пишут нам",
+        "wrongAnswers": [
+          "Они пишут мы",
+          "Они пишут нас",
+          "Они пишут нами"
+        ]
+      },
+      "ukrainian": {
+        "text": "Вони пишуть нам",
+        "wrongAnswers": [
+          "Вони пишуть ми",
+          "Вони пишуть нас",
+          "Вони пишуть нами"
+        ]
+      },
+      "german": {
+        "text": "Sie schreiben uns",
+        "wrongAnswers": [
+          "Sie schreiben wir",
+          "Sie schreiben unser",
+          "Sie schreiben sie"
+        ]
+      },
+      "portuguese": {
+        "text": "Eles escrevem-nos",
+        "wrongAnswers": [
+          "Eles escrevem-o",
+          "Eles escrevem-lhe",
+          "Eles escrevem-me"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_instrumental_write_pen",
+    "english": "I write with a pen",
+    "languages": {
+      "russian": {
+        "text": "Я пишу ручкой",
+        "wrongAnswers": [
+          "Я пишу ручка",
+          "Я пишу ручку",
+          "Я пишу ручке"
+        ]
+      },
+      "ukrainian": {
+        "text": "Я пишу ручкою",
+        "wrongAnswers": [
+          "Я пишу ручка",
+          "Я пишу ручку",
+          "Я пишу ручці"
+        ]
+      },
+      "german": {
+        "text": "Ich schreibe mit dem Stift",
+        "wrongAnswers": [
+          "Ich schreibe mit der Stift",
+          "Ich schreibe mit den Stift",
+          "Ich schreibe mit des Stiftes"
+        ]
+      },
+      "portuguese": {
+        "text": "Eu escrevo com a caneta",
+        "wrongAnswers": [
+          "Eu escrevo com o caneta",
+          "Eu escrevo com na caneta",
+          "Eu escrevo com da caneta"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_instrumental_speak_brother",
+    "english": "He speaks with his brother",
+    "languages": {
+      "russian": {
+        "text": "Он говорит с братом",
+        "wrongAnswers": [
+          "Он говорит с брат",
+          "Он говорит с брата",
+          "Он говорит с брату"
+        ]
+      },
+      "ukrainian": {
+        "text": "Він говорить із братом",
+        "wrongAnswers": [
+          "Він говорить із брат",
+          "Він говорить із брата",
+          "Він говорить із братові"
+        ]
+      },
+      "german": {
+        "text": "Er spricht mit dem Bruder",
+        "wrongAnswers": [
+          "Er spricht mit der Bruder",
+          "Er spricht mit den Bruder",
+          "Er spricht mit des Bruders"
+        ]
+      },
+      "portuguese": {
+        "text": "Ele fala com o irmão",
+        "wrongAnswers": [
+          "Ele fala com a irmão",
+          "Ele fala com no irmão",
+          "Ele fala com do irmão"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_instrumental_eat_fork",
+    "english": "We eat with a fork",
+    "languages": {
+      "russian": {
+        "text": "Мы едим вилкой",
+        "wrongAnswers": [
+          "Мы едим вилка",
+          "Мы едим вилку",
+          "Мы едим вилке"
+        ]
+      },
+      "ukrainian": {
+        "text": "Ми їмо виделкою",
+        "wrongAnswers": [
+          "Ми їмо виделка",
+          "Ми їмо виделку",
+          "Ми їмо видельці"
+        ]
+      },
+      "german": {
+        "text": "Wir essen mit der Gabel",
+        "wrongAnswers": [
+          "Wir essen mit die Gabel",
+          "Wir essen mit den Gabel",
+          "Wir essen mit des Gabel"
+        ]
+      },
+      "portuguese": {
+        "text": "Nós comemos com o garfo",
+        "wrongAnswers": [
+          "Nós comemos com a garfo",
+          "Nós comemos com no garfo",
+          "Nós comemos com do garfo"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_instrumental_be_doctor",
+    "english": "She wants to be a doctor",
+    "languages": {
+      "russian": {
+        "text": "Она хочет быть врачом",
+        "wrongAnswers": [
+          "Она хочет быть врач",
+          "Она хочет быть врача",
+          "Она хочет быть врачу"
+        ]
+      },
+      "ukrainian": {
+        "text": "Вона хоче бути лікарем",
+        "wrongAnswers": [
+          "Вона хоче бути лікар",
+          "Вона хоче бути лікаря",
+          "Вона хоче бути лікареві"
+        ]
+      },
+      "german": {
+        "text": "Sie will Ärztin sein",
+        "wrongAnswers": [
+          "Sie will einer Ärztin sein",
+          "Sie will eine Ärztin sein-wrong",
+          "Sie will einen Ärztin sein"
+        ]
+      },
+      "portuguese": {
+        "text": "Ela quer ser médica",
+        "wrongAnswers": [
+          "Ela quer ser da médica",
+          "Ela quer ser na médica",
+          "Ela quer ser com médica"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_instrumental_walk_dog",
+    "english": "They walk with the dog",
+    "languages": {
+      "russian": {
+        "text": "Они гуляют с собакой",
+        "wrongAnswers": [
+          "Они гуляют с собака",
+          "Они гуляют с собаку",
+          "Они гуляют с собаке"
+        ]
+      },
+      "ukrainian": {
+        "text": "Вони гуляють із собакою",
+        "wrongAnswers": [
+          "Вони гуляють із собака",
+          "Вони гуляють із собаку",
+          "Вони гуляють із собаці"
+        ]
+      },
+      "german": {
+        "text": "Sie gehen mit dem Hund",
+        "wrongAnswers": [
+          "Sie gehen mit der Hund",
+          "Sie gehen mit den Hund",
+          "Sie gehen mit des Hundes"
+        ]
+      },
+      "portuguese": {
+        "text": "Eles caminham com o cão",
+        "wrongAnswers": [
+          "Eles caminham com a cão",
+          "Eles caminham com no cão",
+          "Eles caminham com do cão"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_nominative_water_cold",
+    "english": "The water is cold",
+    "languages": {
+      "russian": {
+        "text": "Вода холодная",
+        "wrongAnswers": [
+          "Воду холодную",
+          "Воды холодной",
+          "Воде холодной"
+        ]
+      },
+      "ukrainian": {
+        "text": "Вода холодна",
+        "wrongAnswers": [
+          "Воду холодну",
+          "Води холодної",
+          "Воді холодній"
+        ]
+      },
+      "german": {
+        "text": "Das Wasser ist kalt",
+        "wrongAnswers": [
+          "Den Wasser ist kalt",
+          "Dem Wasser ist kalt",
+          "Des Wassers ist kalt"
+        ]
+      },
+      "portuguese": {
+        "text": "A água está fria",
+        "wrongAnswers": [
+          "O água está fria",
+          "A água está frio",
+          "Na água está fria"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_nominative_brother_here",
+    "english": "The brother lives here",
+    "languages": {
+      "russian": {
+        "text": "Брат живёт здесь",
+        "wrongAnswers": [
+          "Брата живёт здесь",
+          "Брату живёт здесь",
+          "Братом живёт здесь"
+        ]
+      },
+      "ukrainian": {
+        "text": "Брат живе тут",
+        "wrongAnswers": [
+          "Брата живе тут",
+          "Братові живе тут",
+          "Братом живе тут"
+        ]
+      },
+      "german": {
+        "text": "Der Bruder lebt hier",
+        "wrongAnswers": [
+          "Den Bruder lebt hier",
+          "Dem Bruder lebt hier",
+          "Des Bruders lebt hier"
+        ]
+      },
+      "portuguese": {
+        "text": "O irmão vive aqui",
+        "wrongAnswers": [
+          "A irmão vive aqui",
+          "No irmão vive aqui",
+          "Do irmão vive aqui"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_nominative_my_house",
+    "english": "This is my house",
+    "languages": {
+      "russian": {
+        "text": "Это мой дом",
+        "wrongAnswers": [
+          "Это моего дома",
+          "Это моему дому",
+          "Это моим домом"
+        ]
+      },
+      "ukrainian": {
+        "text": "Це мій будинок",
+        "wrongAnswers": [
+          "Це мого будинку",
+          "Це моєму будинкові",
+          "Це мій будинок-wrong"
+        ]
+      },
+      "german": {
+        "text": "Das ist mein Haus",
+        "wrongAnswers": [
+          "Das ist meinen Haus",
+          "Das ist meinem Haus",
+          "Das ist meines Hauses"
+        ]
+      },
+      "portuguese": {
+        "text": "Esta é a minha casa",
+        "wrongAnswers": [
+          "Este é o meu casa",
+          "Esta é na minha casa",
+          "Esta é da minha casa"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_nominative_sister_studying",
+    "english": "The sister is studying",
+    "languages": {
+      "russian": {
+        "text": "Сестра учится",
+        "wrongAnswers": [
+          "Сестру учится",
+          "Сестры учится",
+          "Сестре учится"
+        ]
+      },
+      "ukrainian": {
+        "text": "Сестра вчиться",
+        "wrongAnswers": [
+          "Сестру вчиться",
+          "Сестри вчиться",
+          "Сестрі вчиться"
+        ]
+      },
+      "german": {
+        "text": "Die Schwester lernt",
+        "wrongAnswers": [
+          "Der Schwester lernt",
+          "Den Schwester lernt",
+          "Des Schwester lernt"
+        ]
+      },
+      "portuguese": {
+        "text": "A irmã estuda",
+        "wrongAnswers": [
+          "O irmão estuda",
+          "Na irmã estuda",
+          "Da irmã estuda"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
+  },
+  {
+    "id": "case_nominative_child_playing",
+    "english": "The child is playing",
+    "languages": {
+      "russian": {
+        "text": "Ребёнок играет",
+        "wrongAnswers": [
+          "Ребёнка играет",
+          "Ребёнку играет",
+          "Ребёнком играет"
+        ]
+      },
+      "ukrainian": {
+        "text": "Дитина грає",
+        "wrongAnswers": [
+          "Дитини грає",
+          "Дитині грає",
+          "Дитиною грає"
+        ]
+      },
+      "german": {
+        "text": "Das Kind spielt",
+        "wrongAnswers": [
+          "Dem Kind spielt",
+          "Den Kind spielt",
+          "Des Kindes spielt"
+        ]
+      },
+      "portuguese": {
+        "text": "A criança brinca",
+        "wrongAnswers": [
+          "O criança brinca",
+          "Na criança brinca",
+          "Da criança brinca"
+        ]
+      }
+    },
+    "topics": [
+      "cases"
+    ]
   }
 ]

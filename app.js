@@ -94,7 +94,9 @@ const topicNames = {
     'everyday-expressions': 'Everyday Expressions',
     'numbers': 'Numbers',
     'modal-verbs': 'Modal Verbs',
-    'subordinate-clauses': 'Subordinate Clauses'
+    'subordinate-clauses': 'Subordinate Clauses',
+    'verb-conjugations': 'Verb Conjugations',
+    'cases': 'Cases'
 };
 
 // Generate topic filter checkboxes
@@ -247,17 +249,38 @@ function shuffleArray(array) {
 }
 
 function generateWrongAnswers(currentIdx, language) {
-    // Get 3 random different English questions as wrong answers
+    const currentQuestion = filteredQuestions[currentIdx];
     const wrongChoices = [];
-    const usedIndices = new Set([currentIdx]);
 
+    // Smart distractors for verb conjugations in English
+    if (currentQuestion.topics.includes('verb-conjugations') && language === 'english') {
+        const parts = currentQuestion.id.split('_');
+        if (parts.length > 1) {
+            const prefix = parts.slice(0, -1).join('_') + '_';
+            const sameVerbQuestions = questions.filter(q => q.id.startsWith(prefix) && q.id !== currentQuestion.id);
+            const shuffledSameVerb = shuffleArray(sameVerbQuestions);
+            for (let q of shuffledSameVerb) {
+                if (wrongChoices.length < 3) {
+                    wrongChoices.push(q.english);
+                }
+            }
+        }
+    }
+
+    // Fallback/standard distractor generator if we don't have enough options yet
+    const usedIndices = new Set([currentIdx]);
     while (wrongChoices.length < 3 && wrongChoices.length < filteredQuestions.length - 1) {
         const randomIdx = Math.floor(Math.random() * filteredQuestions.length);
         if (!usedIndices.has(randomIdx)) {
+            let choice;
             if (language === 'english') {
-                wrongChoices.push(filteredQuestions[randomIdx].english);
+                choice = filteredQuestions[randomIdx].english;
             } else {
-                wrongChoices.push(filteredQuestions[randomIdx].languages[currentLanguage].text);
+                choice = filteredQuestions[randomIdx].languages[currentLanguage].text;
+            }
+            // Avoid adding duplicate choices
+            if (!wrongChoices.includes(choice)) {
+                wrongChoices.push(choice);
             }
             usedIndices.add(randomIdx);
         }
@@ -302,7 +325,12 @@ function showNextQuestion() {
     currentQuestion = shuffledQuestions[currentIndex];
 
     // Randomly decide direction for this question
-    isReversed = Math.random() < 0.5;
+    // Cases are always tested English -> Target Language to check case inflections
+    if (currentQuestion.topics.includes('cases')) {
+        isReversed = false;
+    } else {
+        isReversed = Math.random() < 0.5;
+    }
 
     // Show question (either English or Target Language)
     const targetLangData = currentQuestion.languages[currentLanguage];
@@ -439,6 +467,18 @@ function exitLessonMode() {
 }
 
 exitBtn.addEventListener('click', exitLessonMode);
+
+// Welcome Screen Dismissal
+const welcomeOverlay = document.getElementById('welcomeOverlay');
+const welcomeStartBtn = document.getElementById('welcomeStartBtn');
+if (welcomeOverlay && welcomeStartBtn) {
+    welcomeStartBtn.addEventListener('click', () => {
+        welcomeOverlay.classList.add('welcome-hidden');
+        setTimeout(() => {
+            welcomeOverlay.style.display = 'none';
+        }, 400);
+    });
+}
 
 // Register service worker for PWA
 if ('serviceWorker' in navigator) {
