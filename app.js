@@ -85,18 +85,27 @@ function getAvailableTopics() {
     questions.forEach(q => {
         q.topics.forEach(topic => topicsSet.add(topic));
     });
-    return Array.from(topicsSet).sort();
+    
+    // Sort all topics alphabetically first
+    const sortedTopics = Array.from(topicsSet).sort();
+    
+    // Define the custom order to put the "new" topics at the top
+    const newTopicsPriority = ['verb-conjugations', 'cases'];
+    const prioritized = newTopicsPriority.filter(t => sortedTopics.includes(t));
+    const rest = sortedTopics.filter(t => !newTopicsPriority.includes(t));
+    
+    return [...prioritized, ...rest];
 }
 
 // Topic display names
 const topicNames = {
+    'verb-conjugations': 'Verb Conjugations <span class="badge-new">NEW ✨</span>',
+    'cases': 'Cases <span class="badge-new">NEW ✨</span>',
     'basic-phrases': 'Basic Phrases',
     'everyday-expressions': 'Everyday Expressions',
     'numbers': 'Numbers',
     'modal-verbs': 'Modal Verbs',
-    'subordinate-clauses': 'Subordinate Clauses',
-    'verb-conjugations': 'Verb Conjugations',
-    'cases': 'Cases'
+    'subordinate-clauses': 'Subordinate Clauses'
 };
 
 // Generate topic filter checkboxes
@@ -116,7 +125,7 @@ function initializeTopics() {
         checkbox.addEventListener('change', onTopicChange);
 
         const span = document.createElement('span');
-        span.textContent = topicNames[topic] || topic;
+        span.innerHTML = topicNames[topic] || topic;
 
         label.appendChild(checkbox);
         label.appendChild(span);
